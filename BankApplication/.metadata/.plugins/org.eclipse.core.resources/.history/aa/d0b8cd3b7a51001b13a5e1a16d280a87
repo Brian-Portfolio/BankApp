@@ -1,0 +1,9 @@
+package com.app.service;
+
+import com.app.model.Customer;
+
+public interface CustomerService {
+
+	public int createCustomerBankAccount( Customer customer);
+	public int create
+}

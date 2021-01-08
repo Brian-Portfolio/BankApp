@@ -2,7 +2,6 @@ package com.app.model;
 
 public class Account {
 
-	
 	private int accountid;
 	private int accountbalance;
 	private int accountinterests;
@@ -10,7 +9,6 @@ public class Account {
 	private String accounttype;
 	private String opendate;
 	private String accounttodate;
-	
 	
 	public Account() {
 		
@@ -27,8 +25,6 @@ public class Account {
 		this.opendate = opendate;
 		this.accounttodate = accounttodate;
 	}
-
-
 
 	public int getAccountid() {
 		return accountid;
