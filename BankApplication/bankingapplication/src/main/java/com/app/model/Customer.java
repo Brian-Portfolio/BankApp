@@ -4,8 +4,8 @@ public class Customer {
 
 	private int accountid;
 	private int customerid;
-	private int firstname;
-	private int middlename;
+	private String firstname;
+	private String middlename;
 	private String lastname;
 	private String dateofbirth;
 	private String customeraddress;
@@ -23,7 +23,7 @@ public class Customer {
 	}
 
 
-	public Customer(int accountid, int customerid, int firstname, int middlename, String lastname, String dateofbirth,
+	public Customer(int accountid, int customerid, String firstname, String middlename, String lastname, String dateofbirth,
 			String customeraddress, String city, String state, int zipcode, String emailaddress, int phonenumber,
 			int ssn, String gender) {
 		super();
@@ -64,22 +64,22 @@ public class Customer {
 	}
 
 
-	public int getFirstname() {
+	public String getFirstname() {
 		return firstname;
 	}
 
 
-	public void setFirstname(int firstname) {
+	public void setFirstname(String firstname) {
 		this.firstname = firstname;
 	}
 
 
-	public int getMiddlename() {
+	public String getMiddlename() {
 		return middlename;
 	}
 
 
-	public void setMiddlename(int middlename) {
+	public void setMiddlename(String middlename) {
 		this.middlename = middlename;
 	}
 
