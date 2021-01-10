@@ -26,7 +26,6 @@ public class BankAppMain {
 		
 		//Create Customer Profile
 		Scanner userinput = new Scanner(System.in);
-		
 		System.out.println("Please enter account id : ");
 		int AccountId = Integer.parseInt(userinput.nextLine());
 		c1.setAccountid(AccountId);
@@ -94,7 +93,6 @@ public class BankAppMain {
 		}catch(BusinessException e){
 			System.out.println(e.getMessage());
 		}
-		
 		
 		
 		//Below is format of UserStories

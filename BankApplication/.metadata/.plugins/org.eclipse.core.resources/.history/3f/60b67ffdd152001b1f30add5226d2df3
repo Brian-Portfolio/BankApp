@@ -24,9 +24,8 @@ public class BankAppMain {
 //			System.out.println(e.getMessage());
 //		}
 		
-		//Create Customer Profile
-		Scanner userinput = new Scanner(System.in);
 		
+		Scanner userinput = new Scanner(System.in);
 		System.out.println("Please enter account id : ");
 		int AccountId = Integer.parseInt(userinput.nextLine());
 		c1.setAccountid(AccountId);
@@ -39,6 +38,14 @@ public class BankAppMain {
 		System.out.println("Please enter FirstName : ");
 		String firstname = userinput.nextLine();
 		c1.setFirstname(firstname);
+		
+		try {
+			if (dao.createCustomer(c1)!=0) {
+				System.out.println("customer created successfully");
+			}
+		}catch(BusinessException e){
+			System.out.println(e.getMessage());
+		}
 		
 		System.out.println("Please enter MiddleName : ");
 		String middlename = userinput.nextLine();
@@ -87,13 +94,6 @@ public class BankAppMain {
 		String Gender = userinput.nextLine();
 		c1.setGender(Gender);
 		
-		try {
-			if (dao.createCustomer(c1)!=0) {
-				System.out.println("Thank you have created your profile successfully");
-			}
-		}catch(BusinessException e){
-			System.out.println(e.getMessage());
-		}
 		
 		
 		

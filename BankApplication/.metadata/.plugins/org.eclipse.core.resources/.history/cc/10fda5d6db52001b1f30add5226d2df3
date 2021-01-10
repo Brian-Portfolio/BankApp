@@ -1,0 +1,24 @@
+package com.app.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import com.app.dao.CustomerLoginDAO;
+import com.app.dao.dbutil.PostgresqlConnection;
+import com.app.model.CustomerLogin;
+
+public class CustomerLoginDAOImpl implements CustomerLoginDAO{
+
+	@Override
+	public int createCustomerLogin(CustomerLogin customerlogin) {
+		int z = 0;
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+		}
+		
+		return z;
+	}
+	
+	
+}

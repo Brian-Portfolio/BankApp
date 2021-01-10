@@ -24,9 +24,8 @@ public class BankAppMain {
 //			System.out.println(e.getMessage());
 //		}
 		
-		//Create Customer Profile
-		Scanner userinput = new Scanner(System.in);
 		
+		Scanner userinput = new Scanner(System.in);
 		System.out.println("Please enter account id : ");
 		int AccountId = Integer.parseInt(userinput.nextLine());
 		c1.setAccountid(AccountId);
@@ -89,12 +88,11 @@ public class BankAppMain {
 		
 		try {
 			if (dao.createCustomer(c1)!=0) {
-				System.out.println("Thank you have created your profile successfully");
+				System.out.println("customer created successfully");
 			}
 		}catch(BusinessException e){
 			System.out.println(e.getMessage());
 		}
-		
 		
 		
 		//Below is format of UserStories

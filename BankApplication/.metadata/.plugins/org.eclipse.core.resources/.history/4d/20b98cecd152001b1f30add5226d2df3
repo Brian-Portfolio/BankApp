@@ -24,76 +24,77 @@ public class BankAppMain {
 //			System.out.println(e.getMessage());
 //		}
 		
-		//Create Customer Profile
-		Scanner userinput = new Scanner(System.in);
 		
+		Scanner userinput = new Scanner(System.in);
 		System.out.println("Please enter account id : ");
 		int AccountId = Integer.parseInt(userinput.nextLine());
 		c1.setAccountid(AccountId);
+		//c1.getAccountid();
 		
 		System.out.println("Please enter Customer id : ");
 		int CustomerId = Integer.parseInt(userinput.nextLine());
 		c1.setCustomerid(CustomerId);
-		
+		//c1.getCustomerid();
 		
 		System.out.println("Please enter FirstName : ");
 		String firstname = userinput.nextLine();
 		c1.setFirstname(firstname);
-		
-		System.out.println("Please enter MiddleName : ");
-		String middlename = userinput.nextLine();
-		c1.setMiddlename(middlename);
-		
-		
-		System.out.println("Please enter LastName : ");
-		String lastname = userinput.nextLine();
-		c1.setLastname(lastname);
-		
-		
-		System.out.println("Please enter DOB : ");
-		String DOB = userinput.nextLine();
-		c1.setDateofbirth(DOB);
-		
-		
-		System.out.println("Please enter Address : ");
-		String Address = userinput.nextLine();
-		c1.setCustomeraddress(Address);
-		
-		System.out.println("Please enter City : ");
-		String city = userinput.nextLine();
-		c1.setCity(city);
-		
-		System.out.println("Please enter State : ");
-		String state = userinput.nextLine();
-		c1.setState(state);
-		
-		System.out.println("Please enter Zipcode : ");
-		int zipcode = Integer.parseInt(userinput.nextLine());
-		c1.setZipcode(zipcode);
-		
-		System.out.println("Please enter EmailAddress : ");
-		String email = userinput.nextLine();
-		c1.setEmailaddress(email);
-		
-		System.out.println("Please enter Phonenumber : ");
-		int phonenumber = Integer.parseInt(userinput.nextLine());
-		c1.setZipcode(phonenumber);
-		
-		System.out.println("Please enter SSN : ");
-		int SSN = Integer.parseInt(userinput.nextLine());
-		c1.setZipcode(SSN);
-		
-		System.out.println("Please enter Gender : ");
-		String Gender = userinput.nextLine();
-		c1.setGender(Gender);
-		
+		//c1.getFirstname();
 		try {
 			if (dao.createCustomer(c1)!=0) {
-				System.out.println("Thank you have created your profile successfully");
+				System.out.println("customer created successfully");
 			}
 		}catch(BusinessException e){
 			System.out.println(e.getMessage());
 		}
+		
+//		System.out.println("Please enter MiddleName : ");
+//		String middlename = userinput.nextLine();
+//		c1.setMiddlename(middlename);
+//		c1.getMiddlename();
+//		
+//		System.out.println("Please enter LastName : ");
+//		String lastname = userinput.nextLine();
+//		c1.setLastname(lastname);
+//		c1.getLastname();
+//		
+//		System.out.println("Please enter DOB : ");
+//		String DOB = userinput.nextLine();
+//		c1.setDateofbirth(DOB);
+//		c1.getDateofbirth();
+		
+//		System.out.println("Please enter Address : ");
+//		String Address = userinput.nextLine();
+//		c1.setCustomeraddress(Address);
+//		
+//		System.out.println("Please enter City : ");
+//		String city = userinput.nextLine();
+//		c1.setCity(city);
+//		
+//		System.out.println("Please enter State : ");
+//		String state = userinput.nextLine();
+//		c1.setState(state);
+//		
+//		System.out.println("Please enter Zipcode : ");
+//		int zipcode = Integer.parseInt(userinput.nextLine());
+//		c1.setZipcode(zipcode);
+//		
+//		System.out.println("Please enter EmailAddress : ");
+//		String email = userinput.nextLine();
+//		c1.setEmailaddress(email);
+//		
+//		System.out.println("Please enter Phonenumber : ");
+//		int phonenumber = Integer.parseInt(userinput.nextLine());
+//		c1.setZipcode(phonenumber);
+//		
+//		System.out.println("Please enter SSN : ");
+//		int SSN = Integer.parseInt(userinput.nextLine());
+//		c1.setZipcode(SSN);
+//		
+//		System.out.println("Please enter Zipcode : ");
+//		String Gender = userinput.nextLine();
+//		c1.setGender(Gender);
+//		
 		
 		
 		
