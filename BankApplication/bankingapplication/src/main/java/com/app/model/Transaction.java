@@ -14,7 +14,6 @@ public class Transaction {
 		
 	}
 
-
 	public Transaction(int transactionid, String transactiondate, int accountid, int transactionamount,
 			String transactiontype, int customerid, int totalbalance) {
 		super();
