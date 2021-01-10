@@ -1,0 +1,10 @@
+package com.app.dao;
+
+import com.app.model.Account;
+
+public interface AccountDAO {
+
+	public int createAccountType(Account accounttype);
+	public String dateOfCreatedAccount(String opendate);
+	public List<Account> getAccountBalanceByAccountId(int accountid);
+}

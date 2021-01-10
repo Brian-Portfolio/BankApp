@@ -15,7 +15,7 @@ public class CustomerLoginDAOImpl implements CustomerLoginDAO{
 	public int createCustomerLogin(CustomerLogin customerlogin) {
 		int z = 0;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql ="insert into bankingapplication.account(accountid, username, password) values (?, ?, ?)";
+			String sql ="insert into bankingapplication.customerlogin(accountid,username, password)  values  (?,?, ?)";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setInt(1, customerlogin.getAccountid());
@@ -28,6 +28,22 @@ public class CustomerLoginDAOImpl implements CustomerLoginDAO{
 		} catch (ClassNotFoundException | SQLException e) {
 			System.out.println(e);
 			
+		}
+		
+		return z;
+	}
+
+	@Override
+	public int accountReference(int accountid) {
+		int z = 0;
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "";
+			PreparedStatement preparedStatement =connection.prepareStatement(sql);
+			
+			
+			
+		}catch(ClassNotFoundException | SQLException e) {
+			System.out.println(e);
 		}
 		
 		return z;

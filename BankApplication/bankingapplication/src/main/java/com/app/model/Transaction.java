@@ -6,7 +6,7 @@ public class Transaction {
 	private String transactiondate;
 	private int accountid;
 	private int transactionamount;
-	private int transactiontype;
+	private String transactiontype;
 	private int customerid; 
 	private int totalbalance;
 	
@@ -16,7 +16,7 @@ public class Transaction {
 
 
 	public Transaction(int transactionid, String transactiondate, int accountid, int transactionamount,
-			int transactiontype, int customerid, int totalbalance) {
+			String transactiontype, int customerid, int totalbalance) {
 		super();
 		this.transactionid = transactionid;
 		this.transactiondate = transactiondate;
@@ -68,12 +68,12 @@ public class Transaction {
 	}
 
 
-	public int getTransactiontype() {
+	public String getTransactiontype() {
 		return transactiontype;
 	}
 
 
-	public void setTransactiontype(int transactiontype) {
+	public void setTransactiontype(String transactiontype) {
 		this.transactiontype = transactiontype;
 	}
 

@@ -9,7 +9,7 @@ public interface CustomerDAO {
 	
 	public int createCustomer(Customer customer) throws BusinessException;
 	public int deleteCustomer(int customerid);
-	public Customer getCustomerById(int customerid);
+	public List<Customer> getCustomerById(int customerid);
 	public List<Customer> getAllCustomers();
 	
 }

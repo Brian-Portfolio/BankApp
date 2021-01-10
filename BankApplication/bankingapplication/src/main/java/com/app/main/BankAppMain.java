@@ -3,17 +3,23 @@ package com.app.main;
 import java.util.Scanner;
 
 import com.app.dao.CustomerDAO;
+import com.app.dao.CustomerLoginDAO;
 import com.app.dao.impl.CustomerDAOImpl;
+import com.app.dao.impl.CustomerLoginDAOImpl;
 import com.app.exception.BusinessException;
 import com.app.model.Customer;
+import com.app.model.CustomerLogin;
 
 public class BankAppMain {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws BusinessException {
 		
 		CustomerDAO dao = new CustomerDAOImpl(); 
+		CustomerLoginDAO daologin = new CustomerLoginDAOImpl();  
 		
-		Customer c1 = new Customer();
+		//Customer c1 = new Customer();
+		
+		CustomerLogin c2 = new CustomerLogin();
 		
 //		Customer c1 = new Customer(900, 2003, "brian", "m", "lola", "1992-03-03", "10parkave", "newyorkcity", "NY", 20851, "hello", 123456, 345345, "M");
 //		try {
@@ -26,73 +32,92 @@ public class BankAppMain {
 		
 		//Create Customer Profile
 		Scanner userinput = new Scanner(System.in);
+//		
+//		System.out.println("Please enter account id : ");
+//		int AccountId = Integer.parseInt(userinput.nextLine());
+//		c1.setAccountid(AccountId);
+//		
+//		System.out.println("Please enter Customer id : ");
+//		int CustomerId = Integer.parseInt(userinput.nextLine());
+//		c1.setCustomerid(CustomerId);
+//		
+//		
+//		System.out.println("Please enter FirstName : ");
+//		String firstname = userinput.nextLine();
+//		c1.setFirstname(firstname);
+//		
+//		System.out.println("Please enter MiddleName : ");
+//		String middlename = userinput.nextLine();
+//		c1.setMiddlename(middlename);
+//		
+//		
+//		System.out.println("Please enter LastName : ");
+//		String lastname = userinput.nextLine();
+//		c1.setLastname(lastname);
+//		
+//		
+//		System.out.println("Please enter DOB : ");
+//		String DOB = userinput.nextLine();
+//		c1.setDateofbirth(DOB);
+//		
+//		
+//		System.out.println("Please enter Address : ");
+//		String Address = userinput.nextLine();
+//		c1.setCustomeraddress(Address);
+//		
+//		System.out.println("Please enter City : ");
+//		String city = userinput.nextLine();
+//		c1.setCity(city);
+//		
+//		System.out.println("Please enter State : ");
+//		String state = userinput.nextLine();
+//		c1.setState(state);
+//		
+//		System.out.println("Please enter Zipcode : ");
+//		int zipcode = Integer.parseInt(userinput.nextLine());
+//		c1.setZipcode(zipcode);
+//		
+//		System.out.println("Please enter EmailAddress : ");
+//		String email = userinput.nextLine();
+//		c1.setEmailaddress(email);
+//		
+//		System.out.println("Please enter Phonenumber : ");
+//		int phonenumber = Integer.parseInt(userinput.nextLine());
+//		c1.setZipcode(phonenumber);
+//		
+//		System.out.println("Please enter SSN : ");
+//		int SSN = Integer.parseInt(userinput.nextLine());
+//		c1.setZipcode(SSN);
+//		
+//		System.out.println("Please enter Gender : ");
+//		String Gender = userinput.nextLine();
+//		c1.setGender(Gender);
+//		//get foreign key constraint on table customer for key accountid not present in table account.
+//		try {
+//			if (dao.createCustomer(c1)!=0) {
+//				System.out.println("Thank you have created your profile successfully");
+//			}
+//		}catch(BusinessException e){
+//			System.out.println(e.getMessage());
+//		}
+//		
+//		System.out.println("Please  create a username and password");
 		
+		//change sql command within accountid to reference from customer profile, same for account table 
+		//CustomerLogin
 		System.out.println("Please enter account id : ");
 		int AccountId = Integer.parseInt(userinput.nextLine());
-		c1.setAccountid(AccountId);
+		c2.setAccountid(AccountId);
 		
-		System.out.println("Please enter Customer id : ");
-		int CustomerId = Integer.parseInt(userinput.nextLine());
-		c1.setCustomerid(CustomerId);
+		System.out.println("Please create your own Username : ");
+		String username = userinput.nextLine();
+		c2.setUsername(username);
 		
-		
-		System.out.println("Please enter FirstName : ");
-		String firstname = userinput.nextLine();
-		c1.setFirstname(firstname);
-		
-		System.out.println("Please enter MiddleName : ");
-		String middlename = userinput.nextLine();
-		c1.setMiddlename(middlename);
-		
-		
-		System.out.println("Please enter LastName : ");
-		String lastname = userinput.nextLine();
-		c1.setLastname(lastname);
-		
-		
-		System.out.println("Please enter DOB : ");
-		String DOB = userinput.nextLine();
-		c1.setDateofbirth(DOB);
-		
-		
-		System.out.println("Please enter Address : ");
-		String Address = userinput.nextLine();
-		c1.setCustomeraddress(Address);
-		
-		System.out.println("Please enter City : ");
-		String city = userinput.nextLine();
-		c1.setCity(city);
-		
-		System.out.println("Please enter State : ");
-		String state = userinput.nextLine();
-		c1.setState(state);
-		
-		System.out.println("Please enter Zipcode : ");
-		int zipcode = Integer.parseInt(userinput.nextLine());
-		c1.setZipcode(zipcode);
-		
-		System.out.println("Please enter EmailAddress : ");
-		String email = userinput.nextLine();
-		c1.setEmailaddress(email);
-		
-		System.out.println("Please enter Phonenumber : ");
-		int phonenumber = Integer.parseInt(userinput.nextLine());
-		c1.setZipcode(phonenumber);
-		
-		System.out.println("Please enter SSN : ");
-		int SSN = Integer.parseInt(userinput.nextLine());
-		c1.setZipcode(SSN);
-		
-		System.out.println("Please enter Gender : ");
-		String Gender = userinput.nextLine();
-		c1.setGender(Gender);
-		
-		try {
-			if (dao.createCustomer(c1)!=0) {
-				System.out.println("Thank you have created your profile successfully");
-			}
-		}catch(BusinessException e){
-			System.out.println(e.getMessage());
+		System.out.println("Please create your own Password : ");
+		String password = userinput.nextLine();
+		c2.setPassword(password);
+		if (daologin.createCustomerLogin(c2)!=0) {
+			System.out.println("Thank you have created your Username and Password successfully");
 		}
 		
 		

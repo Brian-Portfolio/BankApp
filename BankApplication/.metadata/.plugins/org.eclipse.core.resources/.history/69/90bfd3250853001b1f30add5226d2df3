@@ -1,0 +1,9 @@
+package com.app.dao;
+
+import com.app.model.Account;
+
+public interface AccountDAO {
+
+	public int createAccountType(Account account);
+	public String DateofCreatedAccount(String opendate);
+}
