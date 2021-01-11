@@ -16,7 +16,7 @@ public class AccountDAOImpl implements AccountDAO{
 	public int createAccount(Account account) throws BusinessException {
 		int z = 0;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-		String sql="insert into bankingapplication.account(accountid, accountbalance, accountinterests, customerid, accounttype, opendate, accounttodate) values (?,?,?,?,?,?,?)";	
+		String sql="insert into bankingapplication.account(accountid, accountbalance, accountinterests, customerid, accounttype, opendate, accounttodate) values (?,?,?,?,?,?::date,?::date)";	
 		PreparedStatement preparedStatement=connection.prepareStatement(sql);
 		
 		preparedStatement.setInt(1, account.getAccountid());
@@ -89,6 +89,12 @@ public class AccountDAOImpl implements AccountDAO{
 	public List<Account> getAccountBalanceByAccountId(int accountid) {
 		
 		return null;
+	}
+
+	@Override
+	public int createaccountReference(int accountid) {
+		int z =0;
+		return z;
 	}
 
 }

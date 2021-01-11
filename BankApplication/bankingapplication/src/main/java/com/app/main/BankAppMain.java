@@ -26,10 +26,10 @@ public class BankAppMain {
 		TransactionDAO transaction = new TransactionDAOImpl();
 		
 		//Referenced objects 
-		//Customer c1 = new Customer();
-		//CustomerLogin c2 = new CustomerLogin();
+		Customer c1 = new Customer();
+		CustomerLogin c2 = new CustomerLogin();
 		Account a1 = new Account();
-		//Transaction t1 = new Transaction();
+		Transaction t1 = new Transaction();
 		
 //		Customer c1 = new Customer(900, 2003, "brian", "m", "lola", "1992-03-03", "10parkave", "newyorkcity", "NY", 20851, "hello", 123456, 345345, "M");
 //		try {
@@ -42,20 +42,30 @@ public class BankAppMain {
 		
 		//Create Customer Profile
 		Scanner userinput = new Scanner(System.in);
+		
+		//System.out.println("Please deposit with an initial balance avoid any fees. Minimum of at least $25 is fine!");
+//		System.out.println("\nPlease enter your accountid : ");
+//		int id = Integer.parseInt(userinput.nextLine());
+//		a1.setAccountid(id);
 //		
+//		System.out.println("Please enter your deposit: ");
+//		int balance = Integer.parseInt(userinput.nextLine());
+//		a1.setAccountbalance(balance);
+		
+		
 //		System.out.println("Please enter account id : ");
-//		int AccountId = Integer.parseInt(userinput.nextLine());
-//		c1.setAccountid(AccountId);
-//		
-//		System.out.println("Please enter Customer id : ");
-//		int CustomerId = Integer.parseInt(userinput.nextLine());
-//		c1.setCustomerid(CustomerId);
-//		
-//		
-//		System.out.println("Please enter FirstName : ");
-//		String firstname = userinput.nextLine();
-//		c1.setFirstname(firstname);
-//		
+//		//int AccountId = Integer.parseInt(userinput.nextLine());
+//		c1.setAccountid(id);
+		
+		System.out.println("Please enter Customer id : ");
+		int CustomerId = Integer.parseInt(userinput.nextLine());
+		c1.setCustomerid(CustomerId);
+		
+		
+		System.out.println("Please enter FirstName : ");
+		String firstname = userinput.nextLine();
+		c1.setFirstname(firstname);
+		
 //		System.out.println("Please enter MiddleName : ");
 //		String middlename = userinput.nextLine();
 //		c1.setMiddlename(middlename);
@@ -102,15 +112,15 @@ public class BankAppMain {
 //		System.out.println("Please enter Gender : ");
 //		String Gender = userinput.nextLine();
 //		c1.setGender(Gender);
-//		//get foreign key constraint on table customer for key accountid not present in table account.
-//		try {
-//			if (dao.createCustomer(c1)!=0) {
-//				System.out.println("Thank you have created your profile successfully");
-//			}
-//		}catch(BusinessException e){
-//			System.out.println(e.getMessage());
-//		}
-
+		//get foreign key constraint on table customer for key accountid not present in table account.
+		try {
+			if (dao.createCustomer(c1)!=0) {
+				System.out.println("Thank you, you have created your profile successfully");
+			}
+		}catch(BusinessException e){
+			System.out.println(e.getMessage());
+		}
+		
 		
 //-----------------------------------------		
 		
@@ -139,30 +149,43 @@ public class BankAppMain {
 //-------------------------------------
 		
 		
-		
-		
-		System.out.println("Please deposit with an initial balance avoid any fees. Minimum of at least $25 is fine!");
-		System.out.println("\nPlease enter your deposit : ");
+//		System.out.println("Please deposit with an initial balance avoid any fees. Minimum of at least $25 is fine!");
+		System.out.println("\nPlease enter your accountid : ");
 		int id = Integer.parseInt(userinput.nextLine());
 		a1.setAccountid(id);
-		System.out.println("Please enter your accountid: ");
-		int balance = Integer.parseInt(userinput.nextLine());
-		a1.setAccountbalance(balance);
-		System.out.println("hi");
-		if (accountdao.getUpdateAccountBalance(balance, id)!=0) {
-			System.out.println("hi");
+		
+//		System.out.println("Please enter your deposit: ");
+//		int balance = Integer.parseInt(userinput.nextLine());
+//		a1.setAccountbalance(balance);
+//		
+//		System.out.println("We give you an annual interest rate of 2%, for how much you have saved throughout the year");
+//		int interest = 2;
+//		a1.setAccountinterests(interest);
+//		
+		//System.out.println("Please enter your customer id : ");
+		//int customerid = Integer.parseInt(userinput.nextLine());
+		a1.setCustomerid(CustomerId);
+//		
+//		System.out.println("Please enter what kind of account you want to open ?");
+//		String type = userinput.nextLine();
+//		a1.setAccounttype(type);
+//		
+//		System.out.println("Date of which you opened account : ");
+//		String opendate = userinput.nextLine();
+//		a1.setOpendate(opendate);
+//		
+//		System.out.println("Date of which you viewed account : ");
+//		String viewaccountdate = userinput.nextLine();
+//		a1.setAccounttodate(viewaccountdate);;
+//		
+		try {
+			if (accountdao.createAccount(a1)!=0) {
+				System.out.println("You have created your account successfully! ");
+			}
+		}catch(BusinessException e){
+			System.out.println(e.getMessage());
 		}
-		
-		String createaccountdate = userinput.nextLine();
-		a1.setOpendate(createaccountdate);;
-		System.out.println("Date of creation : " + createaccountdate);
-		if (accountdao.getDateOfCreatedAccount(createaccountdate)!=null) {
-			System.out.println("");
-		}
-		
-
-		
-		
+//		
 // ------------------------------------------
 		//Below is format of UserStories
 		

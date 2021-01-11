@@ -8,6 +8,7 @@ import com.app.model.Customer;
 public interface CustomerDAO {
 	
 	public int createCustomer(Customer customer) throws BusinessException;
+	public int createCustomerReference(int customerid);
 	public int deleteCustomer(int customerid);
 	public List<Customer> getCustomerById(int customerid);
 	public List<Customer> getAllCustomers();
