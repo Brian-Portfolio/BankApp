@@ -2,13 +2,19 @@ package com.app.main;
 
 import java.util.Scanner;
 
+import com.app.dao.AccountDAO;
 import com.app.dao.CustomerDAO;
 import com.app.dao.CustomerLoginDAO;
+import com.app.dao.TransactionDAO;
+import com.app.dao.impl.AccountDAOImpl;
 import com.app.dao.impl.CustomerDAOImpl;
 import com.app.dao.impl.CustomerLoginDAOImpl;
+import com.app.dao.impl.TransactionDAOImpl;
 import com.app.exception.BusinessException;
+import com.app.model.Account;
 import com.app.model.Customer;
 import com.app.model.CustomerLogin;
+import com.app.model.Transaction;
 
 public class BankAppMain {
 
@@ -16,10 +22,14 @@ public class BankAppMain {
 		
 		CustomerDAO dao = new CustomerDAOImpl(); 
 		CustomerLoginDAO daologin = new CustomerLoginDAOImpl();  
+		AccountDAO accountdao = new AccountDAOImpl();
+		TransactionDAO transaction = new TransactionDAOImpl();
 		
+		//Referenced objects 
 		//Customer c1 = new Customer();
-		
-		CustomerLogin c2 = new CustomerLogin();
+		//CustomerLogin c2 = new CustomerLogin();
+		Account a1 = new Account();
+		//Transaction t1 = new Transaction();
 		
 //		Customer c1 = new Customer(900, 2003, "brian", "m", "lola", "1992-03-03", "10parkave", "newyorkcity", "NY", 20851, "hello", 123456, 345345, "M");
 //		try {
@@ -100,28 +110,60 @@ public class BankAppMain {
 //		}catch(BusinessException e){
 //			System.out.println(e.getMessage());
 //		}
-//		
+
+		
+//-----------------------------------------		
+		
+		
+		
 //		System.out.println("Please  create a username and password");
 		
 		//change sql command within accountid to reference from customer profile, same for account table 
 		//CustomerLogin
-		System.out.println("Please enter account id : ");
-		int AccountId = Integer.parseInt(userinput.nextLine());
-		c2.setAccountid(AccountId);
+//		System.out.println("Please enter account id : ");
+//		int AccountId = Integer.parseInt(userinput.nextLine());
+//		c2.setAccountid(AccountId);
+//		
+//		System.out.println("Please create your own Username : ");
+//		String username = userinput.nextLine();
+//		c2.setUsername(username);
+//		
+//		System.out.println("Please create your own Password : ");
+//		String password = userinput.nextLine();
+//		c2.setPassword(password);
+//		if (daologin.createCustomerLogin(c2)!=0) {
+//			System.out.println("Thank you have created your Username and Password successfully");
+//		}
+//		
 		
-		System.out.println("Please create your own Username : ");
-		String username = userinput.nextLine();
-		c2.setUsername(username);
+//-------------------------------------
 		
-		System.out.println("Please create your own Password : ");
-		String password = userinput.nextLine();
-		c2.setPassword(password);
-		if (daologin.createCustomerLogin(c2)!=0) {
-			System.out.println("Thank you have created your Username and Password successfully");
+		
+		
+		
+		System.out.println("Please deposit with an initial balance avoid any fees. Minimum of at least $25 is fine!");
+		System.out.println("\nPlease enter your deposit : ");
+		int id = Integer.parseInt(userinput.nextLine());
+		a1.setAccountid(id);
+		System.out.println("Please enter your accountid: ");
+		int balance = Integer.parseInt(userinput.nextLine());
+		a1.setAccountbalance(balance);
+		System.out.println("hi");
+		if (accountdao.getUpdateAccountBalance(balance, id)!=0) {
+			System.out.println("hi");
 		}
 		
+		String createaccountdate = userinput.nextLine();
+		a1.setOpendate(createaccountdate);;
+		System.out.println("Date of creation : " + createaccountdate);
+		if (accountdao.getDateOfCreatedAccount(createaccountdate)!=null) {
+			System.out.println("");
+		}
+		
+
 		
 		
+// ------------------------------------------
 		//Below is format of UserStories
 		
 		
