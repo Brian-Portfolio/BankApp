@@ -1,0 +1,25 @@
+package com.app.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import com.app.dao.EmployeeDAO;
+import com.app.dao.dbutil.PostgresqlConnection;
+import com.app.model.Employee;
+
+public class EmployeeDAOImpl implements EmployeeDAO{
+
+	@Override
+	public int getEmployee(Employee employee) {
+		int z = 0;
+		try (Connection connection = PostgresqlConnection.getConnection()){
+			
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			
+			
+		}
+		
+		return 0;
+	}
+
+}

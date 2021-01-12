@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.app.model.Customer"/>
-    <fullyQualifiedTypeName name="com.app.model.CustomerLogin"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="com.app.dao.dbutil.PostgresqlConnection"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.app.model.CustomerLogin"/>
+    <fullyQualifiedTypeName name="com.app.dao.impl.CustomerLoginDAOImpl"/>
+    <fullyQualifiedTypeName name="com.app.dao.CustomerLoginDAO"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.app.exception.BusinessException"/>
+    <fullyQualifiedTypeName name="com.app.dao.TransactionDAO"/>
+    <fullyQualifiedTypeName name="com.app.dao.impl.TransactionDAOImpl"/>
+    <fullyQualifiedTypeName name="com.app.model.Account"/>
+    <fullyQualifiedTypeName name="com.app.dao.impl.AccountDAOImpl"/>
+    <fullyQualifiedTypeName name="com.app.dao.AccountDAO"/>
+    <fullyQualifiedTypeName name="com.app.model.Transaction"/>
+    <fullyQualifiedTypeName name="com.app.model.Employee"/>
+    <fullyQualifiedTypeName name="com.app.dao.EmployeeDAO"/>
+    <fullyQualifiedTypeName name="com.app.dao.impl.CustomerDAOImpl"/>
+    <fullyQualifiedTypeName name="com.app.model.Customer"/>
+    <fullyQualifiedTypeName name="com.app.dao.CustomerDAO"/>
+    <fullyQualifiedTypeName name="com.app.service.CustomerService"/>
+    <fullyQualifiedTypeName name="com.app.services.impl.CustomerServiceImpl"/>
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
 </qualifiedTypeNameHistroy>

@@ -1,9 +1,0 @@
-package com.app.dao.impl;
-
-import com.app.dao.CustomerDAO;
-
-public interface CustomerDAOImpl implements CustomerDAO{
-	
-		
-	
-}

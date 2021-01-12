@@ -1,0 +1,111 @@
+package com.app.services.impl;
+
+import com.app.dao.CustomerDAO;
+import com.app.dao.impl.CustomerDAOImpl;
+import com.app.exception.BusinessException;
+import com.app.model.Customer;
+import com.app.service.CustomerService;
+
+public class CustomerServiceImpl implements CustomerService{
+
+	private CustomerDAO customerDAO = new CustomerDAOImpl();
+	
+
+	@Override
+	public Customer getCustomerFirstName(String firstname) throws BusinessException {
+		int c =0;
+		
+		Customer customer1 = null;
+		if (firstname!=null && firstname.matches("[a-zA-Z]{1}[a-z]{4,15}")) {
+			 customer1 = customerDAO.getCustomerFirstName(firstname);
+		}else {
+			throw new BusinessException("Entered First Name is INVALID!!");
+		}
+		return customer1;
+	}
+
+
+	@Override
+	public Customer getCustomerMiddleName(String middlename) throws BusinessException {
+		Customer customer1 = null;
+		if (middlename.matches("[a-zA-Z]{1}[a-z]{4,15}")) {
+			 customer1 = customerDAO.getCustomerMiddleName(middlename);
+		}else {
+			throw new BusinessException("Entered Middle Name is INVALID!!");
+		}
+		return customer1;
+	}
+
+
+	@Override
+	public Customer getCustomerLastName(String lastname) throws BusinessException {
+		Customer customer1 = null;
+		if (lastname.matches("[a-zA-Z]{1}[a-z]{4,15}")) {
+			 customer1 = customerDAO.getCustomerLastName(lastname);
+		}else {
+			throw new BusinessException("Entered Last Name is INVALID!!");
+		}
+		return customer1;
+	}
+
+
+	@Override
+	public Customer getCustomerEmailAddress(String emailaddress) throws BusinessException {
+		Customer customer1 = null;
+		if (emailaddress != null && emailaddress.matches("^[a-zA-Z0-9_!#$%&'*+/=?'{|}~^.-]+@[a-zA-Z0-9.-]+$")) {
+			 customer1 = customerDAO.getCustomerEmailAddress(emailaddress);
+		}else {
+			throw new BusinessException("Entered Email Address is INVALID!!");
+		}
+		return customer1;
+	}
+
+
+	@Override
+	public Customer getCustomerDOB(String dateofbirth) throws BusinessException {
+		Customer customer1 = null;
+		if (dateofbirth != null && dateofbirth.matches("[0-9]{4}-[0-9]{2}-[0-9]{2}")) {
+			 customer1 = customerDAO.getCustomerDOB(dateofbirth);
+		}else {
+			throw new BusinessException("Entered Date of Birth is INVALID!!");
+		}
+		return customer1;
+	}
+
+
+	@Override
+	public Customer getCustomerCity(String city) throws BusinessException {
+		Customer customer1 = null;
+		if (city != null && city.matches("[a-zA-Z]{1,10}")) {
+			 customer1 = customerDAO.getCustomerDOB(city);
+		}else {
+			throw new BusinessException("Entered City is INVALID!!");
+		}
+		return customer1;
+	}
+
+
+	@Override
+	public Customer getCustomerState(String state) throws BusinessException {
+		Customer customer1 = null;
+		if (state != null && state.matches("[A-Z]{2}")) {
+			 customer1 = customerDAO.getCustomerDOB(state);
+		}else {
+			throw new BusinessException("Entered State Initials is INVALID!!");
+		}
+		return customer1;
+	}
+
+
+	@Override
+	public Customer getCustomerGender(String gender) throws BusinessException {
+		Customer customer1 = null;
+		if (gender != null && gender.matches("[A-Z]{1}")) {
+			 customer1 = customerDAO.getCustomerDOB(gender);
+		}else {
+			throw new BusinessException("Entered Gender is INVALID!!");
+		}
+		return customer1;
+	}
+
+}

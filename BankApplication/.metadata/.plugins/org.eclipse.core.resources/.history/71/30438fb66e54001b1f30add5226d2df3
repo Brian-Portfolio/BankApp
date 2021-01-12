@@ -1,0 +1,16 @@
+package com.app.service;
+
+import com.app.model.Customer;
+import com.app.model.CustomerLogin;
+
+public interface CustomerService {
+
+	public Customer getCustomerFirstName(String firstname);
+	public Customer getCustomerFirstName(String middlename);
+	public Customer getCustomerFirstName(String lastname);
+	public Customer getCustomerEmailAddress(string emailaddress);
+	//public int createCustomerLogin(CustomerLogin customerlogin);
+	//public int chooseAccountType();
+	
+	
+}

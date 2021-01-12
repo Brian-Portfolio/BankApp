@@ -1,0 +1,23 @@
+package com.app.dao;
+
+import java.util.List;
+
+import com.app.exception.BusinessException;
+import com.app.model.Customer;
+
+public interface CustomerDAO {
+	
+	public int createCustomer(Customer customer) throws BusinessException;
+	public Customer getCustomerFirstName(String firstname) throws BusinessException;
+	public Customer getCustomerMiddleName(String middlename) throws BusinessException;
+	public int getCustomerLastName(String lastname);
+	public int getCustomerEmailAddress(String emailaddress);
+	public int getCustomerDOB(String dateofbirth);
+	public int getCustomerPhoneNumber(int phonenumber);
+	public int getCustomerCity(String city);
+	public int getCustomerState(String state);
+	public int getCustomerGender(String gender);
+	public List<Customer> getCustomerById(int customerid);
+	public List<Customer> getAllCustomers();
+	
+}

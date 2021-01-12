@@ -1,8 +1,0 @@
-package com.app.dao.impl;
-
-public interface CustomerDAOImpl implements CustomerDAO{
-	
-	public int createCustomer(Customer customer) {
-		
-	}
-}

@@ -2,6 +2,8 @@ package com.app.main;
 
 import java.util.Scanner;
 
+import org.apache.log4j.Logger;
+
 import com.app.dao.AccountDAO;
 import com.app.dao.CustomerDAO;
 import com.app.dao.CustomerLoginDAO;
@@ -14,12 +16,23 @@ import com.app.exception.BusinessException;
 import com.app.model.Account;
 import com.app.model.Customer;
 import com.app.model.CustomerLogin;
+import com.app.model.Employee;
 import com.app.model.Transaction;
+import com.app.service.CustomerService;
+import com.app.services.impl.CustomerServiceImpl;
 
 public class BankAppMain {
 
 	public static void main(String[] args) throws BusinessException {
 		
+		//Log object to display to Console
+		Logger log = Logger.getLogger(BankAppMain.class);
+		
+		//Service layer objects
+		CustomerService customerservice = new CustomerServiceImpl();
+		
+		
+		//DAO objects
 		CustomerDAO dao = new CustomerDAOImpl(); 
 		CustomerLoginDAO daologin = new CustomerLoginDAOImpl();  
 		AccountDAO accountdao = new AccountDAOImpl();
@@ -30,42 +43,269 @@ public class BankAppMain {
 		CustomerLogin c2 = new CustomerLogin();
 		Account a1 = new Account();
 		Transaction t1 = new Transaction();
+		Employee e1 = new Employee();
 		
-//		Customer c1 = new Customer(900, 2003, "brian", "m", "lola", "1992-03-03", "10parkave", "newyorkcity", "NY", 20851, "hello", 123456, 345345, "M");
-//		try {
-//			if (dao.createCustomer(c1)!=0) {
-//				System.out.println("customer created successfully");
-//			}
-//		}catch(BusinessException e){
-//			System.out.println(e.getMessage());
-//		}
-		
-		//Create Customer Profile
+		//Scanner input
 		Scanner userinput = new Scanner(System.in);
+
+		int choose = 0;
+		int choose1 = 0;
+		int choose2 = 0;
+		int option = 0;
+		log.info("Welcome and thank you for choosing the Revature Banking Application");
+		log.info("--------------------------------------------------------------------");
 		
-		//System.out.println("Please deposit with an initial balance avoid any fees. Minimum of at least $25 is fine!");
-//		System.out.println("\nPlease enter your accountid : ");
-//		int id = Integer.parseInt(userinput.nextLine());
-//		a1.setAccountid(id);
+		do {
+			log.info("1. New Customer? Want To Open An Account");
+			log.info("2. Returning Customer? ");
+			log.info("3. Employees Only");
+			log.info("4. Exit Application");
+			try {
+				log.info("Enter your choice : ");
+				option=Integer.parseInt(userinput.nextLine());
+			}catch(NumberFormatException e) {
+				
+			}
+			switch (option) {
+			case 1:
+				do {
+					log.info("\nOpening New Account Instructions");
+					log.info("-----------------------------");
+					log.info("1. Enter General Information");
+					log.info("2. Open New Accounts");
+					log.info("3. Enter Email Address For Updates and Alerts");
+					log.info("4. Create Username And Password Login");
+					log.info("5. Deposit Starting Balance");
+					log.info("6. Exit Instructions");
+					try {
+						choose=Integer.parseInt(userinput.nextLine());
+					}catch(NumberFormatException e){
+						
+					}
+					switch(choose) {
+					case 1:
+						try {
+							log.info("Please enter FirstName : ");
+						String firstname = userinput.nextLine();
+						Customer customer = customerservice.getCustomerFirstName(firstname);
+						}catch(NumberFormatException e){
+							log.info("Name cannot be special characters or symbols");
+						}catch(BusinessException e) {
+							log.info(e.getMessage());
+						}
+							
+						
+						try {
+							log.info("Please enter MiddleName : ");
+						String middlename = userinput.nextLine();
+						Customer customer = customerservice.getCustomerMiddleName(middlename);
+						}catch(NumberFormatException e){
+							log.info("Name cannot be special characters or symbols");
+						}catch(BusinessException e) {
+							log.info(e.getMessage());
+						}
+						
+						
+						try {
+							log.info("Please enter LastName : ");
+						String lastname = userinput.nextLine();
+						Customer customer = customerservice.getCustomerLastName(lastname);
+						}catch(NumberFormatException e){
+							log.info("Name cannot be special characters or symbols");
+						}catch(BusinessException e) {
+							log.info(e.getMessage());
+						}
+						
+						try {
+							log.info("Please enter Date Of Birth : ");
+						String dob = userinput.nextLine();
+						Customer customer = customerservice.getCustomerDOB(dob);
+						}catch(NumberFormatException e){
+							log.info("Name cannot be special characters or symbols");
+						}catch(BusinessException e) {
+							log.info(e.getMessage());
+						}
+						
+						//error
+						try {
+							log.info("Please enter Customer Address : ");
+						String address = userinput.nextLine();
+						Customer customer = customerservice.getCustomerAddress(address);
+						}catch(NumberFormatException e){
+							log.info("Name cannot be special characters or symbols");
+						}catch(BusinessException e) {
+							log.info(e.getMessage());
+						}
+						
+						//error
+						try {
+							log.info("Please enter City : ");
+						String city = userinput.nextLine();
+						Customer customer = customerservice.getCustomerCity(city);
+						}catch(NumberFormatException e){
+							log.info("Name cannot be special characters or symbols");
+						}catch(BusinessException e) {
+							log.info(e.getMessage());
+						}
+//						//ERROR
+						try {
+							log.info("Please enter State : ");
+						String state = userinput.nextLine();
+						Customer customer = customerservice.getCustomerState(state);
+						}catch(NumberFormatException e){
+							log.info("Name cannot be special characters or symbols");
+						}catch(BusinessException e) {
+							log.info(e.getMessage());
+						}
+						//ERROR
+						try {
+							log.info("Please enter Gender : ");
+						String gender = userinput.nextLine();
+						Customer customer = customerservice.getCustomerGender(gender);
+						}catch(NumberFormatException e){
+							log.info("Name cannot be special characters or symbols");
+						}catch(BusinessException e) {
+							log.info(e.getMessage());
+						}
+						break;
+					
+					case 2:	
+						log.info("Would you like to open a checking or savings account? ");
+						break;
+						
+					case 3:
+						log.info("Please enter your email address : ");
+						try {
+							String email = userinput.nextLine();
+							Customer customer = customerservice.getCustomerEmailAddress(email);
+						}catch(BusinessException e) {
+							log.info(e.getMessage());
+						}
+						break;
+					case 4:
+						log.info("Please create your username : ");
+						log.info("Please create your password : ");
+						break;
+					case 5:
+						log.info("Please make a minimum deposit of at least $25 : ");
+						break;
+					case 6:
+						log.info("Thank you for visiting, please come again soon! have a nice day!");
+						break;
+					
+					default:
+						log.info("Invalid menu option, please try again!");
+						break;
+					
+					}
+				}while (choose!=6);
+				break;
+				
+				
+			case 2:
+				log.info("Please enter your username : ");
+				log.info("Please enter your password : ");
+				
+//				//check for correct username and password 
+//				//successfully logged in
+				do {
+					log.info("MENU");
+					log.info("-------");
+					log.info("1. View Account Balance");
+					log.info("2. Withdrawal");
+					log.info("3. Deposit");
+					log.info("4. Post Transaction Transfer");
+					log.info("5. Accept Transaction Transfer");
+					log.info("6. Exit Menu");
+					try {
+						log.info("Enter your choice : ");
+						choose1=Integer.parseInt(userinput.nextLine());
+					}catch(NumberFormatException e) {
+						
+					}
+					switch(choose1) {
+					case 1:
+						//address name and account id
+						log.info("Your current account balance is : ");
+						break;
+					case 2:
+						log.info("How much would you like to withdrawal : ");
+						break;
+					case 3:
+						log.info("How much would you like to deposit : ");
+						break;
+					case 4:
+						log.info("");
+						break;
+					case 5:
+						log.info("");
+						break;
+					case 6:
+						log.info("Thank you for visiting, please come again soon! have a nice day!");
+						break;
+					default:
+						log.info("Invalid menu option, please try again!");
+						break;
+					}
+				}while(choose1 != 6);
+				break;
+	
+			case 3:
+				log.info("Welcome Employee");
+				
+				do {
+					log.info("1. Approve/Reject Account");
+					log.info("2. View Customers Acount");
+					log.info("3. Register For Customer Account");
+					log.info("4. View All Transaction Logs");
+					log.info("5. Exit Employee Menu");
+					try {
+						log.info("Enter your choice : ");
+						choose2=Integer.parseInt(userinput.nextLine());
+					}catch(NumberFormatException e) {
+						
+					}
+					switch(choose2) {
+					case 1:
+						break;
+					case 2:
+						break;
+					case 3:
+						break;
+					case 4:
+						break;
+					case 5:
+						break;
+				default:
+					log.info("Invalid menu option, please try again!");
+					break;
+					}
+				}while(choose2 != 5);
+				break;
+						
+			case 4:
+				log.info("Thank you for visiting, please come again soon! have a nice day!");
+				break;
+			default:
+				log.info("Invalid menu option, please try again!");
+				break;
+			}		
+		}while(option!=4);
+	}
+}
+	
+	
+
+				
+//		System.out.println("Please enter Customer id : ");
+//		int CustomerId = Integer.parseInt(userinput.nextLine());
+//		c1.setCustomerid(CustomerId);
 //		
-//		System.out.println("Please enter your deposit: ");
-//		int balance = Integer.parseInt(userinput.nextLine());
-//		a1.setAccountbalance(balance);
 		
-		
-//		System.out.println("Please enter account id : ");
-//		//int AccountId = Integer.parseInt(userinput.nextLine());
-//		c1.setAccountid(id);
-		
-		System.out.println("Please enter Customer id : ");
-		int CustomerId = Integer.parseInt(userinput.nextLine());
-		c1.setCustomerid(CustomerId);
-		
-		
-		System.out.println("Please enter FirstName : ");
-		String firstname = userinput.nextLine();
-		c1.setFirstname(firstname);
-		
+//		System.out.println("Please enter FirstName : ");
+//		String firstname = userinput.nextLine();
+//		c1.setFirstname(firstname);
+//		
 //		System.out.println("Please enter MiddleName : ");
 //		String middlename = userinput.nextLine();
 //		c1.setMiddlename(middlename);
@@ -113,13 +353,13 @@ public class BankAppMain {
 //		String Gender = userinput.nextLine();
 //		c1.setGender(Gender);
 		//get foreign key constraint on table customer for key accountid not present in table account.
-		try {
-			if (dao.createCustomer(c1)!=0) {
-				System.out.println("Thank you, you have created your profile successfully");
-			}
-		}catch(BusinessException e){
-			System.out.println(e.getMessage());
-		}
+//		try {
+//			if (dao.createCustomer(c1)!=0) {
+//				System.out.println("Thank you, you have created your profile successfully");
+//			}
+//		}catch(BusinessException e){
+//			System.out.println(e.getMessage());
+//		}
 		
 		
 //-----------------------------------------		
@@ -150,9 +390,9 @@ public class BankAppMain {
 		
 		
 //		System.out.println("Please deposit with an initial balance avoid any fees. Minimum of at least $25 is fine!");
-		System.out.println("\nPlease enter your accountid : ");
-		int id = Integer.parseInt(userinput.nextLine());
-		a1.setAccountid(id);
+//		System.out.println("\nPlease enter your accountid : ");
+//		int id = Integer.parseInt(userinput.nextLine());
+//		a1.setAccountid(id);
 		
 //		System.out.println("Please enter your deposit: ");
 //		int balance = Integer.parseInt(userinput.nextLine());
@@ -164,7 +404,7 @@ public class BankAppMain {
 //		
 		//System.out.println("Please enter your customer id : ");
 		//int customerid = Integer.parseInt(userinput.nextLine());
-		a1.setCustomerid(CustomerId);
+		//a1.setCustomerid(CustomerId);
 //		
 //		System.out.println("Please enter what kind of account you want to open ?");
 //		String type = userinput.nextLine();
@@ -178,92 +418,13 @@ public class BankAppMain {
 //		String viewaccountdate = userinput.nextLine();
 //		a1.setAccounttodate(viewaccountdate);;
 //		
-		try {
-			if (accountdao.createAccount(a1)!=0) {
-				System.out.println("You have created your account successfully! ");
-			}
-		}catch(BusinessException e){
-			System.out.println(e.getMessage());
-		}
+//		try {
+//			if (accountdao.createAccount(a1)!=0) {
+//				System.out.println("You have created your account successfully! ");
+//			}
+//		}catch(BusinessException e){
+//			System.out.println(e.getMessage());
+//		}
 //		
 // ------------------------------------------
-		//Below is format of UserStories
 		
-		
-		//try a thread to load the application within a 5 to 10 sec span
-		
-//		System.out.println("Welcome and thank you for choosing the Revature Banking Application");
-//		
-//		//for(;;) {// infinite loop starts
-//			
-//		System.out.println("If you are logging in as a new customer please choose option 1 for all other returning customers please choose option 2 : "); 
-//		//System.out.println("Need help by product please choose one of the following : ");
-//		int choose = 0;
-//		int option = 0;
-//		do {
-//			System.out.println("1. New Customer? Please type in 1 : ");
-//			System.out.println("2. Returning Customer? Please type in 2 : ");
-//			System.out.println("3. Exit Application");
-//			try {
-//				option=Integer.parseInt(userinput.nextLine());
-//			}catch(NumberFormatException e) {
-//				
-//			}
-//			switch (option) {
-//			case 1:
-//				
-//		do {
-//			System.out.println("MENU");
-//			System.out.println("-----------------------------");
-//			System.out.println("1. General Information");
-//			System.out.println("2. New Accounts");
-//			System.out.println("3. Emails and Alerts");
-//			System.out.println("4. Transactions");
-//			System.out.println("5. Checkings");
-//			System.out.println("6. Savings");
-//			System.out.println("7. Exit BankApplication");
-//			try {
-//				choose=Integer.parseInt(userinput.nextLine());
-//			}catch(NumberFormatException e){
-//				
-//			}
-//			switch(choose) {
-//			case 1:
-//				System.out.println("Our General Information provides the following : ");
-//				break;
-//			case 2:	
-//				System.out.println("Please select what kind of bank account you want to open : ");
-//				break;
-//			case 3:
-//				System.out.println("Look at your latest emails and personal alerts ");
-//				break;
-//			case 4:
-//				System.out.println("Please select what kind of transaction you are making today : ");
-//				break;
-//			case 5:
-//				System.out.println("Checking account");
-//				break;
-//			case 6:
-//				System.out.println("Savings account");
-//				break;
-//			case 7:
-//				System.out.println("Thank you for visiting, please come again soon! have a nice day!");
-//				break;
-//			
-//			default:
-//				System.out.println("Invalid menu option, please try again!");
-//				break;
-//			}
-//			}while (choose!=7);
-//		
-//		case 2: 
-//			System.out.println("Please enter your username and password :");
-//			//return customers information: balance account and last transaction
-//			break;
-//		case 3:
-//			System.out.println("Thank you for visiting the Revature Banking app, please come again soon! have a nice day!");
-//			}
-//			}while(option!=3);
-//	  }
-	}
-}

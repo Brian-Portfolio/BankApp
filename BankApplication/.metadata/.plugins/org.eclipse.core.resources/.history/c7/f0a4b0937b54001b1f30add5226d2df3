@@ -1,0 +1,22 @@
+package com.app.service;
+
+import com.app.exception.BusinessException;
+import com.app.model.Customer;
+
+
+public interface CustomerService {
+
+	public Customer getCustomerFirstName(String firstname) throws BusinessException;
+	public Customer getCustomerMiddleName(String middlename) throws BusinessException;
+	public Customer getCustomerLastName(String lastname);
+	public int getCustomerEmailAddress(String emailaddress);
+	public int getCustomerDOB(String dateofbirth);
+	public int getCustomerPhoneNumber(int phonenumber);
+	public int getCustomerCity(String city);
+	public int getCustomerState(String state);
+	public int getCustomerGender(String gender);
+	//public int createCustomerLogin(CustomerLogin customerlogin);
+	//public int chooseAccountType();
+	
+	
+}

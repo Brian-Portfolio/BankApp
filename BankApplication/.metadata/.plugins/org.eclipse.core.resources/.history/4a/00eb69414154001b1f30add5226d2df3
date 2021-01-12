@@ -1,0 +1,6 @@
+package com.app.dao;
+
+public interface EmployeeDAO {
+	
+	public int getEmployee(int employee, String firstname, String lastname, int accountid)
+}

@@ -1,5 +1,9 @@
 package com.app.dao;
 
-public interface EmployeeDAO {
+import com.app.model.Employee;
 
+public interface EmployeeDAO {
+	
+	public int getEmployee(Employee employee);
+	 
 }
