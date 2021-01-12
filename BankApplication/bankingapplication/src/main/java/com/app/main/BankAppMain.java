@@ -18,7 +18,11 @@ import com.app.model.Customer;
 import com.app.model.CustomerLogin;
 import com.app.model.Employee;
 import com.app.model.Transaction;
+import com.app.service.AccountService;
+import com.app.service.CustomerLoginService;
 import com.app.service.CustomerService;
+import com.app.services.impl.AccountServiceImpl;
+import com.app.services.impl.CustomerLoginServiceImpl;
 import com.app.services.impl.CustomerServiceImpl;
 
 public class BankAppMain {
@@ -30,7 +34,8 @@ public class BankAppMain {
 		
 		//Service layer objects
 		CustomerService customerservice = new CustomerServiceImpl();
-		
+		AccountService accountservice = new AccountServiceImpl();
+		CustomerLoginService customerloginservice = new CustomerLoginServiceImpl();
 		
 		//DAO objects
 		CustomerDAO dao = new CustomerDAOImpl(); 
@@ -84,17 +89,18 @@ public class BankAppMain {
 					}
 					switch(choose) {
 					case 1:
-						try {
+						
+					    try {
 							log.info("Please enter FirstName : ");
-						String firstname = userinput.nextLine();
-						Customer customer = customerservice.getCustomerFirstName(firstname);
+							String firstname = userinput.nextLine();
+							Customer customer = customerservice.getCustomerFirstName(firstname);
 						}catch(NumberFormatException e){
-							log.info("Name cannot be special characters or symbols");
+							log.info("Name cannot be special characters or symbols");	
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
-							
-						
+					    
+					    
 						try {
 							log.info("Please enter MiddleName : ");
 						String middlename = userinput.nextLine();
@@ -104,14 +110,11 @@ public class BankAppMain {
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
-						
-						
+											
 						try {
 							log.info("Please enter LastName : ");
 						String lastname = userinput.nextLine();
 						Customer customer = customerservice.getCustomerLastName(lastname);
-						}catch(NumberFormatException e){
-							log.info("Name cannot be special characters or symbols");
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
@@ -126,44 +129,44 @@ public class BankAppMain {
 							log.info(e.getMessage());
 						}
 						
-						//error
+						
 						try {
 							log.info("Please enter Customer Address : ");
 						String address = userinput.nextLine();
 						Customer customer = customerservice.getCustomerAddress(address);
 						}catch(NumberFormatException e){
-							log.info("Name cannot be special characters or symbols");
+							log.info("Name cannot be special characters or symbols, or numeric values");
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
 						
-						//error
+						
 						try {
 							log.info("Please enter City : ");
 						String city = userinput.nextLine();
-						Customer customer = customerservice.getCustomerCity(city);
+						Customer customer4 = customerservice.getCustomerCity(city);
 						}catch(NumberFormatException e){
-							log.info("Name cannot be special characters or symbols");
+							log.info("Name cannot be special characters or symbols, or numeric values");
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
-//						//ERROR
+						
 						try {
 							log.info("Please enter State : ");
 						String state = userinput.nextLine();
 						Customer customer = customerservice.getCustomerState(state);
 						}catch(NumberFormatException e){
-							log.info("Name cannot be special characters or symbols");
+							log.info("Name cannot be special characters or symbols, or numeric values");
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
-						//ERROR
+						
 						try {
 							log.info("Please enter Gender : ");
 						String gender = userinput.nextLine();
 						Customer customer = customerservice.getCustomerGender(gender);
 						}catch(NumberFormatException e){
-							log.info("Name cannot be special characters or symbols");
+							log.info("Name cannot be special characters or symbols, or nmeric values");
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
@@ -171,26 +174,45 @@ public class BankAppMain {
 					
 					case 2:	
 						log.info("Would you like to open a checking or savings account? ");
+						try {
+							String accounttype = userinput.nextLine();
+							Account account = accountservice.createAccountType(accounttype);
+						}catch(BusinessException e){
+							log.info(e);
+						}
 						break;
 						
 					case 3:
-						log.info("Please enter your email address : ");
+						log.info("Please enter your email address: ");
 						try {
 							String email = userinput.nextLine();
-							Customer customer = customerservice.getCustomerEmailAddress(email);
+							Customer customer1 = customerservice.getCustomerEmailAddress(email);
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
 						break;
 					case 4:
-						log.info("Please create your username : ");
-						log.info("Please create your password : ");
+						log.info("Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : ");
+						try {
+							String username = userinput.nextLine();
+							CustomerLogin customerlogin = customerloginservice.CreateUsername(username);
+						}catch(BusinessException e) {
+							log.info(e.getMessage());
+						}
+						
+						log.info("Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : ");
+						try {
+							String password = userinput.nextLine();
+							CustomerLogin customerlogin = customerloginservice.CreatePassword(password);
+						}catch(BusinessException e) {
+							log.info(e.getMessage());
+						}
 						break;
 					case 5:
 						log.info("Please make a minimum deposit of at least $25 : ");
 						break;
 					case 6:
-						log.info("Thank you for visiting, please come again soon! have a nice day!");
+						log.info("Awesome you have created your first new bank account!  Come back soon! Have a nice day!");
 						break;
 					
 					default:

@@ -48,6 +48,71 @@ public class CustomerLoginDAOImpl implements CustomerLoginDAO{
 		
 		return z;
 	}
+
+	
+//	@Override
+//	public CustomerLogin createUsername(String username) {
+//		CustomerLogin customerlogin = null;
+//		try(Connection connection = PostgresqlConnection.getConnection()){
+//			String sql ="insert into bankingapplication.customerlogin(username)  values  (?)";
+//			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+//			
+//			preparedStatement.setString(2, username);
+//			preparedStatement.executeUpdate();
+//			
+//		} catch (ClassNotFoundException | SQLException e) {
+//			System.out.println(e);
+//		}
+//		return customerlogin;
+//	}
+//
+//	@Override
+//	public CustomerLogin createPassword(String password) {
+//		CustomerLogin customerlogin = null;
+//		try(Connection connection = PostgresqlConnection.getConnection()){
+//			String sql ="insert into bankingapplication.customerlogin(password)  values  (?)";
+//			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+//			
+//			preparedStatement.setString(1, password);
+//			preparedStatement.executeUpdate();
+//			
+//		} catch (ClassNotFoundException | SQLException e) {
+//			System.out.println(e);
+//		}
+//		return null;
+//	}
+
+	@Override
+	public CustomerLogin CreateUsername(String username) {
+		CustomerLogin customerlogin = null;
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql ="insert into bankingapplication.customerlogin(username)  values  (?)";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			
+			preparedStatement.setString(2, username);
+			preparedStatement.executeUpdate();
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);
+		}
+		return customerlogin;
+	}
+
+	@Override
+	public CustomerLogin CreatePassword(String password) {
+		CustomerLogin customerlogin = null;
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql ="insert into bankingapplication.customerlogin(password)  values  (?)";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			
+			preparedStatement.setString(1, password);
+			preparedStatement.executeUpdate();
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);
+		}
+		return null;
+	}
 	
 	
 }
