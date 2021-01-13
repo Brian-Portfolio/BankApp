@@ -13,7 +13,7 @@ public class AccountServiceImpl implements AccountService{
 	@Override
 	public Account createAccountType(String accounttype) throws BusinessException {
 		Account account = null;
-		if (accounttype!=null && accounttype=="checking" || accounttype=="saving") {
+		if (accounttype!=null) {
 			 account = accountDAO.createAccountType(accounttype);
 		}else {
 			throw new BusinessException("Entered type of account is INVALID!!");
@@ -21,5 +21,4 @@ public class AccountServiceImpl implements AccountService{
 		return account;
 	}
 
-	
 }

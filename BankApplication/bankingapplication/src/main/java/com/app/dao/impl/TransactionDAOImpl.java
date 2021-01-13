@@ -7,14 +7,18 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
 import com.app.dao.TransactionDAO;
 import com.app.dao.dbutil.PostgresqlConnection;
 import com.app.exception.BusinessException;
+import com.app.main.BankAppMain;
 import com.app.model.Transaction;
 
 public class TransactionDAOImpl implements TransactionDAO{
 
-	
+	Logger log = Logger.getLogger(BankAppMain.class);
+
 //	@Override
 //	public int createTransactions(Transaction transaction) {
 //		int z =0;
@@ -51,7 +55,7 @@ public class TransactionDAOImpl implements TransactionDAO{
 			preparedStatement.executeUpdate();
 			
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+			log.info(e);
 		}
 		
 		return transaction;
@@ -70,7 +74,7 @@ public class TransactionDAOImpl implements TransactionDAO{
 			preparedStatement.executeUpdate();
 			
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+			log.info(e);
 		}
 		return transaction;
 	}
@@ -89,7 +93,7 @@ public class TransactionDAOImpl implements TransactionDAO{
 			preparedStatement.executeUpdate();
 			
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+			log.info(e);
 		}
 		return transaction;
 	}

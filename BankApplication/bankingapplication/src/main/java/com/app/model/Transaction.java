@@ -2,9 +2,9 @@ package com.app.model;
 
 public class Transaction {
 
-	private int transactionid;//sequenced
+	private int tid;//sequenced
 	private String transactiondate;
-	private int accountid;//joined
+	private int accid;//joined
 	private int transactionamount;
 	private String transactiontype;
 	private int customerid; //joined
@@ -14,12 +14,12 @@ public class Transaction {
 		
 	}
 
-	public Transaction(int transactionid, String transactiondate, int accountid, int transactionamount,
+	public Transaction(int tid, String transactiondate, int accid, int transactionamount,
 			String transactiontype, int customerid, int totalbalance) {
 		super();
-		this.transactionid = transactionid;
+		this.tid = tid;
 		this.transactiondate = transactiondate;
-		this.accountid = accountid;
+		this.accid = accid;
 		this.transactionamount = transactionamount;
 		this.transactiontype = transactiontype;
 		this.customerid = customerid;
@@ -27,13 +27,13 @@ public class Transaction {
 	}
 
 
-	public int getTransactionid() {
-		return transactionid;
+	public int getTid() {
+		return tid;
 	}
 
 
-	public void setTransactionid(int transactionid) {
-		this.transactionid = transactionid;
+	public void setTid(int tid) {
+		this.tid = tid;
 	}
 
 
@@ -47,13 +47,13 @@ public class Transaction {
 	}
 
 
-	public int getAccountid() {
-		return accountid;
+	public int getAccid() {
+		return accid;
 	}
 
 
-	public void setAccountid(int accountid) {
-		this.accountid = accountid;
+	public void setAccid(int accid) {
+		this.accid = accid;
 	}
 
 
@@ -99,8 +99,8 @@ public class Transaction {
 
 	@Override
 	public String toString() {
-		return "Transaction [transactionid=" + transactionid + ", transactiondate=" + transactiondate + ", accountid="
-				+ accountid + ", transactionamount=" + transactionamount + ", transactiontype=" + transactiontype
+		return "Transaction [tid=" + tid + ", transactiondate=" + transactiondate + ", accid="
+				+ accid + ", transactionamount=" + transactionamount + ", transactiontype=" + transactiontype
 				+ ", customerid=" + customerid + ", totalbalance=" + totalbalance + "]";
 	}
 	

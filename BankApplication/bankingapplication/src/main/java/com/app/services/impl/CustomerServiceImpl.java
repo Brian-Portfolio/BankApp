@@ -231,6 +231,16 @@ public class CustomerServiceImpl implements CustomerService{
 	return z;
 		
 	}
+
+//	@Override
+//	public Customer getCustomerId(int id) throws BusinessException {
+//		if (id !=0) {
+//			 customerDAO.getCustomerId(id);
+//		}else {
+//			throw new BusinessException("Entered id is INVALID!!");
+//		}
+//		return null;
+//	}
 		
 
 }

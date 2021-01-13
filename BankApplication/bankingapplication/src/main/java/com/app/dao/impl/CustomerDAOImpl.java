@@ -6,13 +6,20 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Scanner;
 
+import org.apache.log4j.Logger;
+
 import com.app.dao.CustomerDAO;
 import com.app.dao.dbutil.PostgresqlConnection;
 import com.app.exception.BusinessException;
+import com.app.main.BankAppMain;
 import com.app.model.Customer;
 
 public class CustomerDAOImpl implements CustomerDAO{
 
+	Logger log = Logger.getLogger(BankAppMain.class);
+
+	
+	
 //	@Override
 //	public int createCustomer(Customer customer) throws BusinessException {
 //		int z=0;
@@ -70,7 +77,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+			log.info(e);
 			throw new BusinessException("Internal error occurred contact SYSADMIN");
 		}
 		return customer;
@@ -89,7 +96,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+			log.info(e);
 			throw new BusinessException("Internal error occurred contact SYSADMIN");
 		}
 			
@@ -109,7 +116,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+			log.info(e);
 			throw new BusinessException("Internal error occurred contact SYSADMIN");
 		}
 			
@@ -129,7 +136,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+			log.info(e);
 			throw new BusinessException("Internal error occurred contact SYSADMIN");
 		}
 			
@@ -149,7 +156,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+			log.info(e);
 			throw new BusinessException("Internal error occurred contact SYSADMIN");
 		}
 			
@@ -168,7 +175,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+			log.info(e);
 			throw new BusinessException("Internal error occurred contact SYSADMIN");
 		}
 			
@@ -187,7 +194,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+			log.info(e);
 			throw new BusinessException("Internal error occurred contact SYSADMIN");
 		}
 			
@@ -208,7 +215,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+			log.info(e);
 			throw new BusinessException("Internal error occurred contact SYSADMIN");
 		}
 			
@@ -228,7 +235,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+			log.info(e);
 			throw new BusinessException("Internal error occurred contact SYSADMIN");
 		}	
 		return customer;
@@ -257,13 +264,14 @@ public class CustomerDAOImpl implements CustomerDAO{
 			
 			
 		}catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+			log.info(e);
 			throw new BusinessException("Internal error occurred contact SYSADMIN");
 		}
-			
-		
 		return z;
 	}
+
+	
+}
 
 
 //	@Override
@@ -283,4 +291,4 @@ public class CustomerDAOImpl implements CustomerDAO{
 //			
 //		return customer;
 //}
-}
+

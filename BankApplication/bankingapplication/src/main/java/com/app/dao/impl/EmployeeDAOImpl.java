@@ -4,12 +4,18 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
+import org.apache.log4j.Logger;
+
 import com.app.dao.EmployeeDAO;
 import com.app.dao.dbutil.PostgresqlConnection;
+import com.app.main.BankAppMain;
 import com.app.model.Employee;
 
 public class EmployeeDAOImpl implements EmployeeDAO{
 
+	Logger log = Logger.getLogger(BankAppMain.class);
+
+	
 	@Override
 	public Employee getEmployee(Employee employee) {
 		Employee employee1 = null;
@@ -25,7 +31,7 @@ public class EmployeeDAOImpl implements EmployeeDAO{
 		
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+		log.info(e);
 		}
 		
 		return employee1;

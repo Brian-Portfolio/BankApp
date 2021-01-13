@@ -4,29 +4,32 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
+import org.apache.log4j.Logger;
+
 import com.app.dao.CustomerLoginDAO;
 import com.app.dao.dbutil.PostgresqlConnection;
 import com.app.exception.BusinessException;
+import com.app.main.BankAppMain;
 import com.app.model.CustomerLogin;
 
 public class CustomerLoginDAOImpl implements CustomerLoginDAO{
 
+	Logger log = Logger.getLogger(BankAppMain.class);
+
+	
 	@Override
 	public int createCustomerLogin(CustomerLogin customerlogin) {
 		int z = 0;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql ="insert into bankingapplication.customerlogin(accountid,username, password)  values  (?,?, ?)";
+			String sql ="insert into bankingapplication.customerlogin(username, password)  values  (?, ?)";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, customerlogin.getAccountid());
-			preparedStatement.setString(2, customerlogin.getUsername());
-			preparedStatement.setString(3, customerlogin.getPassword());
-			
-			
+			preparedStatement.setString(1, customerlogin.getUsername());
+			preparedStatement.setString(2, customerlogin.getPassword());
 			z = preparedStatement.executeUpdate();
 			
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+			log.info(e);
 			
 		}
 		
@@ -43,7 +46,7 @@ public class CustomerLoginDAOImpl implements CustomerLoginDAO{
 			
 			
 		}catch(ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+			log.info(e);
 		}
 		
 		return z;
@@ -93,7 +96,7 @@ public class CustomerLoginDAOImpl implements CustomerLoginDAO{
 			preparedStatement.executeUpdate();
 			
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+			log.info(e);
 		}
 		return customerlogin;
 	}
@@ -109,7 +112,7 @@ public class CustomerLoginDAOImpl implements CustomerLoginDAO{
 			preparedStatement.executeUpdate();
 			
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+			log.info(e);
 		}
 		return null;
 	}

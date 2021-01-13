@@ -2,7 +2,7 @@ package com.app.model;
 
 public class CustomerLogin {
 
-	private int accountid;
+	private int nameid;
 	private String username;
 	private String password;
 	
@@ -10,19 +10,19 @@ public class CustomerLogin {
 		
 	}
 
-	public CustomerLogin(int accountid, String username, String password) {
+	public CustomerLogin(int nameid, String username, String password) {
 		super();
-		this.accountid = accountid;
+		this.nameid = nameid;
 		this.username = username;
 		this.password = password;
 	}
 
-	public int getAccountid() {
-		return accountid;
+	public int getNameid() {
+		return nameid;
 	}
 
-	public void setAccountid(int accountid) {
-		this.accountid = accountid;
+	public void setNameid(int nameid) {
+		this.nameid = nameid;
 	}
 
 	public String getUsername() {
@@ -43,7 +43,7 @@ public class CustomerLogin {
 
 	@Override
 	public String toString() {
-		return "CustomerLogin [accountid=" + accountid + ", username=" + username + ", password=" + password + "]";
+		return "CustomerLogin [nameid=" + nameid + ", username=" + username + ", password=" + password + "]";
 	}
 	
 }

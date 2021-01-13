@@ -62,7 +62,7 @@ public class BankAppMain {
 		
 		//Scanner input
 		Scanner userinput = new Scanner(System.in);
-
+		
 		int choose = 0;
 		int choose1 = 0;
 		int choose2 = 0;
@@ -99,46 +99,9 @@ public class BankAppMain {
 					}
 					switch(choose) {
 					case 1:
-						
-//						try{
-//						log.info("Please enter FirstName : ");
-//						String firstname = userinput.nextLine();
-//					
-//						
-//						log.info("Please enter MiddleName : ");
-//						String middlename = userinput.nextLine();
-//						
-//						log.info("Please enter LastName : ");
-//						String lastname = userinput.nextLine();
-//						
-//						log.info("Please enter City : ");
-//						String city = userinput.nextLine();
-//						
-//						log.info("Please enter State : ");
-//						String state = userinput.nextLine();
-//						
-//						
-//						log.info("Please enter Gender : ");
-//						String gender = userinput.nextLine();
-//						
-//						
-//						log.info("Please enter Customer Address : ");
-//						String address = userinput.nextLine();
-//						
-//						
-//						log.info("Please enter Date Of Birth : ");
-//						String dob = userinput.nextLine();
-//						
-//						
-//						customerservice.createCustomer(firstname, middlename, lastname, city, state, gender, address, dob);
-//					}catch(NumberFormatException e){
-//						log.info("Name cannot be special characters or symbols");	
-//					}catch(BusinessException e) {
-//						log.info(e.getMessage());
-//					}
-//						
+									
 					    try {
-							log.info("Please enter FirstName : ");
+							log.info("\nPlease enter FirstName : ");
 							String firstname = userinput.nextLine();
 							Customer customer = customerservice.getCustomerFirstName(firstname);
 						}catch(NumberFormatException e){
@@ -217,13 +180,18 @@ public class BankAppMain {
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
+						
+						
 						break;
 					
 					case 2:	
+						
 						log.info("Would you like to open a checking or savings account? ");
 						try {
-							String accounttype = userinput.nextLine().toLowerCase();
-							Account account = accountservice.createAccountType(accounttype);
+							String accounttype = userinput.nextLine();
+							if (accounttype == "checking" || accounttype == "saving") {
+								Account account = accountservice.createAccountType(accounttype);
+							}
 						}catch(BusinessException e){
 							log.info(e.getMessage());
 						}
@@ -267,8 +235,6 @@ public class BankAppMain {
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
-						
-						
 						
 						try {	
 							log.info("This is date and time of your transaction : " + formatter.format(date));
@@ -315,12 +281,15 @@ public class BankAppMain {
 					case 1:
 						//address name and account id
 						log.info("Your current account balance is : ");
+						
 						break;
 					case 2:
 						log.info("How much would you like to withdrawal : ");
+						
 						break;
 					case 3:
 						log.info("How much would you like to deposit : ");
+						
 						break;
 					case 4:
 						log.info("");
@@ -380,139 +349,4 @@ public class BankAppMain {
 			}		
 		}while(option!=4);
 	}
-}
-	
-	
-
-				
-//		System.out.println("Please enter Customer id : ");
-//		int CustomerId = Integer.parseInt(userinput.nextLine());
-//		c1.setCustomerid(CustomerId);
-//		
-		
-//		System.out.println("Please enter FirstName : ");
-//		String firstname = userinput.nextLine();
-//		c1.setFirstname(firstname);
-//		
-//		System.out.println("Please enter MiddleName : ");
-//		String middlename = userinput.nextLine();
-//		c1.setMiddlename(middlename);
-//		
-//		
-//		System.out.println("Please enter LastName : ");
-//		String lastname = userinput.nextLine();
-//		c1.setLastname(lastname);
-//		
-//		
-//		System.out.println("Please enter DOB : ");
-//		String DOB = userinput.nextLine();
-//		c1.setDateofbirth(DOB);
-//		
-//		
-//		System.out.println("Please enter Address : ");
-//		String Address = userinput.nextLine();
-//		c1.setCustomeraddress(Address);
-//		
-//		System.out.println("Please enter City : ");
-//		String city = userinput.nextLine();
-//		c1.setCity(city);
-//		
-//		System.out.println("Please enter State : ");
-//		String state = userinput.nextLine();
-//		c1.setState(state);
-//		
-//		System.out.println("Please enter Zipcode : ");
-//		int zipcode = Integer.parseInt(userinput.nextLine());
-//		c1.setZipcode(zipcode);
-//		
-//		System.out.println("Please enter EmailAddress : ");
-//		String email = userinput.nextLine();
-//		c1.setEmailaddress(email);
-//		
-//		System.out.println("Please enter Phonenumber : ");
-//		int phonenumber = Integer.parseInt(userinput.nextLine());
-//		c1.setZipcode(phonenumber);
-//		
-//		System.out.println("Please enter SSN : ");
-//		int SSN = Integer.parseInt(userinput.nextLine());
-//		c1.setZipcode(SSN);
-//		
-//		System.out.println("Please enter Gender : ");
-//		String Gender = userinput.nextLine();
-//		c1.setGender(Gender);
-		//get foreign key constraint on table customer for key accountid not present in table account.
-//		try {
-//			if (dao.createCustomer(c1)!=0) {
-//				System.out.println("Thank you, you have created your profile successfully");
-//			}
-//		}catch(BusinessException e){
-//			System.out.println(e.getMessage());
-//		}
-		
-		
-//-----------------------------------------		
-		
-		
-		
-//		System.out.println("Please  create a username and password");
-		
-		//change sql command within accountid to reference from customer profile, same for account table 
-		//CustomerLogin
-//		System.out.println("Please enter account id : ");
-//		int AccountId = Integer.parseInt(userinput.nextLine());
-//		c2.setAccountid(AccountId);
-//		
-//		System.out.println("Please create your own Username : ");
-//		String username = userinput.nextLine();
-//		c2.setUsername(username);
-//		
-//		System.out.println("Please create your own Password : ");
-//		String password = userinput.nextLine();
-//		c2.setPassword(password);
-//		if (daologin.createCustomerLogin(c2)!=0) {
-//			System.out.println("Thank you have created your Username and Password successfully");
-//		}
-//		
-		
-//-------------------------------------
-		
-		
-//		System.out.println("Please deposit with an initial balance avoid any fees. Minimum of at least $25 is fine!");
-//		System.out.println("\nPlease enter your accountid : ");
-//		int id = Integer.parseInt(userinput.nextLine());
-//		a1.setAccountid(id);
-		
-//		System.out.println("Please enter your deposit: ");
-//		int balance = Integer.parseInt(userinput.nextLine());
-//		a1.setAccountbalance(balance);
-//		
-//		System.out.println("We give you an annual interest rate of 2%, for how much you have saved throughout the year");
-//		int interest = 2;
-//		a1.setAccountinterests(interest);
-//		
-		//System.out.println("Please enter your customer id : ");
-		//int customerid = Integer.parseInt(userinput.nextLine());
-		//a1.setCustomerid(CustomerId);
-//		
-//		System.out.println("Please enter what kind of account you want to open ?");
-//		String type = userinput.nextLine();
-//		a1.setAccounttype(type);
-//		
-//		System.out.println("Date of which you opened account : ");
-//		String opendate = userinput.nextLine();
-//		a1.setOpendate(opendate);
-//		
-//		System.out.println("Date of which you viewed account : ");
-//		String viewaccountdate = userinput.nextLine();
-//		a1.setAccounttodate(viewaccountdate);;
-//		
-//		try {
-//			if (accountdao.createAccount(a1)!=0) {
-//				System.out.println("You have created your account successfully! ");
-//			}
-//		}catch(BusinessException e){
-//			System.out.println(e.getMessage());
-//		}
-//		
-// ------------------------------------------
-		
+}		

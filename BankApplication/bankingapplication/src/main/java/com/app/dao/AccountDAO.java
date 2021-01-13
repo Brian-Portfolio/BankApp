@@ -7,14 +7,10 @@ import com.app.model.Account;
 
 public interface AccountDAO {
 	
-	//public Account getAccount
-//	public int createAccount(Account account) throws BusinessException;
-//	public int createaccountReference(int accountid);
-//	
-	
+	//public Account getAccount	
 	public Account createAccountType(String accounttype) throws BusinessException;
-	public Account getDateOfCreatedAccount(String opendate) throws BusinessException;
-	public int getViewAccountBalance(int accountid) throws BusinessException;
-	public List<Account> getAccountBalanceByAccountId(int accountid);
+	public int getDateOfCreatedAccount(String opendate) throws BusinessException;
+	public Account getViewAccountBalance(int accid) throws BusinessException;
+	public List<Account> getAccountBalanceByAccountId(int accid);
 	
 }

@@ -2,10 +2,10 @@ package com.app.model;
 
 public class Account {
 
-	private int accountid;
+	private int accid;
 	private int accountbalance;
 	private int accountinterests;
-	private int customerid;
+	private int nameid;
 	private String accounttype;
 	private String opendate;
 	private String accounttodate;
@@ -14,26 +14,26 @@ public class Account {
 		
 	}
 
-	public Account(int accountid, int accountbalance, int accountinterests, int customerid, String accounttype,
+	public Account(int accid, int accountbalance, int accountinterests, int nameid, String accounttype,
 			String opendate, String accounttodate) {
 		super();
-		this.accountid = accountid;
+		this.accid = accid;
 		this.accountbalance = accountbalance;
 		this.accountinterests = accountinterests;
-		this.customerid = customerid;
+		this.nameid = nameid;
 		this.accounttype = accounttype;
 		this.opendate = opendate;
 		this.accounttodate = accounttodate;
 	}
 
 	public int getAccountid() {
-		return accountid;
+		return accid;
 	}
 
 
 
-	public void setAccountid(int accountid) {
-		this.accountid = accountid;
+	public void setAccid(int accid) {
+		this.accid = accid;
 	}
 
 
@@ -62,14 +62,14 @@ public class Account {
 
 
 
-	public int getCustomerid() {
-		return customerid;
+	public int getNameid() {
+		return nameid;
 	}
 
 
 
-	public void setCustomerid(int customerid) {
-		this.customerid = customerid;
+	public void setCustomerid(int nameid) {
+		this.nameid = nameid;
 	}
 
 
@@ -112,8 +112,8 @@ public class Account {
 
 	@Override
 	public String toString() {
-		return "Account [accountid=" + accountid + ", accountbalance=" + accountbalance + ", accountinterests="
-				+ accountinterests + ", customerid=" + customerid + ", accounttype=" + accounttype + ", opendate="
+		return "Account [accid=" + accid + ", accountbalance=" + accountbalance + ", accountinterests="
+				+ accountinterests + ", nameid=" + nameid + ", accounttype=" + accounttype + ", opendate="
 				+ opendate + ", accounttodate=" + accounttodate + "]";
 	}
 	

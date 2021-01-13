@@ -2,8 +2,7 @@ package com.app.model;
 
 public class Customer {
 
-	private int accountid;
-	private int id;
+	private int nameid;
 	private String firstname;
 	private String middlename;
 	private String lastname;
@@ -13,8 +12,6 @@ public class Customer {
 	private String state;
 	private int zipcode ;
 	private String emailaddress;
-	private int phonenumber;
-	private int ssn;
 	private String gender;
 	
 	
@@ -23,12 +20,10 @@ public class Customer {
 	}
 
 
-	public Customer(int accountid, int id, String firstname, String middlename, String lastname, String dateofbirth,
-			String customeraddress, String city, String state, int zipcode, String emailaddress, int phonenumber,
-			int ssn, String gender) {
+	public Customer(int nameid, String firstname, String middlename, String lastname, String dateofbirth,
+			String customeraddress, String city, String state, int zipcode, String emailaddress, String gender) {
 		super();
-		this.accountid = accountid;
-		this.id = id;
+		this.nameid = nameid;
 		this.firstname = firstname;
 		this.middlename = middlename;
 		this.lastname = lastname;
@@ -38,29 +33,18 @@ public class Customer {
 		this.state = state;
 		this.zipcode = zipcode;
 		this.emailaddress = emailaddress;
-		this.phonenumber = phonenumber;
-		this.ssn = ssn;
 		this.gender = gender;
 	}
 
 
-	public int getAccountid() {
-		return accountid;
+
+	public int getnameid() {
+		return nameid;
 	}
 
 
-	public void setAccountid(int accountid) {
-		this.accountid = accountid;
-	}
-
-
-	public int getId() {
-		return id;
-	}
-
-
-	public void setId(int customerid) {
-		this.id = customerid;
+	public void setNameid(int nameid) {
+		this.nameid = nameid;
 	}
 
 
@@ -153,27 +137,6 @@ public class Customer {
 		this.emailaddress = emailaddress;
 	}
 
-
-	public int getPhonenumber() {
-		return phonenumber;
-	}
-
-
-	public void setPhonenumber(int phonenumber) {
-		this.phonenumber = phonenumber;
-	}
-
-
-	public int getSsn() {
-		return ssn;
-	}
-
-
-	public void setSsn(int ssn) {
-		this.ssn = ssn;
-	}
-
-
 	public String getGender() {
 		return gender;
 	}
@@ -186,11 +149,10 @@ public class Customer {
 
 	@Override
 	public String toString() {
-		return "Customer [accountid=" + accountid + ", id=" + id + ", firstname=" + firstname
+		return "Customer [" + ", nameid=" + nameid + ", firstname=" + firstname
 				+ ", middlename=" + middlename + ", lastname=" + lastname + ", dateofbirth=" + dateofbirth
 				+ ", customeraddress=" + customeraddress + ", city=" + city + ", state=" + state + ", zipcode="
-				+ zipcode + ", emailaddress=" + emailaddress + ", phonenumber=" + phonenumber + ", ssn=" + ssn
-				+ ", gender=" + gender + "]";
+				+ zipcode + ", emailaddress=" + emailaddress + ", gender=" + gender + "]";
 	} 
 
 }
