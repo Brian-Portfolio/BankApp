@@ -117,4 +117,120 @@ public class CustomerServiceImpl implements CustomerService{
 		return customer1;
 	}
 
+
+//	@Override
+//	public int createCustomer(String firstname, String middlename, String lastname, String city, String state, String gender, String customeraddress, String dateofbirth) throws BusinessException {
+//		int z =0;
+//		
+//		if (firstname!=null && firstname.matches("[a-zA-Z]{1,10}")) {
+//			 customerDAO.getCustomerFirstName(firstname);
+//		}else {
+//			throw new BusinessException("Entered First Name is INVALID!!");
+//		}
+//		
+//		if (middlename.matches("[a-zA-Z]{1,10}")) {
+//			 customerDAO.getCustomerMiddleName(middlename);
+//		}else {
+//			throw new BusinessException("Entered Middle Name is INVALID!!");
+//		}
+//		
+//		if (lastname.matches("[a-zA-Z]{1,10}")) {
+//			 customerDAO.getCustomerLastName(lastname);
+//		}else {
+//			throw new BusinessException("Entered Last Name is INVALID!!");
+//		}
+//		
+//		
+//		if (dateofbirth != null && dateofbirth.matches("[0-9]{4}-[0-9]{2}-[0-9]{2}")) {
+//			 customerDAO.getCustomerDOB(dateofbirth);
+//		}else {
+//			throw new BusinessException("Entered Date of Birth is INVALID!!");
+//		}
+//		
+//		if (city != null && city.matches("[a-zA-Z]{1,10}")) {
+//			 customerDAO.getCustomerCity(city);
+//		}else {
+//			throw new BusinessException("Entered City is INVALID!!");
+//		}
+//		
+//		if (state != null && state.matches("[A-Z]{2}")) {
+//			  customerDAO.getCustomerState(state);
+//		}else {
+//			throw new BusinessException("Entered State Initials is INVALID!!");
+//		}
+//		
+//		if (gender != null && gender.matches("[a-zA-Z]{1}")) {
+//			  customerDAO.getCustomerGender(gender);
+//		}else {
+//			throw new BusinessException("Entered Gender is INVALID!!");
+//		}
+//		
+//		if (customeraddress != null && customeraddress.matches("[0-9]{1,3} [a-zA-Z]{1,10} [a-zA-Z]{1,10}")) {
+//			  customerDAO.getCustomerAddress(customeraddress);
+//		}else {
+//			throw new BusinessException("Entered Customer Address is INVALID!!");
+//		}
+//		
+//		return z;
+//	}
+
+
+	@Override
+	public int createCustomer(String firstname, String middlename, String lastname,  String city,
+			String state, String gender, String customeraddress, String dateofbirth) throws BusinessException {
+	int z =0 ;
+	if (firstname!=null && firstname.matches("[a-zA-Z]{1,10}")) {
+		 customerDAO.getCustomerFirstName(firstname);
+	}else {
+		throw new BusinessException("Entered First Name is INVALID!!");
+	}
+	
+	if (middlename.matches("[a-zA-Z]{1,10}")) {
+		 customerDAO.getCustomerMiddleName(middlename);
+	}else {
+		throw new BusinessException("Entered Middle Name is INVALID!!");
+	}
+	
+	if (lastname.matches("[a-zA-Z]{1,10}")) {
+		 customerDAO.getCustomerLastName(lastname);
+	}else {
+		throw new BusinessException("Entered Last Name is INVALID!!");
+	}
+	
+	
+	if (dateofbirth != null && dateofbirth.matches("[0-9]{4}-[0-9]{2}-[0-9]{2}")) {
+		 customerDAO.getCustomerDOB(dateofbirth);
+	}else {
+		throw new BusinessException("Entered Date of Birth is INVALID!!");
+	}
+	
+	if (city != null && city.matches("[a-zA-Z]{1,10}")) {
+		 customerDAO.getCustomerCity(city);
+	}else {
+		throw new BusinessException("Entered City is INVALID!!");
+	}
+	
+	if (state != null && state.matches("[A-Z]{2}")) {
+		  customerDAO.getCustomerState(state);
+	}else {
+		throw new BusinessException("Entered State Initials is INVALID!!");
+	}
+	
+	if (gender != null && gender.matches("[a-zA-Z]{1}")) {
+		  customerDAO.getCustomerGender(gender);
+	}else {
+		throw new BusinessException("Entered Gender is INVALID!!");
+	}
+	
+	if (customeraddress != null && customeraddress.matches("[0-9]{1,3} [a-zA-Z]{1,10} [a-zA-Z]{1,10}")) {
+		  customerDAO.getCustomerAddress(customeraddress);
+	}else {
+		throw new BusinessException("Entered Customer Address is INVALID!!");
+	}
+	
+	return z;
+		
+	}
+		
+
 }

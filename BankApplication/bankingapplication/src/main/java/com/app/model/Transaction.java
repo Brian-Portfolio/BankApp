@@ -2,12 +2,12 @@ package com.app.model;
 
 public class Transaction {
 
-	private int transactionid;
+	private int transactionid;//sequenced
 	private String transactiondate;
-	private int accountid;
+	private int accountid;//joined
 	private int transactionamount;
 	private String transactiontype;
-	private int customerid; 
+	private int customerid; //joined
 	private int totalbalance;
 	
 	public Transaction() {

@@ -1,5 +1,7 @@
 package com.app.main;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Scanner;
 
 import org.apache.log4j.Logger;
@@ -21,13 +23,20 @@ import com.app.model.Transaction;
 import com.app.service.AccountService;
 import com.app.service.CustomerLoginService;
 import com.app.service.CustomerService;
+import com.app.service.TransactionService;
 import com.app.services.impl.AccountServiceImpl;
 import com.app.services.impl.CustomerLoginServiceImpl;
 import com.app.services.impl.CustomerServiceImpl;
+import com.app.services.impl.TransactionServiceImpl;
 
 public class BankAppMain {
 
 	public static void main(String[] args) throws BusinessException {
+		
+		//Date Format
+		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+		Date date = new Date();
+		formatter.format(date);
 		
 		//Log object to display to Console
 		Logger log = Logger.getLogger(BankAppMain.class);
@@ -36,12 +45,13 @@ public class BankAppMain {
 		CustomerService customerservice = new CustomerServiceImpl();
 		AccountService accountservice = new AccountServiceImpl();
 		CustomerLoginService customerloginservice = new CustomerLoginServiceImpl();
+		TransactionService transactionservice = new TransactionServiceImpl();
 		
 		//DAO objects
 		CustomerDAO dao = new CustomerDAOImpl(); 
 		CustomerLoginDAO daologin = new CustomerLoginDAOImpl();  
 		AccountDAO accountdao = new AccountDAOImpl();
-		TransactionDAO transaction = new TransactionDAOImpl();
+		TransactionDAO transactiondao = new TransactionDAOImpl();
 		
 		//Referenced objects 
 		Customer c1 = new Customer();
@@ -90,6 +100,43 @@ public class BankAppMain {
 					switch(choose) {
 					case 1:
 						
+//						try{
+//						log.info("Please enter FirstName : ");
+//						String firstname = userinput.nextLine();
+//					
+//						
+//						log.info("Please enter MiddleName : ");
+//						String middlename = userinput.nextLine();
+//						
+//						log.info("Please enter LastName : ");
+//						String lastname = userinput.nextLine();
+//						
+//						log.info("Please enter City : ");
+//						String city = userinput.nextLine();
+//						
+//						log.info("Please enter State : ");
+//						String state = userinput.nextLine();
+//						
+//						
+//						log.info("Please enter Gender : ");
+//						String gender = userinput.nextLine();
+//						
+//						
+//						log.info("Please enter Customer Address : ");
+//						String address = userinput.nextLine();
+//						
+//						
+//						log.info("Please enter Date Of Birth : ");
+//						String dob = userinput.nextLine();
+//						
+//						
+//						customerservice.createCustomer(firstname, middlename, lastname, city, state, gender, address, dob);
+//					}catch(NumberFormatException e){
+//						log.info("Name cannot be special characters or symbols");	
+//					}catch(BusinessException e) {
+//						log.info(e.getMessage());
+//					}
+//						
 					    try {
 							log.info("Please enter FirstName : ");
 							String firstname = userinput.nextLine();
@@ -166,7 +213,7 @@ public class BankAppMain {
 						String gender = userinput.nextLine();
 						Customer customer = customerservice.getCustomerGender(gender);
 						}catch(NumberFormatException e){
-							log.info("Name cannot be special characters or symbols, or nmeric values");
+							log.info("Name cannot be special characters or symbols, or numeric values");
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
@@ -175,10 +222,10 @@ public class BankAppMain {
 					case 2:	
 						log.info("Would you like to open a checking or savings account? ");
 						try {
-							String accounttype = userinput.nextLine();
+							String accounttype = userinput.nextLine().toLowerCase();
 							Account account = accountservice.createAccountType(accounttype);
 						}catch(BusinessException e){
-							log.info(e);
+							log.info(e.getMessage());
 						}
 						break;
 						
@@ -209,10 +256,29 @@ public class BankAppMain {
 						}
 						break;
 					case 5:
-						log.info("Please make a minimum deposit of at least $25 : ");
+						//transaction = deposit
+						//deposit = account balance of checking or saving account
+						
+						log.info("Please make a minimum deposit of at least $25 for your starting balance : ");
+						try {
+							log.info("\nDepositing... ");
+							int transactionamount = userinput.nextInt();
+							Transaction transaction = transactionservice.createTransactionAmount(transactionamount);
+						}catch(BusinessException e) {
+							log.info(e.getMessage());
+						}
+						
+						
+						
+						try {	
+							log.info("This is date and time of your transaction : " + formatter.format(date));
+							Transaction transaction = transactionservice.createTransactionDate(formatter.format(date));
+						}catch(BusinessException e) {
+							log.info(e.getMessage());
+						}
 						break;
 					case 6:
-						log.info("Awesome you have created your first new bank account!  Come back soon! Have a nice day!");
+						log.info("Thank you for submitting your application! Returning to Main Menu...");
 						break;
 					
 					default:

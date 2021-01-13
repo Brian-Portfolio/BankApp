@@ -3,7 +3,7 @@ package com.app.model;
 public class Customer {
 
 	private int accountid;
-	private int customerid;
+	private int id;
 	private String firstname;
 	private String middlename;
 	private String lastname;
@@ -23,12 +23,12 @@ public class Customer {
 	}
 
 
-	public Customer(int accountid, int customerid, String firstname, String middlename, String lastname, String dateofbirth,
+	public Customer(int accountid, int id, String firstname, String middlename, String lastname, String dateofbirth,
 			String customeraddress, String city, String state, int zipcode, String emailaddress, int phonenumber,
 			int ssn, String gender) {
 		super();
 		this.accountid = accountid;
-		this.customerid = customerid;
+		this.id = id;
 		this.firstname = firstname;
 		this.middlename = middlename;
 		this.lastname = lastname;
@@ -54,13 +54,13 @@ public class Customer {
 	}
 
 
-	public int getCustomerid() {
-		return customerid;
+	public int getId() {
+		return id;
 	}
 
 
-	public void setCustomerid(int customerid) {
-		this.customerid = customerid;
+	public void setId(int customerid) {
+		this.id = customerid;
 	}
 
 
@@ -186,7 +186,7 @@ public class Customer {
 
 	@Override
 	public String toString() {
-		return "Customer [accountid=" + accountid + ", customerid=" + customerid + ", firstname=" + firstname
+		return "Customer [accountid=" + accountid + ", id=" + id + ", firstname=" + firstname
 				+ ", middlename=" + middlename + ", lastname=" + lastname + ", dateofbirth=" + dateofbirth
 				+ ", customeraddress=" + customeraddress + ", city=" + city + ", state=" + state + ", zipcode="
 				+ zipcode + ", emailaddress=" + emailaddress + ", phonenumber=" + phonenumber + ", ssn=" + ssn

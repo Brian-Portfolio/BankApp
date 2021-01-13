@@ -6,6 +6,7 @@ import com.app.model.Customer;
 
 public interface CustomerService {
 
+	public int createCustomer(String firstname, String middlename, String lastname, String city, String state, String gender, String customeraddress, String dateofbirth) throws BusinessException;
 	public Customer getCustomerFirstName(String firstname) throws BusinessException;
 	public Customer getCustomerMiddleName(String middlename) throws BusinessException;
 	public Customer getCustomerLastName(String lastname) throws BusinessException;

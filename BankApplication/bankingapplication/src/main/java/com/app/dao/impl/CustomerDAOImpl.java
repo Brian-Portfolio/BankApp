@@ -21,7 +21,6 @@ public class CustomerDAOImpl implements CustomerDAO{
 //			String sql = "insert into bankingapplication.customer( customerid, firstname, middlename, lastname, dateofbirth, customeraddress, city, state, zipcode, emailaddress, phonenumber, ssn, gender) values (?,?,?,?,?::date,?,?,?,?,?,?,?,?)";
 //			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 //
-//			//preparedStatement.setInt(1, customer.getAccountid());
 //			preparedStatement.setInt(1, customer.getCustomerid());
 //			preparedStatement.setString(2, customer.getFirstname());
 //			preparedStatement.setString(3, customer.getMiddlename());
@@ -235,11 +234,37 @@ public class CustomerDAOImpl implements CustomerDAO{
 		return customer;
 	}
 
+
 	@Override
-	public int createCustomer(Customer customer) throws BusinessException {
-		// TODO Auto-generated method stub
-		return 0;
+	public int createCustomer(String firstname, String middlename, String lastname, String city,
+			String state, String gender, String customeraddress, String dateofbirth)
+			throws BusinessException {
+		int z=0;
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "insert into bankingapplication.customer( firstname, middlename, lastname, dateofbirth, customeraddress, city, state, zipcode, gender) values (?,?,?,?::date,?,?,?,?,?)";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+
+			preparedStatement.setString(1, firstname);
+			preparedStatement.setString(2, middlename);
+			preparedStatement.setString(3, lastname);
+			preparedStatement.setString(4, dateofbirth);
+			preparedStatement.setString(5, customeraddress);
+			preparedStatement.setString(6, city);
+			preparedStatement.setString(7, state);
+			preparedStatement.setString(8, gender);
+			
+			z = preparedStatement.executeUpdate();
+			
+			
+		}catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);
+			throw new BusinessException("Internal error occurred contact SYSADMIN");
+		}
+			
+		
+		return z;
 	}
+
 
 //	@Override
 //	public Customer getCustomerId(int customerid) throws BusinessException {
