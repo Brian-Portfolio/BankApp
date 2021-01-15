@@ -2,7 +2,9 @@ package com.app.main;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Random;
 import java.util.Scanner;
+import java.util.regex.PatternSyntaxException;
 
 import org.apache.log4j.Logger;
 
@@ -63,10 +65,27 @@ public class BankAppMain {
 		//Scanner input
 		Scanner userinput = new Scanner(System.in);
 		
+		//switch case options
 		int choose = 0;
 		int choose1 = 0;
 		int choose2 = 0;
 		int option = 0;
+		
+		//Counters for customer,customerlogin
+		int counter = 0;
+		int counter1 = 0;
+		
+		//account generated IDs
+		Random rand = new Random();
+		int randnum = rand.nextInt(10000);
+		
+		//transaction generated IDs
+		Random transactionrandnum = new Random();
+		int randtrans = transactionrandnum.nextInt(1000);
+		String num = "0000"+randtrans;
+		int num1 = Integer.parseInt(num);
+		
+		
 		log.info("Welcome and thank you for choosing the Revature Banking Application");
 		log.info("--------------------------------------------------------------------");
 		
@@ -95,15 +114,32 @@ public class BankAppMain {
 					try {
 						choose=Integer.parseInt(userinput.nextLine());
 					}catch(NumberFormatException e){
-						
+						log.info(e.getMessage());
 					}
+					
+					counter = 1;
+					counter1 = 1;
+					
 					switch(choose) {
 					case 1:
-									
+						
+						//counter = counter + 1;
+						
+						try {
+							customerservice.getCustomerID(counter);
+							accountservice.getAccountID(randnum, counter);
+							customerloginservice.CustomerloginID(counter1, randnum);
+							transactionservice.getTransactionID(num1, randnum);
+						}catch(BusinessException e) {
+							log.info(e.getMessage());
+						}
+					    
+						
+						
 					    try {
 							log.info("\nPlease enter FirstName : ");
 							String firstname = userinput.nextLine();
-							Customer customer = customerservice.getCustomerFirstName(firstname);
+							 customerservice.getCustomerFirstName(firstname, counter);
 						}catch(NumberFormatException e){
 							log.info("Name cannot be special characters or symbols");	
 						}catch(BusinessException e) {
@@ -114,7 +150,7 @@ public class BankAppMain {
 						try {
 							log.info("Please enter MiddleName : ");
 						String middlename = userinput.nextLine();
-						Customer customer = customerservice.getCustomerMiddleName(middlename);
+						customerservice.getCustomerMiddleName(middlename, counter);
 						}catch(NumberFormatException e){
 							log.info("Name cannot be special characters or symbols");
 						}catch(BusinessException e) {
@@ -124,15 +160,15 @@ public class BankAppMain {
 						try {
 							log.info("Please enter LastName : ");
 						String lastname = userinput.nextLine();
-						Customer customer = customerservice.getCustomerLastName(lastname);
+						customerservice.getCustomerLastName(lastname, counter);
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
 						
 						try {
-							log.info("Please enter Date Of Birth : ");
+							log.info("Please enter Date Of Birth [YYYY-MM-DD] : ");
 						String dob = userinput.nextLine();
-						Customer customer = customerservice.getCustomerDOB(dob);
+						customerservice.getCustomerDOB(dob, counter);
 						}catch(NumberFormatException e){
 							log.info("Name cannot be special characters or symbols");
 						}catch(BusinessException e) {
@@ -143,7 +179,7 @@ public class BankAppMain {
 						try {
 							log.info("Please enter Customer Address : ");
 						String address = userinput.nextLine();
-						Customer customer = customerservice.getCustomerAddress(address);
+						customerservice.getCustomerAddress(address, counter);
 						}catch(NumberFormatException e){
 							log.info("Name cannot be special characters or symbols, or numeric values");
 						}catch(BusinessException e) {
@@ -154,7 +190,7 @@ public class BankAppMain {
 						try {
 							log.info("Please enter City : ");
 						String city = userinput.nextLine();
-						Customer customer4 = customerservice.getCustomerCity(city);
+						 customerservice.getCustomerCity(city, counter);
 						}catch(NumberFormatException e){
 							log.info("Name cannot be special characters or symbols, or numeric values");
 						}catch(BusinessException e) {
@@ -162,9 +198,9 @@ public class BankAppMain {
 						}
 						
 						try {
-							log.info("Please enter State : ");
+							log.info("Please enter State Initials: ");
 						String state = userinput.nextLine();
-						Customer customer = customerservice.getCustomerState(state);
+						customerservice.getCustomerState(state, counter);
 						}catch(NumberFormatException e){
 							log.info("Name cannot be special characters or symbols, or numeric values");
 						}catch(BusinessException e) {
@@ -174,7 +210,7 @@ public class BankAppMain {
 						try {
 							log.info("Please enter Gender : ");
 						String gender = userinput.nextLine();
-						Customer customer = customerservice.getCustomerGender(gender);
+						customerservice.getCustomerGender(gender, counter);
 						}catch(NumberFormatException e){
 							log.info("Name cannot be special characters or symbols, or numeric values");
 						}catch(BusinessException e) {
@@ -184,33 +220,48 @@ public class BankAppMain {
 						
 						break;
 					
-					case 2:	
+					case 2:							
 						
-						log.info("Would you like to open a checking or savings account? ");
+						int startbalance = Integer.parseInt("0");
+						log.info("Would you like to open a checking or saving account? ");
 						try {
 							String accounttype = userinput.nextLine();
-							if (accounttype == "checking" || accounttype == "saving") {
-								Account account = accountservice.createAccountType(accounttype);
-							}
+							accountservice.createAccountType(accounttype, counter );
 						}catch(BusinessException e){
 							log.info(e.getMessage());
 						}
+						
+						try {
+							accountservice.setAccountBalance(startbalance, counter);
+						}catch(BusinessException e){
+							log.info(e.getMessage());
+						}
+						
+						try {
+							accountservice.getDateOfCreatedAccount(formatter.format(date), counter);
+						}catch(BusinessException e){
+							log.info(e.getMessage());
+						}
+						
 						break;
 						
 					case 3:
 						log.info("Please enter your email address: ");
 						try {
 							String email = userinput.nextLine();
-							Customer customer1 = customerservice.getCustomerEmailAddress(email);
+							customerservice.getCustomerEmailAddress(email, counter);
+						}catch(PatternSyntaxException e) {
+							log.info(e.getMessage());
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
 						break;
+						
 					case 4:
 						log.info("Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : ");
 						try {
 							String username = userinput.nextLine();
-							CustomerLogin customerlogin = customerloginservice.CreateUsername(username);
+							customerloginservice.CreateUsername(username, counter1);
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
@@ -218,33 +269,38 @@ public class BankAppMain {
 						log.info("Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : ");
 						try {
 							String password = userinput.nextLine();
-							CustomerLogin customerlogin = customerloginservice.CreatePassword(password);
+							customerloginservice.CreatePassword(password, counter1);
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
 						break;
 					case 5:
-						//transaction = deposit
-						//deposit = account balance of checking or saving account
-						
-						log.info("Please make a minimum deposit of at least $25 for your starting balance : ");
 						try {
-							log.info("\nDepositing... ");
-							int transactionamount = userinput.nextInt();
-							Transaction transaction = transactionservice.createTransactionAmount(transactionamount);
+							log.info("Please make a minimum deposit of at least $50 for your starting balance : ");
+							int transactionamount = Integer.parseInt(userinput.nextLine());
+							transactionservice.createTransactionAmount(transactionamount, num1);
+						}catch(BusinessException e) {
+							log.info(e.getMessage());
+						}
+						
+						try {
+						String deposit = "deposit";
+						transactionservice.createTransactionType(deposit, num1);
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
 						
 						try {	
-							log.info("This is date and time of your transaction : " + formatter.format(date));
-							Transaction transaction = transactionservice.createTransactionDate(formatter.format(date));
+							transactionservice.createTransactionDate(formatter.format(date), num1);
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
+						
+						//update the account balance
+						
 						break;
 					case 6:
-						log.info("Thank you for submitting your application! Returning to Main Menu...");
+						log.info("Thank you for submitting your opening an account with us! Returning to Main Menu...\n");
 						break;
 					
 					default:
@@ -260,8 +316,6 @@ public class BankAppMain {
 				log.info("Please enter your username : ");
 				log.info("Please enter your password : ");
 				
-//				//check for correct username and password 
-//				//successfully logged in
 				do {
 					log.info("MENU");
 					log.info("-------");

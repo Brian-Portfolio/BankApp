@@ -4,7 +4,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.List;
-import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 
@@ -17,8 +16,6 @@ import com.app.model.Customer;
 public class CustomerDAOImpl implements CustomerDAO{
 
 	Logger log = Logger.getLogger(BankAppMain.class);
-
-	
 	
 //	@Override
 //	public int createCustomer(Customer customer) throws BusinessException {
@@ -67,13 +64,14 @@ public class CustomerDAOImpl implements CustomerDAO{
 
 
 	@Override
-	public Customer getCustomerFirstName(String firstname) throws BusinessException {
+	public Customer getCustomerFirstName(String firstname, int id) throws BusinessException {
 		Customer customer = null;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "insert into bankingapplication.customer(firstname) values (?)";
+			String sql = "update bankingapplication.customer set firstname = ? where  id = ?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setString(1, firstname);
+			preparedStatement.setInt(2, id);
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
@@ -85,14 +83,14 @@ public class CustomerDAOImpl implements CustomerDAO{
 
 
 	@Override
-	public Customer getCustomerMiddleName(String middlename) throws BusinessException {
+	public Customer getCustomerMiddleName(String middlename, int id) throws BusinessException {
 		Customer customer = null;
-		int c = 0;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "insert into bankingapplication.customer(middlename) values (?)";
+			String sql = "update bankingapplication.customer set middlename = ? where  id = ?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setString(1, middlename);
+			preparedStatement.setInt(2, id);
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
@@ -105,14 +103,14 @@ public class CustomerDAOImpl implements CustomerDAO{
 
 
 	@Override
-	public Customer getCustomerLastName(String lastname) throws BusinessException {
+	public Customer getCustomerLastName(String lastname, int id) throws BusinessException {
 		Customer customer = null;
-		int c = 0;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "insert into bankingapplication.customer(lastname) values (?)";
+			String sql = "update bankingapplication.customer set lastname = ? where  id = ?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setString(1, lastname);
+			preparedStatement.setInt(2, id);
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
@@ -125,14 +123,14 @@ public class CustomerDAOImpl implements CustomerDAO{
 
 
 	@Override
-	public Customer getCustomerEmailAddress(String emailaddress) throws BusinessException {
+	public Customer getCustomerEmailAddress(String emailaddress, int id) throws BusinessException {
 		Customer customer = null;
-		int c = 0;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "update into bankingapplication.customer(emailaddress) values (?) where customerid = ?";
+			String sql = "update bankingapplication.customer set emailaddress = ? where id = ?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setString(1, emailaddress);
+			preparedStatement.setInt(2, id);
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
@@ -145,14 +143,14 @@ public class CustomerDAOImpl implements CustomerDAO{
 
 
 	@Override
-	public Customer getCustomerCity(String city) throws BusinessException {
+	public Customer getCustomerCity(String city, int id) throws BusinessException {
 		Customer customer = null;
-		int c = 0;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "insert into bankingapplication.customer(city) values (?)";
+			String sql = "update bankingapplication.customer set city = ? where id = ?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setString(1, city);
+			preparedStatement.setInt(2, id);
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
@@ -164,14 +162,14 @@ public class CustomerDAOImpl implements CustomerDAO{
 	}
 
 	@Override
-	public Customer getCustomerState(String state) throws BusinessException {
+	public Customer getCustomerState(String state, int id) throws BusinessException {
 		Customer customer = null;
-		int c = 0;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "insert into bankingapplication.customer(state) values (?)";
+			String sql = "update bankingapplication.customer set state = ? where id = ?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setString(1, state);
+			preparedStatement.setInt(2, id);
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
@@ -183,14 +181,14 @@ public class CustomerDAOImpl implements CustomerDAO{
 	}
 
 	@Override
-	public Customer getCustomerGender(String gender) throws BusinessException {
+	public Customer getCustomerGender(String gender, int id) throws BusinessException {
 		Customer customer = null;
-		int c = 0;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "insert into bankingapplication.customer(gender) values (?)";
+			String sql = "update bankingapplication.customer set gender = ? where id = ?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setString(1, gender);
+			preparedStatement.setInt(2, id);
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
@@ -204,14 +202,14 @@ public class CustomerDAOImpl implements CustomerDAO{
 
 
 	@Override
-	public Customer getCustomerAddress(String customeraddress) throws BusinessException {
+	public Customer getCustomerAddress(String customeraddress, int id) throws BusinessException {
 		Customer customer = null;
-		int c = 0;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "insert into bankingapplication.customer(customeraddress) values (?)";
+			String sql = "update bankingapplication.customer set customeraddress = ? where id = ?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setString(1, customeraddress);
+			preparedStatement.setInt(2, id);
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
@@ -224,14 +222,14 @@ public class CustomerDAOImpl implements CustomerDAO{
 	
 	
 	@Override
-	public Customer getCustomerDOB(String dateofbirth) throws BusinessException {
+	public Customer getCustomerDOB(String dateofbirth, int id) throws BusinessException {
 		Customer customer = null;
-		int c = 0;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "insert into bankingapplication.customer(dateofbirth) values (?::date)";
+			String sql = "update bankingapplication.customer set dateofbirth = ?::date where id = ?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setString(1, dateofbirth);
+			preparedStatement.setInt(2, id);
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
@@ -243,22 +241,23 @@ public class CustomerDAOImpl implements CustomerDAO{
 
 
 	@Override
-	public int createCustomer(String firstname, String middlename, String lastname, String city,
+	public int createCustomer(int id,String firstname, String middlename, String lastname, String city,
 			String state, String gender, String customeraddress, String dateofbirth)
 			throws BusinessException {
 		int z=0;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "insert into bankingapplication.customer( firstname, middlename, lastname, dateofbirth, customeraddress, city, state, zipcode, gender) values (?,?,?,?::date,?,?,?,?,?)";
+			String sql = "insert into bankingapplication.customer( id,firstname, middlename, lastname, dateofbirth, customeraddress, city, state, zipcode, gender) values (?,?,?,?,?::date,?,?,?,?,?)";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
-
-			preparedStatement.setString(1, firstname);
-			preparedStatement.setString(2, middlename);
-			preparedStatement.setString(3, lastname);
-			preparedStatement.setString(4, dateofbirth);
-			preparedStatement.setString(5, customeraddress);
-			preparedStatement.setString(6, city);
-			preparedStatement.setString(7, state);
-			preparedStatement.setString(8, gender);
+			
+			preparedStatement.setInt(1, id);
+			preparedStatement.setString(2, firstname);
+			preparedStatement.setString(3, middlename);
+			preparedStatement.setString(4, lastname);
+			preparedStatement.setString(5, dateofbirth);
+			preparedStatement.setString(6, customeraddress);
+			preparedStatement.setString(7, city);
+			preparedStatement.setString(8, state);
+			preparedStatement.setString(9, gender);
 			
 			z = preparedStatement.executeUpdate();
 			
@@ -270,25 +269,25 @@ public class CustomerDAOImpl implements CustomerDAO{
 		return z;
 	}
 
+	@Override
+	public Customer getCustomerID(int id) throws BusinessException {
+		
+		Customer customer = null;
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "insert into bankingapplication.customer(id) values (?)";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			
+			preparedStatement.setInt(1, id);
+			preparedStatement.executeUpdate();
+		
+		} catch (ClassNotFoundException | SQLException e) {
+			log.info(e);
+			throw new BusinessException("Internal error occurred contact SYSADMIN");
+		}	
+		return customer;
+	}
+
 	
 }
 
-
-//	@Override
-//	public Customer getCustomerId(int customerid) throws BusinessException {
-//		Customer customer = null;
-//		int c = 0;
-//		try(Connection connection = PostgresqlConnection.getConnection()){
-//			String sql = "create sequence my_serial as integer start 1 owned by bankingapplication.customer(customerid);"
-//					+ "alter table customer alter column customerid set default nextval('my_serial')";
-//			PreparedStatement preparedStatement=connection.prepareStatement(sql);
-//			preparedStatement.execute();
-//		
-//		} catch (ClassNotFoundException | SQLException e) {
-//			System.out.println(e);
-//			throw new BusinessException("Internal error occurred contact SYSADMIN");
-//		}
-//			
-//		return customer;
-//}
 

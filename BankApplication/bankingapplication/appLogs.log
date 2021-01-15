@@ -3712,3 +3712,2472 @@ Opening New Account Instructions
 4. Create Username And Password Login
 5. Deposit Starting Balance
 6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Entered First Name is INVALID!!
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State : 
+Please enter Gender : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or savings account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please enter your email address: 
+org.postgresql.util.PSQLException: No value specified for parameter 2.
+Internal error occurred contact SYSADMIN
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered type of account is INVALID!!
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered type of account is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please make a minimum deposit of at least $25 for your starting balance : 
+
+Depositing... 
+org.postgresql.util.PSQLException: ERROR: null value in column "transactiondate" violates not-null constraint
+  Detail: Failing row contains (null, 100, null, null, 1, 1).
+This is date and time of your transaction : 2021-01-13 11:19:27
+org.postgresql.util.PSQLException: ERROR: column "transactiondate" is of type date but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 69
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please make a minimum deposit of at least $25 for your starting balance : 
+
+Depositing... 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State : 
+Please enter Gender : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Thank you for submitting your application! Returning to Main Menu...
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Please enter your username : 
+Please enter your password : 
+MENU
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Entered First Name is INVALID!!
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State : 
+Please enter Gender : 
+Entered Gender is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Thank you for submitting your application! Returning to Main Menu...
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Invalid menu option, please try again!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Thank you for submitting your application! Returning to Main Menu...
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State : 
+Please enter Gender : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian, null, null, null, null, null, null, null, null, null, null).
+Internal error occurred contact SYSADMIN
+Please enter MiddleName : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (null, Anthony, null, null, null, null, null, null, null, null, null).
+Internal error occurred contact SYSADMIN
+Please enter LastName : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (null, null, Aguilar, null, null, null, null, null, null, null, null).
+Internal error occurred contact SYSADMIN
+Please enter Date Of Birth : 
+Entered Date of Birth is INVALID!!
+Please enter Customer Address : 
+Entered Customer Address is INVALID!!
+Please enter City : 
+Entered City is INVALID!!
+Please enter State : 
+Entered State Initials is INVALID!!
+Please enter Gender : 
+Entered Gender is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian, null, null, null, null, null, null, null, null, null, null).
+Internal error occurred contact SYSADMIN
+Please enter MiddleName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian, null, null, null, null, null, null, null, null, null, null).
+Internal error occurred contact SYSADMIN
+Please enter MiddleName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (null, Anthony, null, null, null, null, null, null, null, null, null).
+Internal error occurred contact SYSADMIN
+Please enter LastName : 
+Entered Last Name is INVALID!!
+Please enter Date Of Birth : 
+Entered Date of Birth is INVALID!!
+Please enter Customer Address : 
+Entered Customer Address is INVALID!!
+Please enter City : 
+Entered City is INVALID!!
+Please enter State : 
+Entered State Initials is INVALID!!
+Please enter Gender : 
+Entered Gender is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (null, n, null, null, null, null, null, null, null, null, null).
+Internal error occurred contact SYSADMIN
+Please enter LastName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth : 
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "("
+  Position: 35
+Internal error occurred contact SYSADMIN
+Please enter Customer Address : 
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "("
+  Position: 35
+Internal error occurred contact SYSADMIN
+Please enter City : 
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "into"
+  Position: 8
+Internal error occurred contact SYSADMIN
+Please enter State : 
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "("
+  Position: 35
+Internal error occurred contact SYSADMIN
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "("
+  Position: 35
+Internal error occurred contact SYSADMIN
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "customer_pk"
+  Detail: Key (id)=(1) already exists.
+Internal error occurred contact SYSADMIN
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State : 
+Please enter Gender : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Entered Middle Name is INVALID!!
+Please enter LastName : 
+Please enter Date Of Birth : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State : 
+Please enter Gender : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Thank you for submitting your application! Returning to Main Menu...
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "customer_pk"
+  Detail: Key (id)=(1) already exists.
+Internal error occurred contact SYSADMIN
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State : 
+Please enter Gender : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+org.postgresql.util.PSQLException: ERROR: null value in column "account_id" violates not-null constraint
+  Detail: Failing row contains (null, null, null, null, null, 1, null).
+Internal error occurred contact SYSADMIN
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "customer_pk"
+  Detail: Key (id)=(1) already exists.
+Internal error occurred contact SYSADMIN
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+org.postgresql.util.PSQLException: ERROR: null value in column "account_id" violates not-null constraint
+  Detail: Failing row contains (null, null, null, null, null, 1, null).
+Internal error occurred contact SYSADMIN
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State : 
+Please enter Gender : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+org.postgresql.util.PSQLException: ERROR: null value in column "account_id" violates not-null constraint
+  Detail: Failing row contains (null, null, null, null, null, 1, null).
+Internal error occurred contact SYSADMIN
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+org.postgresql.util.PSQLException: ERROR: null value in column "account_id" violates not-null constraint
+  Detail: Failing row contains (null, null, null, null, null, 1, null).
+Internal error occurred contact SYSADMIN
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Entered First Name is INVALID!!
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State : 
+Please enter Gender : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Entered First Name is INVALID!!
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State : 
+Please enter Gender : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please enter your email address: 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered type of account is INVALID!!
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered type of account is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered type of account is INVALID!!
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered type of account is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+org.postgresql.util.PSQLException: ERROR: null value in column "username" violates not-null constraint
+  Detail: Failing row contains (null, null, 1).
+Internal error occurred contact SYSADMIN
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth : 
+Please enter Customer Address : 
+Entered Customer Address is INVALID!!
+Please enter City : 
+Please enter State : 
+Please enter Gender : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please enter your email address: 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered type of account is INVALID!!
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered type of account is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+Entered type of account is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+Entered type of account is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+Entered type of account is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+Entered type of account is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+Entered type of account is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+Entered type of account is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered type of account is INVALID!!
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered type of account is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered type of account is INVALID!!
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered type of account is INVALID!!
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered type of account is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered type of account is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered type of account is INVALID!!
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered type of account is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered type of account is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "customer_pk"
+  Detail: Key (id)=(1) already exists.
+Internal error occurred contact SYSADMIN
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+org.postgresql.util.PSQLException: ERROR: insert or update on table "customerlogin" violates foreign key constraint "customerlogin_fk"
+  Detail: Key (account_id)=(2868) is not present in table "customer".
+Internal error occurred contact SYSADMIN
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Entered First Name is INVALID!!
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State : 
+Entered State Initials is INVALID!!
+Please enter Gender : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please enter your email address: 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please make a minimum deposit of at least $50 for your starting balance : 
+
+Depositing... 
+This is date and time of your transaction : 2021-01-14 11:14:13
+org.postgresql.util.PSQLException: ERROR: column "transactiondate" is of type date but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 61
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+For input string: ""
+Please make a minimum deposit of at least $50 for your starting balance : 
+
+Depositing... 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please make a minimum deposit of at least $50 for your starting balance : 
+
+Depositing... 
+This is date and time of your transaction : 2021-01-14 11:18:50
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+For input string: ""
+Please make a minimum deposit of at least $50 for your starting balance : 
+
+Depositing... 
+This is date and time of your transaction : 2021-01-14 11:18:50
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+For input string: ""
+Please make a minimum deposit of at least $50 for your starting balance : 
+
+Depositing... 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please make a minimum deposit of at least $50 for your starting balance : 
+This is date and time of your transaction : 2021-01-14 11:20:55
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+For input string: ""
+Please make a minimum deposit of at least $50 for your starting balance : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please make a minimum deposit of at least $50 for your starting balance : 
+This is date and time of your transaction : 2021-01-14 11:22:10
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+For input string: ""
+Please make a minimum deposit of at least $50 for your starting balance : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please make a minimum deposit of at least $50 for your starting balance : 
+This is date and time of your transaction : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+For input string: ""
+Please make a minimum deposit of at least $50 for your starting balance : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please make a minimum deposit of at least $50 for your starting balance : 
+This is date and time of your transaction : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+For input string: ""
+Please make a minimum deposit of at least $50 for your starting balance : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please make a minimum deposit of at least $50 for your starting balance : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+For input string: ""
+Please make a minimum deposit of at least $50 for your starting balance : 
+Entered transaction is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+For input string: ""
+Please make a minimum deposit of at least $50 for your starting balance : 
+Entered transaction is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+For input string: ""
+Please make a minimum deposit of at least $50 for your starting balance : 
+Entered transaction is INVALID!!
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+For input string: ""
+Please make a minimum deposit of at least $50 for your starting balance : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please make a minimum deposit of at least $50 for your starting balance : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+For input string: ""
+Please make a minimum deposit of at least $50 for your starting balance : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please make a minimum deposit of at least $50 for your starting balance : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+For input string: ""
+Please make a minimum deposit of at least $50 for your starting balance : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please make a minimum deposit of at least $50 for your starting balance : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please make a minimum deposit of at least $50 for your starting balance : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State : 
+Please enter Gender : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please enter your email address: 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please make a minimum deposit of at least $50 for your starting balance : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please make a minimum deposit of at least $50 for your starting balance : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please make a minimum deposit of at least $50 for your starting balance : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State : 
+Please enter Gender : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please enter your email address: 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please make a minimum deposit of at least $50 for your starting balance : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "account_pk"
+  Detail: Key (account_id)=(0) already exists.
+Internal error occurred contact SYSADMIN
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "account_pk"
+  Detail: Key (account_id)=(0) already exists.
+Internal error occurred contact SYSADMIN
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State : 
+Please enter Gender : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Would you like to open a checking or saving account? 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please enter your email address: 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Please make a minimum deposit of at least $50 for your starting balance : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Thank you for submitting your opening an account with us! Returning to Main Menu...
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Opening New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Thank you for submitting your opening an account with us! Returning to Main Menu...
+
+1. New Customer? Want To Open An Account
+2. Returning Customer? 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!

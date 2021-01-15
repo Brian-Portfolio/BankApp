@@ -2,7 +2,7 @@ package com.app.model;
 
 public class Customer {
 
-	private int nameid;
+	private int id;
 	private String firstname;
 	private String middlename;
 	private String lastname;
@@ -20,10 +20,10 @@ public class Customer {
 	}
 
 
-	public Customer(int nameid, String firstname, String middlename, String lastname, String dateofbirth,
+	public Customer(int id, String firstname, String middlename, String lastname, String dateofbirth,
 			String customeraddress, String city, String state, int zipcode, String emailaddress, String gender) {
 		super();
-		this.nameid = nameid;
+		this.id = id;
 		this.firstname = firstname;
 		this.middlename = middlename;
 		this.lastname = lastname;
@@ -38,13 +38,13 @@ public class Customer {
 
 
 
-	public int getnameid() {
-		return nameid;
+	public int getId() {
+		return id;
 	}
 
 
-	public void setNameid(int nameid) {
-		this.nameid = nameid;
+	public void setId(int id) {
+		this.id = id;
 	}
 
 
@@ -149,7 +149,7 @@ public class Customer {
 
 	@Override
 	public String toString() {
-		return "Customer [" + ", nameid=" + nameid + ", firstname=" + firstname
+		return "Customer [" + ", id=" + id + ", firstname=" + firstname
 				+ ", middlename=" + middlename + ", lastname=" + lastname + ", dateofbirth=" + dateofbirth
 				+ ", customeraddress=" + customeraddress + ", city=" + city + ", state=" + state + ", zipcode="
 				+ zipcode + ", emailaddress=" + emailaddress + ", gender=" + gender + "]";

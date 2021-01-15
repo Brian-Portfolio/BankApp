@@ -10,6 +10,7 @@ import com.app.dao.CustomerLoginDAO;
 import com.app.dao.dbutil.PostgresqlConnection;
 import com.app.exception.BusinessException;
 import com.app.main.BankAppMain;
+import com.app.model.Account;
 import com.app.model.CustomerLogin;
 
 public class CustomerLoginDAOImpl implements CustomerLoginDAO{
@@ -21,7 +22,7 @@ public class CustomerLoginDAOImpl implements CustomerLoginDAO{
 	public int createCustomerLogin(CustomerLogin customerlogin) {
 		int z = 0;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql ="insert into bankingapplication.customerlogin(username, password)  values  (?, ?)";
+			String sql ="insert into bankingapplication.customerlogin(username, password)  values  (?, ?) ";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setString(1, customerlogin.getUsername());
@@ -37,62 +38,14 @@ public class CustomerLoginDAOImpl implements CustomerLoginDAO{
 	}
 
 	@Override
-	public int accountReference(int accountid) {
-		int z = 0;
-		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "";
-			PreparedStatement preparedStatement =connection.prepareStatement(sql);
-			
-			
-			
-		}catch(ClassNotFoundException | SQLException e) {
-			log.info(e);
-		}
-		
-		return z;
-	}
-
-	
-//	@Override
-//	public CustomerLogin createUsername(String username) {
-//		CustomerLogin customerlogin = null;
-//		try(Connection connection = PostgresqlConnection.getConnection()){
-//			String sql ="insert into bankingapplication.customerlogin(username)  values  (?)";
-//			PreparedStatement preparedStatement=connection.prepareStatement(sql);
-//			
-//			preparedStatement.setString(2, username);
-//			preparedStatement.executeUpdate();
-//			
-//		} catch (ClassNotFoundException | SQLException e) {
-//			System.out.println(e);
-//		}
-//		return customerlogin;
-//	}
-//
-//	@Override
-//	public CustomerLogin createPassword(String password) {
-//		CustomerLogin customerlogin = null;
-//		try(Connection connection = PostgresqlConnection.getConnection()){
-//			String sql ="insert into bankingapplication.customerlogin(password)  values  (?)";
-//			PreparedStatement preparedStatement=connection.prepareStatement(sql);
-//			
-//			preparedStatement.setString(1, password);
-//			preparedStatement.executeUpdate();
-//			
-//		} catch (ClassNotFoundException | SQLException e) {
-//			System.out.println(e);
-//		}
-//		return null;
-//	}
-
-	@Override
-	public CustomerLogin CreateUsername(String username) {
+	public CustomerLogin CreateUsername(String username, int loginid) {
 		CustomerLogin customerlogin = null;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql ="insert into bankingapplication.customerlogin(username)  values  (?)";
+			String sql ="update bankingapplication.customerlogin set username = ? where  loginid = ?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
-			preparedStatement.setString(2, username);
+			preparedStatement.setString(1, username);
+			preparedStatement.setInt(2, loginid);
 			preparedStatement.executeUpdate();
 			
 		} catch (ClassNotFoundException | SQLException e) {
@@ -102,19 +55,38 @@ public class CustomerLoginDAOImpl implements CustomerLoginDAO{
 	}
 
 	@Override
-	public CustomerLogin CreatePassword(String password) {
+	public CustomerLogin CreatePassword(String password, int loginid) {
 		CustomerLogin customerlogin = null;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql ="insert into bankingapplication.customerlogin(password)  values  (?)";
+			String sql ="update bankingapplication.customerlogin set password = ? where  loginid = ?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setString(1, password);
+			preparedStatement.setInt(2, loginid);
 			preparedStatement.executeUpdate();
 			
 		} catch (ClassNotFoundException | SQLException e) {
 			log.info(e);
 		}
-		return null;
+		return customerlogin;
+	}
+
+	@Override
+	public CustomerLogin CustomerloginID(int loginid, int account_id) throws BusinessException {
+		CustomerLogin customerlogin = null;
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "insert into bankingapplication.customerlogin(loginid, account_id) values (?, ?)";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			
+			preparedStatement.setInt(1, loginid);
+			preparedStatement.setInt(2, account_id);
+			preparedStatement.executeUpdate();
+		
+		} catch (ClassNotFoundException | SQLException e) {
+			log.info(e);
+			throw new BusinessException("Internal error occurred contact SYSADMIN");
+		}	
+		return customerlogin;
 	}
 	
 	

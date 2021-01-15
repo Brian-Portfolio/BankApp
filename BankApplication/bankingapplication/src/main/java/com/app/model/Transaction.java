@@ -2,38 +2,36 @@ package com.app.model;
 
 public class Transaction {
 
-	private int tid;//sequenced
+	private int transaction_id;
 	private String transactiondate;
-	private int accid;//joined
+	private int account_id;
 	private int transactionamount;
 	private String transactiontype;
-	private int customerid; //joined
 	private int totalbalance;
 	
 	public Transaction() {
 		
 	}
 
-	public Transaction(int tid, String transactiondate, int accid, int transactionamount,
+	public Transaction(int transaction_id, String transactiondate, int account_id, int transactionamount,
 			String transactiontype, int customerid, int totalbalance) {
 		super();
-		this.tid = tid;
+		this.transaction_id = transaction_id;
 		this.transactiondate = transactiondate;
-		this.accid = accid;
+		this.account_id = account_id;
 		this.transactionamount = transactionamount;
 		this.transactiontype = transactiontype;
-		this.customerid = customerid;
 		this.totalbalance = totalbalance;
 	}
 
 
-	public int getTid() {
-		return tid;
+	public int getTransaction_id() {
+		return transaction_id;
 	}
 
 
-	public void setTid(int tid) {
-		this.tid = tid;
+	public void setTransaction_id(int transaction_id) {
+		this.transaction_id = transaction_id;
 	}
 
 
@@ -47,13 +45,13 @@ public class Transaction {
 	}
 
 
-	public int getAccid() {
-		return accid;
+	public int getAccount_Id() {
+		return account_id;
 	}
 
 
-	public void setAccid(int accid) {
-		this.accid = accid;
+	public void setAccount_Id(int account_id) {
+		this.account_id = account_id;
 	}
 
 
@@ -77,16 +75,6 @@ public class Transaction {
 	}
 
 
-	public int getCustomerid() {
-		return customerid;
-	}
-
-
-	public void setCustomerid(int customerid) {
-		this.customerid = customerid;
-	}
-
-
 	public int getTotalbalance() {
 		return totalbalance;
 	}
@@ -99,9 +87,9 @@ public class Transaction {
 
 	@Override
 	public String toString() {
-		return "Transaction [tid=" + tid + ", transactiondate=" + transactiondate + ", accid="
-				+ accid + ", transactionamount=" + transactionamount + ", transactiontype=" + transactiontype
-				+ ", customerid=" + customerid + ", totalbalance=" + totalbalance + "]";
+		return "Transaction [transaction_id=" + transaction_id + ", transactiondate=" + transactiondate + ", account_id="
+				+ account_id + ", transactionamount=" + transactionamount + ", transactiontype=" + transactiontype
+				+ ", "+ ", totalbalance=" + totalbalance + "]";
 	}
 	
 	
