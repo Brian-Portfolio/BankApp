@@ -57,4 +57,26 @@ public class TransactionServiceImpl implements TransactionService{
 		return transaction;
 	}
 
+	@Override
+	public Transaction createWithdraw(int account_id, int transactionamount, String transactiontype) throws BusinessException {
+		Transaction transaction = null;
+		if (account_id!=0 && transactionamount<=0 && transactiontype!=null) {
+			transaction = transactionDAO.createWithdraw(account_id, transactionamount, transactiontype);
+		}else {
+			throw new BusinessException("Account ID cannot be 0 or a negative number. Transaction amount cannot be a negative number.");
+		}
+		return null;
+	}
+
+	@Override
+	public Transaction createDeposit(int account_id, int transactionamount, String transactiontype) throws BusinessException {
+		Transaction transaction = null;
+		if (account_id!=0 && transactionamount<=0 && transactiontype!=null) {
+			transaction = transactionDAO.createDeposit(account_id, transactionamount, transactiontype);
+		}else {
+			throw new BusinessException("Account ID cannot be 0 or a negative number. Transaction amount cannot be a negative number.");
+		}
+		return transaction;
+	}
+
 }

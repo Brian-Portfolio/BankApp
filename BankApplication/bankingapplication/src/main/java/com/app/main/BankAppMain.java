@@ -322,7 +322,8 @@ public class BankAppMain {
 				
 			case 2:
 				int verify = 0;
-				log.info("Please enter your username and password for verification");
+				int accountverify = 0;
+				log.info("\nPlease enter your username and password for verification");
 				
 				log.info("\nusername : ");
 				String usernameinput = userinput.nextLine();
@@ -338,7 +339,11 @@ public class BankAppMain {
 					verify = 0;
 				}
 				
-				if (verify == 1) {
+				log.info("\nPlease enter your accountid for second authentication");
+				
+				
+				
+				if (verify == 1 && accountverify == 1) {
 				do {
 					log.info("MENU");
 					log.info("-------");
@@ -356,13 +361,24 @@ public class BankAppMain {
 					}
 					switch(choose1) {
 					case 1:
-						//address name and account id
 						log.info("Your current account balance is : ");
-						
+						try {
+							int accountbalance=Integer.parseInt(userinput.nextLine());
+							accountservice.getViewAccountBalance(accountbalance);
+						}catch(BusinessException e) {
+							log.info(e);
+						}
 						break;
 					case 2:
 						log.info("How much would you like to withdrawal : ");
-						
+						try {
+							int account_id =Integer.parseInt(userinput.nextLine());
+							int transactionamount = Integer.parseInt(userinput.nextLine());
+							String withdraw = "withdrawal";
+							transactionservice.createWithdraw(account_id, transactionamount, withdraw);
+						}catch(BusinessException e){
+							log.info(e);
+						}
 						break;
 					case 3:
 						log.info("How much would you like to deposit : ");

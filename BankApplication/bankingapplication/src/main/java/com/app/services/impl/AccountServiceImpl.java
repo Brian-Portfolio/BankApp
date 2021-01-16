@@ -69,7 +69,12 @@ public class AccountServiceImpl implements AccountService{
 
 	@Override
 	public Account getViewAccountBalance(int account_id) throws BusinessException {
-		
-		return null;
+		Account account = null;
+		if (account_id!=0 ) {
+			 account = accountDAO.getViewAccountBalance(account_id);
+		}else {
+			throw new BusinessException("Entered type of accountID's is INVALID!!");
+		}
+		return account;
 	}
 }

@@ -9,8 +9,8 @@ public interface TransactionDAO {
 	public Transaction createTransactionAmount(int transactionamount, int transaction_id);
 	public Transaction createTransactionType(String transactiontype, int transaction_id);
 	public Transaction createTransactionDate(String transactiondate, int transaction_id);
-	public int createWithdraw(int account_id, int transactionamount ,String transactiontype);
-	public int createDeposit(int account_id, int transactionamount, String transactiontype);
+	public Transaction createWithdraw(int account_id, int transactionamount, String transactiontype);
+	public Transaction createDeposit(int account_id, int transactionamount, String transactiontype);
 	
 
 }
