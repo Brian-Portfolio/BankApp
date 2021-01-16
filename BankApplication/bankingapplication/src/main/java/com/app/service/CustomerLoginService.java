@@ -8,5 +8,6 @@ public interface CustomerLoginService {
 	public CustomerLogin CreateUsername(String username, int loginid) throws BusinessException;
 	public CustomerLogin CreatePassword(String password, int loginid) throws BusinessException;
 	public CustomerLogin CustomerloginID(int loginid, int account_id) throws BusinessException;
+	public CustomerLogin verifyCustomerLogin(String username, String password) throws BusinessException;
 
 }

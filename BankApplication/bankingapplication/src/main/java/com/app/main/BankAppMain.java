@@ -91,7 +91,7 @@ public class BankAppMain {
 		
 		do {
 			log.info("1. New Customer? Want To Open An Account");
-			log.info("2. Returning Customer? ");
+			log.info("2. Returning Customer? Please Login ");
 			log.info("3. Employees Only");
 			log.info("4. Exit Application");
 			try {
@@ -102,8 +102,9 @@ public class BankAppMain {
 			}
 			switch (option) {
 			case 1:
+				
 				do {
-					log.info("\nOpening New Account Instructions");
+					log.info("\nPlease Follow New Account Instructions");
 					log.info("-----------------------------");
 					log.info("1. Enter General Information");
 					log.info("2. Open New Accounts");
@@ -112,7 +113,7 @@ public class BankAppMain {
 					log.info("5. Deposit Starting Balance");
 					log.info("6. Exit Instructions");
 					try {
-						choose=Integer.parseInt(userinput.nextLine());
+						choose = 1;
 					}catch(NumberFormatException e){
 						log.info(e.getMessage());
 					}
@@ -122,8 +123,6 @@ public class BankAppMain {
 					
 					switch(choose) {
 					case 1:
-						
-						//counter = counter + 1;
 						
 						try {
 							customerservice.getCustomerID(counter);
@@ -217,13 +216,12 @@ public class BankAppMain {
 							log.info(e.getMessage());
 						}
 						
+						choose = 2;
 						
-						break;
 					
 					case 2:							
-						
 						int startbalance = Integer.parseInt("0");
-						log.info("Would you like to open a checking or saving account? ");
+						log.info("\nWould you like to open a checking or saving account? ");
 						try {
 							String accounttype = userinput.nextLine();
 							accountservice.createAccountType(accounttype, counter );
@@ -242,11 +240,11 @@ public class BankAppMain {
 						}catch(BusinessException e){
 							log.info(e.getMessage());
 						}
+						choose = 3;
 						
-						break;
 						
 					case 3:
-						log.info("Please enter your email address: ");
+						log.info("\nPlease enter your email address: ");
 						try {
 							String email = userinput.nextLine();
 							customerservice.getCustomerEmailAddress(email, counter);
@@ -255,10 +253,12 @@ public class BankAppMain {
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
-						break;
+						
+						choose = 4;
+						
 						
 					case 4:
-						log.info("Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : ");
+						log.info("\nPlease create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : ");
 						try {
 							String username = userinput.nextLine();
 							customerloginservice.CreateUsername(username, counter1);
@@ -273,11 +273,14 @@ public class BankAppMain {
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
 						}
-						break;
+						
+						choose = 5;
+						
+					
 					case 5:
+						log.info("\nPlease make a minimum deposit of at least $50 for your starting balance : ");
+						int transactionamount = Integer.parseInt(userinput.nextLine());
 						try {
-							log.info("Please make a minimum deposit of at least $50 for your starting balance : ");
-							int transactionamount = Integer.parseInt(userinput.nextLine());
 							transactionservice.createTransactionAmount(transactionamount, num1);
 						}catch(BusinessException e) {
 							log.info(e.getMessage());
@@ -296,9 +299,14 @@ public class BankAppMain {
 							log.info(e.getMessage());
 						}
 						
-						//update the account balance
+						try {	
+							accountservice.updateAccountBalanceDeposit(transactionamount, counter);
+						}catch(BusinessException e) {
+							log.info(e.getMessage());
+						}
 						
-						break;
+						choose = 6;
+						
 					case 6:
 						log.info("Thank you for submitting your opening an account with us! Returning to Main Menu...\n");
 						break;
@@ -313,9 +321,24 @@ public class BankAppMain {
 				
 				
 			case 2:
-				log.info("Please enter your username : ");
-				log.info("Please enter your password : ");
+				int verify = 0;
+				log.info("Please enter your username and password for verification");
 				
+				log.info("\nusername : ");
+				String usernameinput = userinput.nextLine();
+				
+				
+				log.info("\npassword : ");
+				String passwordinput = userinput.nextLine();
+				try {
+					customerloginservice.verifyCustomerLogin(usernameinput, passwordinput);
+					verify = 1;
+				}catch(BusinessException e) {
+					log.info(e.getMessage());
+					verify = 0;
+				}
+				
+				if (verify == 1) {
 				do {
 					log.info("MENU");
 					log.info("-------");
@@ -326,7 +349,7 @@ public class BankAppMain {
 					log.info("5. Accept Transaction Transfer");
 					log.info("6. Exit Menu");
 					try {
-						log.info("Enter your choice : ");
+						log.info("Please select an option : \n");
 						choose1=Integer.parseInt(userinput.nextLine());
 					}catch(NumberFormatException e) {
 						
@@ -360,7 +383,7 @@ public class BankAppMain {
 					}
 				}while(choose1 != 6);
 				break;
-	
+				}
 			case 3:
 				log.info("Welcome Employee");
 				

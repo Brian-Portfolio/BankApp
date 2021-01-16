@@ -34,12 +34,12 @@ public class AccountServiceImpl implements AccountService{
 	}
 
 	@Override
-	public Account getReferenceID(int id) throws BusinessException {
+	public Account updateAccountBalanceDeposit(int accountbalance, int id) throws BusinessException{
 		Account account = null;
-		if (id!=0) {
-			 account = accountDAO.getReferenceID(id);
+		if (id!=0 && accountbalance >=0 ) {
+			 account = accountDAO.updateAccountBalanceDeposit(accountbalance, id);
 		}else {
-			throw new BusinessException("Entered id is INVALID!!");
+			throw new BusinessException("Entered deposit is INVALID!!");
 		}
 		return account;
 	}

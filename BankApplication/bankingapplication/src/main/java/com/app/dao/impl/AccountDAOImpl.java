@@ -100,13 +100,14 @@ public class AccountDAOImpl implements AccountDAO{
 	}
 
 	@Override
-	public Account getReferenceID(int id) throws BusinessException {
+	public Account updateAccountBalanceDeposit(int accountbalance, int id) throws BusinessException {
 		Account account = null;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "insert into bankingapplication.account(id) values (?)";
+			String sql = "update bankingapplication.account set accountbalance = accountbalance + ? where id = ?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, id);
+			preparedStatement.setInt(1, accountbalance);
+			preparedStatement.setInt(2, id);
 			preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {

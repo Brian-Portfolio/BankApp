@@ -42,4 +42,15 @@ public class CustomerLoginServiceImpl implements CustomerLoginService{
 		return null;
 	}
 
+	@Override
+	public CustomerLogin verifyCustomerLogin(String username, String password) throws BusinessException {
+		CustomerLogin customerlogin = null;
+		if (username.matches("(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&-+=()])(?=\\S+$).{8,20}") && password.matches("(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&-+=()])(?=\\S+$).{8,20}")) {
+			customerlogin = customerloginDAO.verifyCustomerLogin(username, password);
+	}else {
+		throw new BusinessException("Entered username and password is INVALID!");
+	}
+		return customerlogin;
+	}
+
 }

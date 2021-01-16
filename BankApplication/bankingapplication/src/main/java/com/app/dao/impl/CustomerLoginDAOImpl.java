@@ -2,6 +2,7 @@ package com.app.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.apache.log4j.Logger;
@@ -10,7 +11,6 @@ import com.app.dao.CustomerLoginDAO;
 import com.app.dao.dbutil.PostgresqlConnection;
 import com.app.exception.BusinessException;
 import com.app.main.BankAppMain;
-import com.app.model.Account;
 import com.app.model.CustomerLogin;
 
 public class CustomerLoginDAOImpl implements CustomerLoginDAO{
@@ -86,6 +86,34 @@ public class CustomerLoginDAOImpl implements CustomerLoginDAO{
 			log.info(e);
 			throw new BusinessException("Internal error occurred contact SYSADMIN");
 		}	
+		return customerlogin;
+	}
+
+	@Override
+	public CustomerLogin verifyCustomerLogin(String username, String password) throws BusinessException {
+		CustomerLogin customerlogin = null;
+		
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "select loginid,account_id  from customerlogin where username = ? and password = ?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, username);
+			preparedStatement.setString(2, password);
+			ResultSet resultset = preparedStatement.executeQuery();
+			if(resultset.next()) {
+				customerlogin = new CustomerLogin();
+				customerlogin.setUsername(username);
+				customerlogin.setPassword(password);
+				customerlogin.setLoginid(resultset.getInt("loginid"));
+				customerlogin.setAccount_id(resultset.getInt("account_id"));
+				
+			}else {
+				throw new BusinessException("username and password do not match!");
+			}
+		}catch (ClassNotFoundException | SQLException e) {
+			log.info(e);
+			throw new BusinessException("Internal error occurred contact SYSADMIN");
+		}	
+		
 		return customerlogin;
 	}
 	
