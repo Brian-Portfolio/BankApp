@@ -99,16 +99,18 @@ public class TransactionDAOImpl implements TransactionDAO{
 		return transaction;
 	}
 
-	public Transaction createWithdraw(int account_id, int transactionamount ,String transactiontype) {
+	public Transaction createWithdraw(int account_id, int transactionamount ,String transactiontype, int transaction_id, String transactiondate) {
 		Transaction transaction = null;
 	
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "update bankingapplication.transaction set transactionamount=?  where account_id=? and transactiontype =?";
+			String sql = "update bankingapplication.transaction set transactionamount=?  where account_id=? and transactiontype =? and transaction_id = ? and transactiondate = ?::date";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setInt(1, account_id);
 			preparedStatement.setInt(2, transactionamount);
 			preparedStatement.setString(3, transactiontype);
+			preparedStatement.setInt(4, transaction_id);
+			preparedStatement.setString(5, transactiondate);
 			preparedStatement.executeUpdate();
 			
 		} catch (ClassNotFoundException | SQLException e) {

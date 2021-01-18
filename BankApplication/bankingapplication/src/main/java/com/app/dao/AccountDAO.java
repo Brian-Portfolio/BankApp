@@ -13,6 +13,7 @@ public interface AccountDAO {
 	public Account setAccountBalance(int accountbalance, int id) throws BusinessException;
 	public Account getDateOfCreatedAccount(String opendate, int id) throws BusinessException;
 	public Account getViewAccountBalance(int account_id) throws BusinessException;
+	public Account verifyAccountID(int account_id) throws BusinessException;
 	public List<Account> getAccountBalanceByAccountId(int account_id);
 	
 }

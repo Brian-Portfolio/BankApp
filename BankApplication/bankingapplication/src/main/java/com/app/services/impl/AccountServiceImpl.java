@@ -77,4 +77,15 @@ public class AccountServiceImpl implements AccountService{
 		}
 		return account;
 	}
+
+	@Override
+	public Account verifyAccountID(int account_id) throws BusinessException {
+		Account account = null;
+		if (account_id!=0 ) {
+			 account = accountDAO.verifyAccountID(account_id);
+		}else {
+			throw new BusinessException("Entered type of accountID's is INVALID!!");
+		}
+		return account;
+	}
 }

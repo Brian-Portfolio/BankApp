@@ -13,7 +13,6 @@ import com.app.dao.dbutil.PostgresqlConnection;
 import com.app.exception.BusinessException;
 import com.app.main.BankAppMain;
 import com.app.model.Account;
-import com.app.model.CustomerLogin;
 
 
 public class AccountDAOImpl implements AccountDAO{
@@ -22,7 +21,6 @@ public class AccountDAOImpl implements AccountDAO{
 	
 	@Override
 	public Account createAccountType(String accounttype, int id) throws BusinessException{
-		
 		Account account = null;
 		try(Connection connection = PostgresqlConnection.getConnection()){
 			String sql = "update bankingapplication.account set accounttype = ? where  id = ?";
@@ -39,6 +37,7 @@ public class AccountDAOImpl implements AccountDAO{
 		return account;
 	}
 		
+	
 	@Override
 	public Account getDateOfCreatedAccount(String opendate, int id) throws BusinessException {
 		
@@ -58,13 +57,14 @@ public class AccountDAOImpl implements AccountDAO{
 		return account;
 	}
 
+	
 	@Override
 	//query
 	public Account getViewAccountBalance(int account_id) throws BusinessException {
 		Account account = null;
 		
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "select accountbalance  from customerlogin where username = ? and password = ?";
+			String sql = "select accountbalance from bankingapplication.account where account_id = ?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setInt(1, account_id);
 			ResultSet resultset = preparedStatement.executeQuery();
@@ -74,7 +74,7 @@ public class AccountDAOImpl implements AccountDAO{
 				account.setAccountbalance(resultset.getInt("accountbalance"));
 				
 			}else {
-				throw new BusinessException("username and password do not match!");
+				throw new BusinessException("Account ID is not found!");
 			}
 		}catch (ClassNotFoundException | SQLException e) {
 			log.info(e);
@@ -143,6 +143,25 @@ public class AccountDAOImpl implements AccountDAO{
 		return account;
 	}
 
-	
-
+	@Override
+	public Account verifyAccountID(int account_id) throws BusinessException {
+		Account account = null;
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "select account_id from bankingapplication.account where account_id = ?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, account_id);
+			ResultSet resultset = preparedStatement.executeQuery();
+			if(resultset.next()) {
+				account = new Account();
+				account.setAccountid(account_id);
+				account.setAccountbalance(resultset.getInt("account_id"));
+			}else {
+				throw new BusinessException("AccountID is not Found!");
+			}
+		}catch (ClassNotFoundException | SQLException e) {
+			log.info(e);
+			throw new BusinessException("Internal error occurred contact SYSADMIN");
+		}	
+		return account;
+	}
 }

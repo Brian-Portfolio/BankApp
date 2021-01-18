@@ -340,12 +340,21 @@ public class BankAppMain {
 				}
 				
 				log.info("\nPlease enter your accountid for second authentication");
-				
-				
+				int accountid = Integer.parseInt(userinput.nextLine());
+				try {
+					accountverify = 1;
+					accountservice.verifyAccountID(accountid);
+				}catch (NumberFormatException e) {
+					log.info("Account ID must be a numeric value and cannot be special characters or letters");
+				}
+				catch (BusinessException e) {
+					log.info(e.getMessage());
+					accountverify=0;
+				}
 				
 				if (verify == 1 && accountverify == 1) {
 				do {
-					log.info("MENU");
+					log.info("CUSTOMER MENU OPTIONS");
 					log.info("-------");
 					log.info("1. View Account Balance");
 					log.info("2. Withdrawal");
@@ -363,22 +372,24 @@ public class BankAppMain {
 					case 1:
 						log.info("Your current account balance is : ");
 						try {
-							int accountbalance=Integer.parseInt(userinput.nextLine());
-							accountservice.getViewAccountBalance(accountbalance);
+							Account accountbalance =accountservice.getViewAccountBalance(accountid);
+							log.info(accountbalance);
 						}catch(BusinessException e) {
-							log.info(e);
+							log.info(e.getMessage());
 						}
 						break;
 					case 2:
 						log.info("How much would you like to withdrawal : ");
 						try {
-							int account_id =Integer.parseInt(userinput.nextLine());
 							int transactionamount = Integer.parseInt(userinput.nextLine());
 							String withdraw = "withdrawal";
-							transactionservice.createWithdraw(account_id, transactionamount, withdraw);
+							transactionservice.createWithdraw(accountid, transactionamount, withdraw, num1, formatter.format(date));
 						}catch(BusinessException e){
 							log.info(e);
 						}
+						//update account withdrawal balance
+						
+						
 						break;
 					case 3:
 						log.info("How much would you like to deposit : ");
@@ -400,6 +411,7 @@ public class BankAppMain {
 				}while(choose1 != 6);
 				break;
 				}
+			
 			case 3:
 				log.info("Welcome Employee");
 				

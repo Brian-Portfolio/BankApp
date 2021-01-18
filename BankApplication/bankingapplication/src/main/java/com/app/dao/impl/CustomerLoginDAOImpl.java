@@ -94,7 +94,7 @@ public class CustomerLoginDAOImpl implements CustomerLoginDAO{
 		CustomerLogin customerlogin = null;
 		
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "select loginid,account_id  from customerlogin where username = ? and password = ?";
+			String sql = "select username from bankingapplication.customerlogin where username = ? and password = ?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, username);
 			preparedStatement.setString(2, password);
@@ -103,17 +103,14 @@ public class CustomerLoginDAOImpl implements CustomerLoginDAO{
 				customerlogin = new CustomerLogin();
 				customerlogin.setUsername(username);
 				customerlogin.setPassword(password);
-				customerlogin.setLoginid(resultset.getInt("loginid"));
-				customerlogin.setAccount_id(resultset.getInt("account_id"));
-				
+				customerlogin.setUsername(resultset.getString("username"));
 			}else {
 				throw new BusinessException("username and password do not match!");
 			}
 		}catch (ClassNotFoundException | SQLException e) {
 			log.info(e);
 			throw new BusinessException("Internal error occurred contact SYSADMIN");
-		}	
-		
+		}
 		return customerlogin;
 	}
 	
