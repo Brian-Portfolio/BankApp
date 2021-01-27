@@ -1,12 +1,12 @@
 # Revature_BankApp
-Bank
-Description
+
+# Bank-Description
 The Bank app is a console-based application that simulates banking operations. A customer can apply for an account, view their balance, and make withdrawals and deposits. An employee can approve or deny accounts and view account balances for their customers.
 
-Purpose
+# Purpose
 We want to see that you can meet deadlines and that you can code. You are expected to complete the following requirements and give a 5 minute presentation of your project to our QC team.
 
-Requirements
+# Requirements
 Functionality should reflect the below user stories.
 Data is stored in a database.
 Data Access is performed through the use of JDBC in a data layer consisting of Data Access Objects.
