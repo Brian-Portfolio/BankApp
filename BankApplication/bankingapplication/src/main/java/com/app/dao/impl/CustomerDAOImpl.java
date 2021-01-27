@@ -2,7 +2,9 @@ package com.app.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -241,26 +243,27 @@ public class CustomerDAOImpl implements CustomerDAO{
 
 
 	@Override
-	public int createCustomer(int id,String firstname, String middlename, String lastname, String city,
-			String state, String gender, String customeraddress, String dateofbirth)
-			throws BusinessException {
-		int z=0;
+	public long createCustomer( Customer customer)//String firstname, String middlename, String lastname, String city,
+			//String state, String gender, String customeraddress, String dateofbirth)
+		throws BusinessException {
+		long z=0;
+		
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "insert into bankingapplication.customer( id,firstname, middlename, lastname, dateofbirth, customeraddress, city, state, zipcode, gender) values (?,?,?,?,?::date,?,?,?,?,?)";
+			String sql = "insert into bankingapplication.customer(id, firstname, middlename, lastname, dateofbirth, customeraddress, city, state, gender, emailaddress) values (?,?,?,?,?::date,?,?,?,?,?)";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
-			preparedStatement.setInt(1, id);
-			preparedStatement.setString(2, firstname);
-			preparedStatement.setString(3, middlename);
-			preparedStatement.setString(4, lastname);
-			preparedStatement.setString(5, dateofbirth);
-			preparedStatement.setString(6, customeraddress);
-			preparedStatement.setString(7, city);
-			preparedStatement.setString(8, state);
-			preparedStatement.setString(9, gender);
+			preparedStatement.setInt(1, customer.getId());
+			preparedStatement.setString(2, customer.getFirstname());
+			preparedStatement.setString(3, customer.getMiddlename());
+			preparedStatement.setString(4, customer.getLastname());
+			preparedStatement.setString(5, customer.getDateofbirth());
+			preparedStatement.setString(6, customer.getCustomeraddress());
+			preparedStatement.setString(7, customer.getCity());
+			preparedStatement.setString(8, customer.getState());
+			preparedStatement.setString(9, customer.getGender());
+			preparedStatement.setString(10, customer.getEmailaddress());
 			
 			z = preparedStatement.executeUpdate();
-			
 			
 		}catch (ClassNotFoundException | SQLException e) {
 			log.info(e);
@@ -274,7 +277,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 		
 		Customer customer = null;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "insert into bankingapplication.customer(id) values (?)";
+			String sql = "update bankingapplication.customer set id = id + 1 where id = ?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setInt(1, id);

@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -56,12 +57,10 @@ public class AccountDAOImpl implements AccountDAO{
 		}
 		return account;
 	}
-
 	
 	@Override
-	//query
-	public Account getViewAccountBalance(int account_id) throws BusinessException {
-		Account account = null;
+	public int getViewAccountBalance(int account_id) throws BusinessException {
+		int newbalance = 0; 
 		
 		try(Connection connection = PostgresqlConnection.getConnection()){
 			String sql = "select accountbalance from bankingapplication.account where account_id = ?";
@@ -69,24 +68,44 @@ public class AccountDAOImpl implements AccountDAO{
 			preparedStatement.setInt(1, account_id);
 			ResultSet resultset = preparedStatement.executeQuery();
 			if(resultset.next()) {
-				account = new Account();
-				account.setAccountid(account_id);
-				account.setAccountbalance(resultset.getInt("accountbalance"));
+				newbalance = resultset.getInt("accountbalance");
 				
 			}else {
 				throw new BusinessException("Account ID is not found!");
 			}
 		}catch (ClassNotFoundException | SQLException e) {
-			log.info(e);
 			throw new BusinessException("Internal error occurred contact SYSADMIN");
 		}	
-		return account;
+		return newbalance;
 	}
 	
 	@Override
-	public List<Account> getAccountBalanceByAccountId(int accid) {
+	public List<Account> viewAccountId(int account_id) throws BusinessException {
+		List<Account> accountlist = new ArrayList<>();
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "select accountbalance, accounttype, opendate, accounttodate, id from bankingapplication.account where account_id = ?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, account_id);
+			ResultSet resultset=preparedStatement.executeQuery();
+			while(resultset.next()) {
+				Account account = new Account();
+				account.setAccountbalance(resultset.getInt("accountbalance"));
+				account.setAccounttype(resultset.getString("accounttype"));
+				account.setOpendate(resultset.getString("opendate"));
+				account.setAccounttodate(resultset.getString("accounttodate"));
+				account.setId(resultset.getInt("id"));
+				account.setAccountid(account_id);
+				accountlist.add(account);
+			}
+			if(accountlist.size()==0)
+			{
+				throw new BusinessException("No account-id found by "+account_id);
+			}
 		
-		return null;
+		}catch(ClassNotFoundException | SQLException e) {
+			throw new BusinessException("Internal error occured contact SYSADMIN");
+		}
+		return accountlist;
 	}
 
 	@Override
@@ -108,21 +127,20 @@ public class AccountDAOImpl implements AccountDAO{
 	}
 
 	@Override
-	public Account updateAccountBalanceDeposit(int accountbalance, int id) throws BusinessException {
-		Account account = null;
+	public int updateAccountBalanceDeposit(int accountbalance, int account_id) throws BusinessException {
+		int z =0;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "update bankingapplication.account set accountbalance = accountbalance + ? where id = ?";
+			String sql = "update bankingapplication.account set accountbalance = accountbalance + ? where account_id = ?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setInt(1, accountbalance);
-			preparedStatement.setInt(2, id);
-			preparedStatement.executeUpdate();
+			preparedStatement.setInt(2, account_id);
+			z = preparedStatement.executeUpdate();
 		
 		} catch (ClassNotFoundException | SQLException e) {
-			log.info(e);
 			throw new BusinessException("Internal error occurred contact SYSADMIN");
 		}	
-		return account;
+		return z;
 	}
 
 	@Override
@@ -163,5 +181,51 @@ public class AccountDAOImpl implements AccountDAO{
 			throw new BusinessException("Internal error occurred contact SYSADMIN");
 		}	
 		return account;
+	}
+
+
+	@Override
+	public int updateAccountBalanceWithdrawal(int accountbalance, int account_id) throws BusinessException {
+		int z =0;
+		try(Connection connection = PostgresqlConnection.getConnection()){
+		String sql = "update bankingapplication.account set accountbalance = accountbalance - ? where  account_id = ? ";
+		PreparedStatement preparedStatement=connection.prepareStatement(sql);
+		
+		preparedStatement.setInt(1, accountbalance);
+		preparedStatement.setInt(2, account_id);
+		
+		z = preparedStatement.executeUpdate();
+//		if (z<=0) {
+//			throw new BusinessException("The withdrawal amount of "+accountbalance+ " not acceptable. Please check again.");
+//		}
+		} catch (ClassNotFoundException | SQLException e) {
+			throw new BusinessException("Interal error occurred contact SYSADMIN");//The withdrawal amount of "+accountbalance+ " not acceptable. Please check again.");
+		}
+		return z;
+	}
+
+
+	@Override
+	public int createAccount(Account account) throws BusinessException {
+		int z =0;
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "insert into bankingapplication.account(accountbalance, accounttype, opendate, accounttodate, id, account_id) values (?,?,?::date,?::date,?,?)";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			
+			preparedStatement.setInt(1, account.getAccountbalance());
+			preparedStatement.setString(2, account.getAccounttype());
+			preparedStatement.setString(3, account.getOpendate());
+			preparedStatement.setString(4, account.getAccounttodate());
+			preparedStatement.setInt(5, account.getId());
+			preparedStatement.setInt(6, account.getAccountid());
+			
+			z = preparedStatement.executeUpdate();
+			
+		}catch (ClassNotFoundException | SQLException e) {
+			log.info(e);
+			throw new BusinessException("Internal error occurred contact SYSADMIN");
+		}
+		return z;
+		
 	}
 }

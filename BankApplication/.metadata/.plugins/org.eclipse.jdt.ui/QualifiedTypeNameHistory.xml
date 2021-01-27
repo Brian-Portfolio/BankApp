@@ -4,20 +4,15 @@
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="com.app.dao.dbutil.PostgresqlConnection"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="com.app.model.CustomerLogin"/>
     <fullyQualifiedTypeName name="com.app.dao.impl.CustomerLoginDAOImpl"/>
     <fullyQualifiedTypeName name="com.app.dao.CustomerLoginDAO"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="com.app.exception.BusinessException"/>
     <fullyQualifiedTypeName name="com.app.dao.TransactionDAO"/>
     <fullyQualifiedTypeName name="com.app.dao.impl.TransactionDAOImpl"/>
     <fullyQualifiedTypeName name="com.app.model.Account"/>
     <fullyQualifiedTypeName name="com.app.dao.impl.AccountDAOImpl"/>
     <fullyQualifiedTypeName name="com.app.dao.AccountDAO"/>
-    <fullyQualifiedTypeName name="com.app.model.Transaction"/>
     <fullyQualifiedTypeName name="com.app.model.Employee"/>
-    <fullyQualifiedTypeName name="com.app.dao.EmployeeDAO"/>
     <fullyQualifiedTypeName name="com.app.dao.impl.CustomerDAOImpl"/>
     <fullyQualifiedTypeName name="com.app.model.Customer"/>
     <fullyQualifiedTypeName name="com.app.dao.CustomerDAO"/>
@@ -27,4 +22,15 @@
     <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.app.model.Transaction"/>
+    <fullyQualifiedTypeName name="com.app.exception.BusinessException"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="com.app.dao.EmployeeDAO"/>
+    <fullyQualifiedTypeName name="com.app.dao.impl.EmployeeDAOImpl"/>
+    <fullyQualifiedTypeName name="com.app.service.EmployeeService"/>
+    <fullyQualifiedTypeName name="com.app.services.impl.EmployeeServiceImpl"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

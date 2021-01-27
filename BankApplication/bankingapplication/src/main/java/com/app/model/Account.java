@@ -14,7 +14,7 @@ public class Account {
 		
 	}
 
-	public Account(int account_id, int accountbalance, int accountinterests, int id, String accounttype,
+	public Account(int account_id, int accountbalance, int id, String accounttype,
 			String opendate, String accounttodate) {
 		super();
 		this.account_id = account_id;

@@ -5,7 +5,7 @@ public class Employee {
 	private int employeeid;
 	private String firstname;
 	private String lastname;
-	private int accountid;
+	private int account_id;
 	
 	
 	public Employee() {
@@ -13,12 +13,12 @@ public class Employee {
 	}
 
 
-	public Employee(int employeeid, String firstname, String lastname, int accountid) {
+	public Employee(int employeeid, String firstname, String lastname, int account_id) {
 		super();
 		this.employeeid = employeeid;
 		this.firstname = firstname;
 		this.lastname = lastname;
-		this.accountid = accountid;
+		this.account_id = account_id;
 	}
 
 
@@ -53,19 +53,19 @@ public class Employee {
 
 
 	public int getAccountid() {
-		return accountid;
+		return account_id;
 	}
 
 
-	public void setAccountid(int accountid) {
-		this.accountid = accountid;
+	public void setAccountid(int account_id) {
+		this.account_id = account_id;
 	}
 
 
 	@Override
 	public String toString() {
 		return "Employee [employeeid=" + employeeid + ", firstname=" + firstname + ", lastname=" + lastname
-				+ ", accountid=" + accountid + "]";
+				+ ", account_id=" + account_id + "]";
 	
 	
 }

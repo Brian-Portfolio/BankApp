@@ -53,4 +53,27 @@ public class CustomerLoginServiceImpl implements CustomerLoginService{
 		return customerlogin;
 	}
 
+	@Override
+	public int createCustomerLogin(CustomerLogin customerlogin) throws BusinessException {
+		int z  = 0;
+		if (customerlogin.getUsername()!=null && customerlogin.getUsername().matches("(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&-+=()])(?=\\S+$).{8,20}")) {
+			if(customerlogin.getPassword()!=null && customerlogin.getPassword().matches("(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&-+=()])(?=\\S+$).{8,20}")) {
+				if(customerlogin.getLoginid()!=0) {
+					if(customerlogin.getAccount_id()!=0) {
+						z = customerloginDAO.createCustomerLogin(customerlogin);
+					}else {
+						throw new BusinessException("Entered Account ID is invalid!");
+					}
+				}else {
+					throw new BusinessException("Entered Login ID is invalid!");
+				}
+			}else {
+				throw new BusinessException("Entered password is INVALID!!");
+			}
+		}else {
+			throw new BusinessException("Entered username is INVALID!!");
+		}
+		return z;
+	}
+
 }

@@ -1,9 +1,0 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.app</groupId>
-  <artifactId>bankingapplication</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>bankingapplication</name>
-  <description>The bank app is a console based application that simulates banking operations . 
-A customer can apply for an account, view their balance, and make withdrawals and deposits.</description>
-</project>

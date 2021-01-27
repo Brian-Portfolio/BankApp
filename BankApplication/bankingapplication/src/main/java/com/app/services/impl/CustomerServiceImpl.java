@@ -179,13 +179,111 @@ public class CustomerServiceImpl implements CustomerService{
 
 	@Override
 	public Customer getCustomerID(int id) throws BusinessException {
-		if (id !=0) {
+		if (id >=0) {
 			 customerDAO.getCustomerID(id);
 		}else {
 			throw new BusinessException("Entered id is INVALID!!");
 		}
 		return null;
 	}
-		
 
+
+	@Override
+	public long createCustomer(Customer customer) throws BusinessException {
+		long z =0;
+		
+		if (customer.getFirstname()!=null && customer.getFirstname().matches("[a-zA-Z]{1,10}") ) {
+			if (customer.getMiddlename().matches("[a-zA-Z]{1,10}")) {
+				if (customer.getLastname()!=null && customer.getLastname().matches("[a-zA-Z]{1,10}")) {
+					if (customer.getDateofbirth()!= null && customer.getDateofbirth().matches("[0-9]{4}-[0-9]{2}-[0-9]{2}")) {
+						if (customer.getCity()!= null && customer.getCity().matches("[a-zA-Z]{1,10}")) {
+							if (customer.getState()!= null && customer.getState().matches("[A-Z]{2}")) {
+								if (customer.getGender()!= null && customer.getGender().matches("[a-zA-Z]{1}")) {
+									if (customer.getCustomeraddress()!= null && customer.getCustomeraddress().matches("[0-9]{1,3} [a-zA-Z]{1,10} [a-zA-Z]{1,10}")) {
+										if (customer.getEmailaddress()!= null && customer.getEmailaddress().matches("^[a-zA-Z0-9_!#$%&'*+/=?'{|}~^.-]+@[a-zA-Z0-9.-]+$")) {
+											 z = customerDAO.createCustomer(customer);
+									}else {
+										throw new BusinessException("Entered Email Address is INVALID!!");
+									}
+								}else {
+									throw new BusinessException("Entered Customer Address is INVALID!!");
+								}
+							}else {
+								throw new BusinessException("Entered Gender is INVALID!!");
+							}
+						}else {
+							throw new BusinessException("Entered State Initials is INVALID!!");
+						}
+					}else {
+						throw new BusinessException("Entered City is INVALID!!");
+					}
+				}else {
+					throw new BusinessException("Entered Date of Birth is INVALID!!");
+				}
+			}else {
+				throw new BusinessException("Entered Last Name is INVALID!!");
+			}
+		}else {
+			throw new BusinessException("Entered Middle Name is INVALID!!");
+		}
+	}else {
+		throw new BusinessException("Entered First Name is INVALID!!");
+	}
+		return z;
+	}
 }
+			
+//		}else {
+//			throw new BusinessException("Entered First Name is INVALID!!");
+//		}
+//		
+//		if (customer.getMiddlename()!=null && customer.getMiddlename().matches("[a-zA-Z]{1,10}")) {
+//			 z = customerDAO.createCustomer(customer);
+//		}else {
+//			throw new BusinessException("Entered Middle Name is INVALID!!");
+//		}
+//		
+//		if (customer.getLastname().matches("[a-zA-Z]{1,10}") && customer.getLastname()!=null) {
+//			 z = customerDAO.createCustomer(customer);
+//		}else {
+//			throw new BusinessException("Entered Last Name is INVALID!!");
+//		}
+//		
+//		if (customer.getDateofbirth()!= null && customer.getDateofbirth().matches("[0-9]{4}-[0-9]{2}-[0-9]{2}")) {
+//			z = customerDAO.createCustomer(customer);
+//		}else {
+//			throw new BusinessException("Entered Date of Birth is INVALID!!");
+//		}
+//		
+//		if (customer.getCity()!= null && customer.getCity().matches("[a-zA-Z]{1,10}")) {
+//			z = customerDAO.createCustomer(customer);
+//		}else {
+//			throw new BusinessException("Entered City is INVALID!!");
+//		}
+//		
+//		if (customer.getState()!= null && customer.getState().matches("[A-Z]{2}")) {
+//			z = customerDAO.createCustomer(customer);
+//		}else {
+//			throw new BusinessException("Entered State Initials is INVALID!!");
+//		}
+//		
+//		if (customer.getGender()!= null && customer.getGender().matches("[a-zA-Z]{1}")) {
+//			z = customerDAO.createCustomer(customer);
+//		}else {
+//			throw new BusinessException("Entered Gender is INVALID!!");
+//		}
+//		
+//		if (customer.getCustomeraddress()!= null && customer.getCustomeraddress().matches("[0-9]{1,3} [a-zA-Z]{1,10} [a-zA-Z]{1,10}")) {
+//			z = customerDAO.createCustomer(customer);
+//		}else {
+//			throw new BusinessException("Entered Customer Address is INVALID!!");
+//		}
+//		
+//		if (customer.getEmailaddress()!= null && customer.getEmailaddress().matches("^[a-zA-Z0-9_!#$%&'*+/=?'{|}~^.-]+@[a-zA-Z0-9.-]+$")) {
+//			z = customerDAO.createCustomer(customer);
+//		}else {
+//			throw new BusinessException("Entered Email Address is INVALID!!");
+//		}
+		//}
+
+

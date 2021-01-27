@@ -7,7 +7,7 @@ import com.app.model.Customer;
 
 public interface CustomerDAO {
 	
-	public int createCustomer(int id,String firstname, String middlename, String lastname, String city, String state, String gender, String customeraddress, String dateofbirth) throws BusinessException;
+	public long createCustomer(Customer customer) throws BusinessException;//String firstname, String middlename, String lastname, String city, String state, String gender, String customeraddress, String dateofbirth) throws BusinessException;
 	public Customer getCustomerID(int id) throws BusinessException;
 	public Customer getCustomerFirstName(String firstname, int id) throws BusinessException;
 	public Customer getCustomerMiddleName(String middlename,int id) throws BusinessException;

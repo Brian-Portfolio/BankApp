@@ -20,8 +20,8 @@ public class Customer {
 	}
 
 
-	public Customer(int id, String firstname, String middlename, String lastname, String dateofbirth,
-			String customeraddress, String city, String state, int zipcode, String emailaddress, String gender) {
+	public Customer(int id,String firstname, String middlename, String lastname, String dateofbirth,
+			String customeraddress, String city, String state, String gender, String emailaddress) {
 		super();
 		this.id = id;
 		this.firstname = firstname;

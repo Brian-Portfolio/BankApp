@@ -1,7 +1,0 @@
-package com.app.dao.impl;
-
-import com.app.dao.EmployeeDAO;
-
-public class EmployeeDAOImpl implements EmployeeDAO{
-
-}

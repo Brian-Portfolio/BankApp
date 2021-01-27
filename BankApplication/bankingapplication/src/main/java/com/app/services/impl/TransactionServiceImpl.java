@@ -1,5 +1,7 @@
 package com.app.services.impl;
 
+import java.util.List;
+
 import com.app.dao.TransactionDAO;
 import com.app.dao.impl.TransactionDAOImpl;
 import com.app.exception.BusinessException;
@@ -58,25 +60,94 @@ public class TransactionServiceImpl implements TransactionService{
 	}
 
 	@Override
-	public Transaction createWithdraw(int account_id, int transactionamount, String transactiontype, int transaction_id, String transactiondate) throws BusinessException {
-		Transaction transaction = null;
-		if (account_id!=0 && transactionamount<=0 && transactiontype!=null && transactiondate.matches("[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}") ) {
-			transaction = transactionDAO.createWithdraw(account_id, transactionamount, transactiontype, transaction_id, transactiondate);
+	public int createWithdraw(Transaction transaction) throws BusinessException{
+		int z =0;
+		if (transaction.getTransactionamount() >= 0) {
+			if (transaction.getTransactiontype().matches("\\b(deposit|withdrawal)\\b")) {
+				if(transaction.getTransactiondate()!=null && transaction.getTransactiondate().matches("[0-9]{4}-[0-9]{2}-[0-9]{2}")) {
+					if(transaction.getTransaction_id()!=0) {
+						if (transaction.getAccount_Id()!=0) {
+							z = transactionDAO.createWithdraw(transaction);
+						}else {
+							throw new BusinessException("Account ID is invalid!");
+						}
+					}else {
+						throw new BusinessException("Transaction ID is invalid!");
+					}
+				}else {
+					throw new BusinessException("Entered date is invalid!");
+				}
+			}else {
+				throw new BusinessException("You must choose between a checking and savings account only! ");
+			}
 		}else {
-			throw new BusinessException("Transaction amount cannot be a negative number");
+			throw new BusinessException("Please make your withdrawal greater than 0!");
 		}
-		return transaction;
+		return z;
 	}
 
 	@Override
-	public Transaction createDeposit(int account_id, int transactionamount, String transactiontype) throws BusinessException {
-		Transaction transaction = null;
-		if (account_id!=0 && transactionamount<=0 && transactiontype!=null) {
-			transaction = transactionDAO.createDeposit(account_id, transactionamount, transactiontype);
+	public int createDeposit(Transaction transaction) throws BusinessException {
+		int z =0;
+		if (transaction.getTransactionamount() >= 0) {
+			if (transaction.getTransactiontype().matches("\\b(deposit|withdrawal)\\b")) {
+				if(transaction.getTransactiondate()!=null && transaction.getTransactiondate().matches("[0-9]{4}-[0-9]{2}-[0-9]{2}")) {
+					if(transaction.getTransaction_id()!=0) {
+						if (transaction.getAccount_Id()!=0) {
+							z = transactionDAO.createTransaction(transaction);
+						}else {
+							throw new BusinessException("Account ID is invalid!");
+						}
+					}else {
+						throw new BusinessException("Transaction ID is invalid!");
+					}
+				}else {
+					throw new BusinessException("Entered date is invalid!");
+				}
+			}else {
+				throw new BusinessException("You must choose between a checking and savings account only! ");
+			}
 		}else {
-			throw new BusinessException("Account ID cannot be 0 or a negative number. Transaction amount cannot be a negative number.");
+			throw new BusinessException("Please make your deposit greater than 0!");
 		}
-		return transaction;
+		return z;
 	}
 
+	@Override
+	public int createTransaction(Transaction transaction) throws BusinessException {
+		int z =0;
+		if (transaction.getTransactionamount() >= 50) {
+			if (transaction.getTransactiontype().matches("\\b(deposit|withdrawal)\\b")) {
+				if(transaction.getTransactiondate()!=null && transaction.getTransactiondate().matches("[0-9]{4}-[0-9]{2}-[0-9]{2}")) {
+					if(transaction.getTransaction_id()!=0) {
+						if (transaction.getAccount_Id()!=0) {
+							z = transactionDAO.createTransaction(transaction);
+						}else {
+							throw new BusinessException("Account ID is invalid!");
+						}
+					}else {
+						throw new BusinessException("Transaction ID is invalid!");
+					}
+				}else {
+					throw new BusinessException("Entered date is invalid!");
+				}
+			}else {
+				throw new BusinessException("You must choose between a checking and savings account only! ");
+			}
+		}else {
+			throw new BusinessException("Please make your deposit greater than or equal to 50");
+		}
+		return z;
+	}
+
+	@Override
+	public List<Transaction> viewTransactionLog(int account_id) throws BusinessException {
+		List<Transaction> transactionlist = null;
+		if(account_id!=0) {
+			transactionlist = transactionDAO.viewTransactionLog(account_id);
+		}else {
+			throw new BusinessException("Entered account id "+account_id+" is INVALID!");
+		}
+		return transactionlist;
+	}
 }

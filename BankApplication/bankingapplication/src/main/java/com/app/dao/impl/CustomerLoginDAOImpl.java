@@ -16,24 +16,24 @@ import com.app.model.CustomerLogin;
 public class CustomerLoginDAOImpl implements CustomerLoginDAO{
 
 	Logger log = Logger.getLogger(BankAppMain.class);
-
+	
 	
 	@Override
 	public int createCustomerLogin(CustomerLogin customerlogin) {
 		int z = 0;
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql ="insert into bankingapplication.customerlogin(username, password)  values  (?, ?) ";
+			String sql ="insert into bankingapplication.customerlogin(username, password, account_id, loginid)  values  (?, ?, ?, ?) ";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setString(1, customerlogin.getUsername());
 			preparedStatement.setString(2, customerlogin.getPassword());
+			preparedStatement.setInt(3, customerlogin.getAccount_id());
+			preparedStatement.setInt(4, customerlogin.getLoginid());
 			z = preparedStatement.executeUpdate();
 			
 		} catch (ClassNotFoundException | SQLException e) {
-			log.info(e);
-			
+			log.info(e);	
 		}
-		
 		return z;
 	}
 
@@ -94,7 +94,7 @@ public class CustomerLoginDAOImpl implements CustomerLoginDAO{
 		CustomerLogin customerlogin = null;
 		
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "select username from bankingapplication.customerlogin where username = ? and password = ?";
+			String sql = "select username, password from bankingapplication.customerlogin where username = ? and password = ?";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, username);
 			preparedStatement.setString(2, password);
@@ -104,6 +104,7 @@ public class CustomerLoginDAOImpl implements CustomerLoginDAO{
 				customerlogin.setUsername(username);
 				customerlogin.setPassword(password);
 				customerlogin.setUsername(resultset.getString("username"));
+				customerlogin.setPassword(resultset.getString("password"));
 			}else {
 				throw new BusinessException("username and password do not match!");
 			}

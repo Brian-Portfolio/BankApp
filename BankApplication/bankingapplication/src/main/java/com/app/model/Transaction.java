@@ -14,7 +14,7 @@ public class Transaction {
 	}
 
 	public Transaction(int transaction_id, String transactiondate, int account_id, int transactionamount,
-			String transactiontype, int customerid, int totalbalance) {
+			String transactiontype) {
 		super();
 		this.transaction_id = transaction_id;
 		this.transactiondate = transactiondate;

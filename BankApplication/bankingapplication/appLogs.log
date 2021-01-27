@@ -6852,3 +6852,6664 @@ CUSTOMER MENU OPTIONS
 6. Exit Menu
 Please select an option : 
 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=5973, accountbalance=150, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+com.app.exception.BusinessException: Transaction amount cannot be a negative number
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=5973, accountbalance=150, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=5973, accountbalance=150, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=5973, accountbalance=150, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Transaction [transaction_id=153, transactiondate=2021-01-18 02:51:23, account_id=5973, transactionamount=100, transactiontype=withdrawal, , totalbalance=0]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+
+Would you like to open a checking or saving account? 
+
+Please enter your email address: 
+
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+
+Please make a minimum deposit of at least $50 for your starting balance : 
+Thank you for submitting your opening an account with us! Returning to Main Menu...
+
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Transaction [transaction_id=600, transactiondate=2021-01-18 03:17:51, account_id=5632, transactionamount=50, transactiontype=withdrawal, , totalbalance=0]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+withdraw created successfully
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: The column index is out of range: 9, number of columns: 8.
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian Aguilar, Anthony, Aguilar, 1992-04-04, 913 lewis ave, rockville, MD, null, null, null).
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian, Anthony, Aguilar, 1992-04-05, 913 lew ave, rockville, MD, null, null, null).
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Entered id is INVALID!!
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian , Anth, Aaguilar, 1992-05-06, 913 lew ave, rockville, MD, null, null, null).
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+Entered id is INVALID!!
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: invalid input syntax for type date: ""
+Internal error occurred contact SYSADMIN
+Entered id is INVALID!!
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian, Anthony, Aguialr, 1992-04-05, 912 lew ave, rockville, MD, null, null, null).
+Internal error occurred contact SYSADMIN
+org.postgresql.util.PSQLException: The column index is out of range: 1, number of columns: 0.
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian, Anthony, Aguilar, 1992-04-05, 913 lew ave, rockville, MD, null, null, null).
+Internal error occurred contact SYSADMIN
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "("
+  Position: 43
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian, Anhtony, Aguilar, 1992-04-05, 913 lew ave, rockville, MD, null, null, null).
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: No value specified for parameter 9.
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Bad value for type long : Brian
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "customer_pk"
+  Detail: Key (id)=(0) already exists.
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "customer_pk"
+  Detail: Key (id)=(0) already exists.
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian, Anthony, Aguilar, 1992-04-05, 913 lew ave, Rockville, MD, null, null, null).
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: invalid input syntax for type date: ""
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian, Anth, Ag, 1992-04-05, 134, cty, MD, null, null, null).
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian, Anthony, Aguilar, 1992-04-05, 913 lew ave, rockville, MD, null, null, null).
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian, Anthony, Aguilar, 1992-02-06, 913 lew ave, rockville, MD, null, null, null).
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian, Anthony, Aguilar, 1992-04-05, 913 lew ave, rockville, MD, null, null, null).
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian, Anthony, Aguilar, 1992-04-05, 913 lew ave, rockville, MD, null, null, null).
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian, Anthony, Aguilar, 1992-03-04, 913 lew ave, rockville, MD, null, null, null).
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian, Anthon, Aguilar, 1992-04-05, 913 lew ave, rockville, MD, null, null, null).
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (b, a, a, 1992-04-05, 913 lew av, city, MD, null, null, null).
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian, Anthony, Agular, 1992-04-05, 913 lew ave, city , MD, null, null, null).
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian, Anthony, Aguilar, 1992-04-05, 913 lew ave, rockville, MD, null, null, null).
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing the Revature Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  Detail: Failing row contains (Brian, Anthony, Aguilar, 1992-04-05, 913 lew ave, rockville, MD, null, null, null).
+Internal error occurred contact SYSADMIN
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Enter Email Address For Updates and Alerts
+4. Create Username And Password Login
+5. Deposit Starting Balance
+6. Exit Instructions
+
+Please enter FirstName : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+org.postgresql.util.PSQLException: No value specified for parameter 10.
+Internal error occurred contact SYSADMIN
+
+Would you like to open a checking or saving account? 
+org.postgresql.util.PSQLException: ERROR: column "accountbalance" of relation "customer" does not exist
+  Position: 41
+Internal error occurred contact SYSADMIN
+
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+org.postgresql.util.PSQLException: ERROR: insert or update on table "customerlogin" violates foreign key constraint "customerlogin_fk"
+  Detail: Key (account_id)=(4051) is not present in table "account".
+
+Please make a minimum deposit of at least $50 for your starting balance : 
+org.postgresql.util.PSQLException: ERROR: insert or update on table "transaction" violates foreign key constraint "transaction_fk"
+  Detail: Key (account_id)=(4051) is not present in table "account".
+Internal error occurred contact SYSADMIN
+Thank you for submitting your opening an account with us! Returning to Main Menu...
+
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+customer created sucessfully
+
+Would you like to open a checking or saving account? 
+org.postgresql.util.PSQLException: ERROR: column "accountbalance" of relation "customer" does not exist
+  Position: 41
+Internal error occurred contact SYSADMIN
+
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+customer created sucessfully
+
+Would you like to open a checking or saving account? 
+account created sucessfully
+
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+customerlogin created successfully
+
+Please make a minimum deposit of at least $50 for your starting balance : 
+transaction created successfully
+Thank you for submitting your opening an account with us! Returning to Main Menu...
+
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+org.postgresql.util.PSQLException: ERROR: invalid input syntax for type date: ""
+Internal error occurred contact SYSADMIN
+
+Would you like to open a checking or saving account? 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "customer_pk"
+  Detail: Key (id)=(1) already exists.
+Internal error occurred contact SYSADMIN
+
+Would you like to open a checking or saving account? 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered First Name is INVALID!!
+
+Would you like to open a checking or saving account? 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered First Name is INVALID!!
+
+Would you like to open a checking or saving account? 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered First Name is INVALID!!
+
+Would you like to open a checking or saving account? 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered Middle Name is INVALID!!
+
+Would you like to open a checking or saving account? 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered First Name is INVALID!!
+
+Would you like to open a checking or saving account? 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered City is INVALID!!
+
+Would you like to open a checking or saving account? 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+customer created sucessfully
+
+Would you like to open a checking or saving account? 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered First Name is INVALID!!
+
+Please enter FirstName : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered First Name is INVALID!!
+Please reenter the invalid information correctly
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered Last Name is INVALID!!
+Please reenter the invalid information correctly
+
+Please enter FirstName : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered First Name is INVALID!!
+Please re-enter the invalid information correctly
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered Customer Address is INVALID!!
+Please re-enter the invalid information correctly
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered City is INVALID!!
+Please re-enter the invalid information correctly
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered First Name is INVALID!!
+Please re-enter the invalid information correctly
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered State Initials is INVALID!!
+Please re-enter the invalid information correctly
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered Gender is INVALID!!
+Please re-enter the invalid information correctly
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered Email Address is INVALID!!
+Please re-enter the invalid information correctly
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered First Name is INVALID!!
+Please re-enter the invalid information correctly
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered First Name is INVALID!!
+Please re-enter the invalid information correctly
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered Date of Birth is INVALID!!
+Please re-enter the invalid information correctly
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Customer created sucessfully
+
+Would you like to open a checking or saving account? 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered First Name is INVALID!!
+Please re-enter the invalid information correctly
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Customer created sucessfully
+
+Would you like to open a checking or saving account? 
+Account balance cannot be less than zero
+
+Would you like to open a checking or saving account? 
+Account balance cannot be less than zero
+
+Would you like to open a checking or saving account? 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Would you like to open a checking or saving account? 
+Entered date is invalid!
+
+Would you like to open a checking or saving account? 
+Entered date is invalid!
+
+Would you like to open a checking or saving account? 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Would you like to open a checking or saving account? 
+Entered Account type is incorrect!
+
+Would you like to open a checking or saving account? 
+Entered Account type is incorrect!
+
+Would you like to open a checking or saving account? 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Would you like to open a checking or saving account? 
+
+Would you like to open a checking or saving account? 
+
+Would you like to open a checking or saving account? 
+
+Would you like to open a checking or saving account? 
+
+Would you like to open a checking or saving account? 
+
+Would you like to open a checking or saving account? 
+Entered Account type is incorrect!
+
+Would you like to open a checking or saving account? 
+
+Would you like to open a checking or saving account? 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Customer created sucessfully
+
+Would you like to open a checking or saving account? 
+
+Would you like to open a checking or saving account? 
+
+Would you like to open a checking or saving account? 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Customer created sucessfully
+
+Would you like to open a checking or saving account? 
+account created sucessfully
+
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered First Name is INVALID!!
+Please re-enter the invalid information correctly
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Customer created sucessfully
+
+Would you like to open a checking or saving account? 
+account created sucessfully
+
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered username is INVALID!!
+
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Entered password is INVALID!!
+
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+customerlogin created successfully
+
+Please make a minimum deposit of at least $50 for your starting balance : 
+transaction created successfully
+Thank you for submitting your opening an account with us! Returning to Main Menu...
+
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Customer created sucessfully
+
+Would you like to open a checking or saving account? 
+account created sucessfully
+
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+customerlogin created successfully
+
+Please make a minimum deposit of at least $50 for your starting balance : 
+Your Transaction must be greater than 50
+
+Please make a minimum deposit of at least $50 for your starting balance : 
+transaction created successfully
+Thank you for submitting your opening an account with us! Returning to Main Menu...
+
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Entered First Name is INVALID!!
+Please re-enter the invalid information correctly
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Customer created sucessfully
+
+Would you like to open a checking or saving account? 
+account created sucessfully
+
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+customerlogin created successfully
+
+Please make a minimum deposit of at least $50 for your starting balance : 
+transaction created successfully
+Thank you for submitting your opening an account with us! Returning to Main Menu...
+
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=8057, accountbalance=0, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Thank you for visiting, please come again soon! have a nice day!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please Follow New Account Instructions
+-----------------------------
+1. Enter General Information
+2. Open New Accounts
+3. Create Username And Password Login
+4. Deposit Starting Balance
+5. Exit Instructions
+
+Please enter FirstName : 
+Please enter MiddleName : 
+Please enter LastName : 
+Please enter Date Of Birth [YYYY-MM-DD] : 
+Please enter Customer Address : 
+Please enter City : 
+Please enter State Initials: 
+Please enter Gender : 
+Please enter your email address : 
+Customer created sucessfully
+
+Would you like to open a checking or saving account? 
+account created sucessfully
+
+Please create your username with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+Please create your password with at least one uppercase, one lowercase, one digit, one special character and a minimum of 8 characters : 
+customerlogin created successfully
+
+Please make a minimum deposit of at least $50 for your starting balance : 
+transaction created successfully
+Thank you for submitting your opening an account with us! Returning to Main Menu...
+
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=150, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "transaction_pk"
+  Detail: Key (transaction_id)=(922) already exists.
+withdraw created successfully
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Thank you for visiting, please come again soon! have a nice day!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+withdraw created successfully
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=150, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+withdraw created successfully
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=150, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+withdraw created successfully
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=150, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=150, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+withdraw created successfully
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=100, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "transaction_pk"
+  Detail: Key (transaction_id)=(973) already exists.
+transaction created sucessfully
+withdraw created successfully
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "transaction_pk"
+  Detail: Key (transaction_id)=(973) already exists.
+transaction created sucessfully
+withdraw created successfully
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=200, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Please make your deposit greater than or equal to 50
+Withdrawal cannot be of negative value and account balance cannot be below 0!!
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-70, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=200, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=150, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "transaction_pk"
+  Detail: Key (transaction_id)=(355) already exists.
+Internal error occurred contact SYSADMIN
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "transaction_pk"
+  Detail: Key (transaction_id)=(989) already exists.
+Internal error occurred contact SYSADMIN
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Thank you for visiting, please come again soon! have a nice day!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Please make your deposit greater than or equal to 50
+Withdrawal cannot be of negative value and account balance cannot be below 0!!
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+The withdrawal amount is not acceptable, accountbalance is negative value!
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+The withdrawal amount is not acceptable, accountbalance is negative value. please make a deposit instead!
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+The withdrawal amount is not acceptable, accountbalance is negative value. please make a deposit instead!
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=100, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=0, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-100, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-100, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+The withdrawal amount is not acceptable, accountbalance is negative value. please make a deposit instead!
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Thank you for visiting, please come again soon! have a nice day!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=0, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-100, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Thank you for visiting, please come again soon! have a nice day!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+The withdrawal amount is not acceptable, accountbalance is negative value. please make a deposit instead!
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+Internal error occurred contact SYSADMIN
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Please make your deposit greater than 0!
+Withdrawal cannot be of negative value and account balance cannot be below 0!!
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+Internal error occurred contact SYSADMIN
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+Internal error occurred contact SYSADMIN
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Invalid menu option, please try again!
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+Internal error occurred contact SYSADMIN
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+Internal error occurred contact SYSADMIN
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-50, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+Account [account_id=1292, accountbalance=-100, accountinterests=0, id=0, accounttype=null, opendate=null, accounttodate=null]
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+200
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+The withdrawal amount of 250 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+200
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+0
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+The withdrawal amount of 25 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+0
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+0
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+The withdrawal amount of 25 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Invalid menu option, please try again!
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+The withdrawal amount of 23 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+0
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+The withdrawal amount of 25 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Invalid menu option, please try again!
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+The withdrawal amount of 24 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+0
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+The withdrawal amount of 25 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+The withdrawal amount of 24 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+0
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+The withdrawal amount of 24 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+The withdrawal amount of 13 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+0
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+The withdrawal amount of 25 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Invalid menu option, please try again!
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+The withdrawal amount of 25 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+0
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+The withdrawal amount of 25 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+The withdrawal amount of 25 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+0
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+The withdrawal amount of 25 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Invalid menu option, please try again!
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+The withdrawal amount of 25 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+0
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+The withdrawal amount of 25 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Invalid menu option, please try again!
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+The withdrawal amount of 25 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+0
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+transaction created sucessfully
+The withdrawal amount of 25 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+The withdrawal amount of 25 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+0
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+The withdrawal amount of 25 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+The withdrawal amount of 25 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+0
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+The withdrawal amount of 25 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Invalid menu option, please try again!
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+The withdrawal amount of 25 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+200
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+50
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+Internal error occurred contact SYSADMIN
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+50
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to deposit : 
+Please make your deposit greater than 0!
+Deposit cannot be of negative value!
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+25
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to deposit : 
+Your desposit is not acceptable!
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to deposit : 
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+25
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+
+Please enter your accountid for second authentication
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+25
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to deposit : 
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+75
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+75
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Invalid menu option, please try again!
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+How much would you like to withdrawal : 
+The withdrawal amount of 100 not acceptable. Please check again.
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Your current account balance is : 
+75
+
+CUSTOMER MENU OPTIONS
+-------
+1. View Account Balance
+2. Withdrawal
+3. Deposit
+4. Post Transaction Transfer
+5. Accept Transaction Transfer
+6. Exit Menu
+Please select an option : 
+
+Thank you for visiting, please come again soon! have a nice day!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+org.postgresql.util.PSQLException: ERROR: column "firstname" does not exist
+  Position: 8
+Internal error ocurred contact SYSADMIN
+Thank you for visiting, please come again soon! have a nice day!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+Internal error ocurred contact SYSADMIN
+Thank you for visiting, please come again soon! have a nice day!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+Entered username and password is INVALID!
+
+Please enter your accountid for second authentication
+AccountID is not Found!
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your username and password for verification
+
+username : 
+
+password : 
+Entered username and password is INVALID!
+
+Please enter your accountid for second authentication
+AccountID is not Found!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+Internal error ocurred contact SYSADMIN
+Thank you for visiting, please come again soon! have a nice day!
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+Internal error ocurred contact SYSADMIN
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+Internal error ocurred contact SYSADMIN
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+org.postgresql.util.PSQLException: ERROR: operator does not exist: character varying = integer
+  Hint: No operator matches the given name and argument type(s). You might need to add explicit type casts.
+  Position: 89
+Internal error ocurred contact SYSADMIN
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+org.postgresql.util.PSQLException: ERROR: operator does not exist: character varying = integer
+  Hint: No operator matches the given name and argument type(s). You might need to add explicit type casts.
+  Position: 89
+Internal error ocurred contact SYSADMIN
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+Invalid credentials!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+Invalid credentials!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+Invalid credentials!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+Invalid credentials!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+Entered firstname, lastname, and employeeid is INVALID!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+Entered firstname, lastname, and employeeid is INVALID!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+Entered firstname, lastname, and employeeid is INVALID!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+Entered firstname, lastname, and employeeid is INVALID!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+Entered firstname, lastname, and employeeid is INVALID!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+Entered firstname, lastname, and employeeid is INVALID!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+Invalid credentials!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Please enter customer's account ID to view account information.
+Internal error occured contact SYSADMIN
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Please enter customer's account ID to view account information.
+Internal error occured contact SYSADMIN
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Please enter customer's account ID to view account information.
+[Account [account_id=1292, accountbalance=75, accountinterests=0, id=1, accounttype=checking, opendate=2021-01-22, accounttodate=2021-01-22]]
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Please enter customer's account ID to view account information.
+No account id found by 45
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Please enter customer's account ID to view transaction information.
+No account-id found by 12
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Please enter customer's account ID to view transaction information.
+[Transaction [transaction_id=46, transactiondate=2021-01-24, account_id=1292, transactionamount=150, transactiontype=withdrawal, , totalbalance=0], Transaction [transaction_id=126, transactiondate=2021-01-24, account_id=1292, transactionamount=25, transactiontype=withdrawal, , totalbalance=0], Transaction [transaction_id=120, transactiondate=2021-01-24, account_id=1292, transactionamount=50, transactiontype=deposit, , totalbalance=0], Transaction [transaction_id=361, transactiondate=2021-01-24, account_id=1292, transactionamount=50, transactiontype=deposit, , totalbalance=0]]
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Please enter customer's account ID to view account information.
+Account [account_id=1292, accountbalance=75, accountinterests=0, id=1, accounttype=checking, opendate=2021-01-22, accounttodate=2021-01-22]
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Please enter customer's account ID to view transaction information.
+Transaction [transaction_id=46, transactiondate=2021-01-24, account_id=1292, transactionamount=150, transactiontype=withdrawal, , totalbalance=0]
+Transaction [transaction_id=126, transactiondate=2021-01-24, account_id=1292, transactionamount=25, transactiontype=withdrawal, , totalbalance=0]
+Transaction [transaction_id=120, transactiondate=2021-01-24, account_id=1292, transactionamount=50, transactiontype=deposit, , totalbalance=0]
+Transaction [transaction_id=361, transactiondate=2021-01-24, account_id=1292, transactionamount=50, transactiontype=deposit, , totalbalance=0]
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+Invalid entry, please enter yes or no
+Please enter customer's account ID to view transaction information.
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+Invalid entry, please enter yes or no
+Please enter customer's account ID to view transaction information.
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Thank you for visiting, please come again soon! have a nice day!
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+yes
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+yes
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+yes
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+For input string: "YES"
+Would you like to apply for a customer account? Please enter Yes or No?
+yes
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+For input string: "tes"
+Would you like to apply for a customer account? Please enter Yes or No?
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+For input string: "ye"
+Invalid menu option, please try again!
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+yes
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+For input string: "YES"
+Would you like to apply for a customer account? Please enter Yes or No?
+yes
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+no
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+For input string: "no"
+Would you like to apply for a customer account? Please enter Yes or No?
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+For input string: "yes"
+Invalid menu option, please try again!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+For input string: "tes"
+Invalid menu option, please try again!
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+yes
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+yes
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+yes
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+For input string: ""
+Invalid menu option, please try again!
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+yes
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+no
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+yes
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+yes
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+yes
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Please enter customer's account ID to view account information.
+No account-id found by 34
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+no
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+YES
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+For input string: "YES"
+Would you like to apply for a customer account? Please enter Yes or No?
+YES
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Invalid menu option, please try again!
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Invalid menu option, please try again!
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+For input string: "ert"
+Invalid menu option, please try again!
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+For input string: "ui"
+Invalid menu option, please try again!
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+For input string: "dsgas"
+Invalid menu option, please try again!
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+For input string: "ok"
+Invalid menu option, please try again!
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+For input string: "yes"
+Invalid menu option, please try again!
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+For input string: "yes"
+Invalid menu option, please try again!
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+For input string: "YES"
+Invalid menu option, please try again!
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+YES
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+For input string: "yes"
+Would you like to apply for a customer account? Please enter Yes or No?
+YES
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter Yes or No?
+yes
+Invalid entry, please enter yes or no
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+For input string: "kj"
+Would you like to apply for a customer account? Please enter Yes or No?
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter 1 for Yes or 2 for No?
+1
+You will be redirected to the new customers application login.
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter 1 for Yes or 2 for No?
+2
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+
+EMPLOYEE MENU
+-----------------
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter 1 for Yes or 2 for No?
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+
+EMPLOYEE MENU
+-----------------
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter 1 for Yes or 2 for No?
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+
+EMPLOYEE MENU
+-----------------
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter 1 for Yes or 2 for No?
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+
+EMPLOYEE MENU
+-----------------
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter 1 for Yes or 2 for No?
+For input string: "aff"
+
+EMPLOYEE MENU
+-----------------
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+
+EMPLOYEE MENU
+-----------------
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter 1 for Yes or 2 for No?
+Invalid entry, please enter 1 or 2.
+You will be redirected to the new customers application login.
+For input string: ""
+For input string: ""
+You will be redirected to the new customers application login.
+Redirected back to Employee menu..
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+Welcome and thank you for choosing The Banking Application
+--------------------------------------------------------------------
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
+
+Please enter your first, last name, followed by your employeee ID for verification!
+
+Please enter your firstname : 
+
+Please enter your lastname : 
+
+Please enter your employee ID : 
+
+EMPLOYEE MENU
+-----------------
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter 1 for Yes or 2 for No?
+Redirected back to Employee menu..
+
+EMPLOYEE MENU
+-----------------
+1. Approve/Reject Account
+2. View Customers Acount
+3. Register For Customer Account
+4. View All Transaction Logs
+5. Exit Employee Menu
+Enter your choice : 
+Would you like to apply for a customer account? Please enter 1 for Yes or 2 for No?
+Invalid entry, please enter 1 or 2.
+You will be redirected to the new customers application login.
+1. New Customer? Want To Open An Account
+2. Returning Customer? Please Login 
+3. Employees Only
+4. Exit Application
+Enter your choice : 
