@@ -41,7 +41,8 @@ public class EmployeeDAOImpl implements EmployeeDAO{
 		}else {
 				throw new BusinessException("Invalid credentials!");
 		}
-		} catch (ClassNotFoundException | SQLException e) {
+		}catch (ClassNotFoundException | SQLException e) {
+			log.info(e);
 			throw new BusinessException("Internal error ocurred contact SYSADMIN");
 		}
 		return employee1;

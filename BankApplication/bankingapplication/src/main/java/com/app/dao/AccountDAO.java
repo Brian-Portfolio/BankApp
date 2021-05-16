@@ -10,12 +10,14 @@ public interface AccountDAO {
 	public int createAccount(Account account) throws BusinessException;
 	public int updateAccountBalanceDeposit(int accountbalance, int id) throws BusinessException;
 	public int updateAccountBalanceWithdrawal(int accountbalance, int account_id) throws BusinessException;
-	public Account getAccountID(int account_id, int id) throws BusinessException;
-	public Account createAccountType(String accounttype, int id) throws BusinessException;
-	public Account setAccountBalance(int accountbalance, int id) throws BusinessException;
-	public Account getDateOfCreatedAccount(String opendate, int id) throws BusinessException;
-	public int getViewAccountBalance(int account_id) throws BusinessException;
-	public Account verifyAccountID(int account_id) throws BusinessException;
+	public List<Account> checkAccountStatus(String status) throws BusinessException;
 	public List<Account> viewAccountId(int account_id) throws BusinessException;
+	public Account verifyAccountID(int account_id) throws BusinessException;
 	
+	public int getViewAccountBalance(int account_id) throws BusinessException;
+	public int setApproveRejectStatus(String status, int account_id) throws BusinessException;
+	public int setDelete(int account_id) throws BusinessException;
+	public Account verifyGeneratedRandomAccountID(int account_id) throws BusinessException;
+	public String checkAccountApproved(int account_id) throws BusinessException;
+
 }

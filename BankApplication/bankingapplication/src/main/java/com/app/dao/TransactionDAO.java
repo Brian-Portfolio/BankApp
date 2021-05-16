@@ -8,14 +8,15 @@ import com.app.model.Transaction;
 public interface TransactionDAO {
 
 	public int createTransaction(Transaction transaction) throws BusinessException;
-	public Transaction getTransactionID(int transaction_id, int account_id) throws BusinessException;
-	public Transaction createTransactionAmount(int transactionamount, int transaction_id);
-	public Transaction createTransactionType(String transactiontype, int transaction_id);
-	public Transaction createTransactionDate(String transactiondate, int transaction_id);
+	public int setDelete(int account_id) throws BusinessException;
 	public int createWithdraw(Transaction transaction)throws BusinessException;
-	//public Transaction createWithdraw(int account_id, int transactionamount, String transactiontype, int transaction_id, String transactiondate);
 	public int createDeposit(Transaction transaction) throws BusinessException;
-	public List<Transaction> viewTransactionLog(int account_id) throws BusinessException;
+	public List<Transaction> checkRejectTransaction(String transferstatus) throws BusinessException;
 	
-
+	public List<Transaction> viewPendingPostTransactionLog(String transferstatus, int account_id) throws BusinessException;
+	public int acceptRejectTransaction(String transferstatus, int transaction_id) throws BusinessException;
+	public List<Transaction> viewTransactionLog(int account_id) throws BusinessException;
+	public int setDeleteTransaction(int transaction_id) throws BusinessException;
+	public int getTransactionAmount(int transaction_id) throws BusinessException;
+	
 }

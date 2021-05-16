@@ -6,8 +6,6 @@ import com.app.model.CustomerLogin;
 public interface CustomerLoginDAO {
 	
 	public int createCustomerLogin(CustomerLogin customerlogin) throws BusinessException;
-	public CustomerLogin CustomerloginID(int loginid, int account_id) throws BusinessException;
-	public CustomerLogin CreateUsername(String username, int id);
-	public CustomerLogin CreatePassword(String password, int id);
 	public CustomerLogin verifyCustomerLogin(String username, String password) throws BusinessException;
+	public int setDelete(int account_id) throws BusinessException;
 }

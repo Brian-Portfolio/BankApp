@@ -10,18 +10,15 @@ public class Customer {
 	private String customeraddress;
 	private String city;
 	private String state;
-	private int zipcode ;
 	private String emailaddress;
 	private String gender;
-	
 	
 	public Customer() {
 		
 	}
 
-
-	public Customer(int id,String firstname, String middlename, String lastname, String dateofbirth,
-			String customeraddress, String city, String state, String gender, String emailaddress) {
+	public Customer(int id, String firstname, String middlename, String lastname, String dateofbirth,
+			String customeraddress, String city, String state, String emailaddress, String gender) {
 		super();
 		this.id = id;
 		this.firstname = firstname;
@@ -31,13 +28,10 @@ public class Customer {
 		this.customeraddress = customeraddress;
 		this.city = city;
 		this.state = state;
-		this.zipcode = zipcode;
 		this.emailaddress = emailaddress;
 		this.gender = gender;
 	}
-
-
-
+	
 	public int getId() {
 		return id;
 	}
@@ -117,17 +111,6 @@ public class Customer {
 		this.state = state;
 	}
 
-
-	public int getZipcode() {
-		return zipcode;
-	}
-
-
-	public void setZipcode(int zipcode) {
-		this.zipcode = zipcode;
-	}
-
-
 	public String getEmailaddress() {
 		return emailaddress;
 	}
@@ -146,13 +129,14 @@ public class Customer {
 		this.gender = gender;
 	}
 
-
 	@Override
 	public String toString() {
-		return "Customer [" + ", id=" + id + ", firstname=" + firstname
-				+ ", middlename=" + middlename + ", lastname=" + lastname + ", dateofbirth=" + dateofbirth
-				+ ", customeraddress=" + customeraddress + ", city=" + city + ", state=" + state + ", zipcode="
-				+ zipcode + ", emailaddress=" + emailaddress + ", gender=" + gender + "]";
-	} 
+		return "Customer [id=" + id + ", firstname=" + firstname + ", middlename=" + middlename + ", lastname="
+				+ lastname + ", dateofbirth=" + dateofbirth + ", customeraddress=" + customeraddress + ", city=" + city
+				+ ", state=" + state + ", emailaddress=" + emailaddress + ", gender=" + gender
+				+  "]";
+	}
+
+	
 
 }

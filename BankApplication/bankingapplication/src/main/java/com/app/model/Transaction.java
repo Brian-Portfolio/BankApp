@@ -7,21 +7,21 @@ public class Transaction {
 	private int account_id;
 	private int transactionamount;
 	private String transactiontype;
-	private int totalbalance;
+	private String transferstatus;
 	
 	public Transaction() {
 		
 	}
 
 	public Transaction(int transaction_id, String transactiondate, int account_id, int transactionamount,
-			String transactiontype) {
+			String transactiontype, String transferstatus) {
 		super();
 		this.transaction_id = transaction_id;
 		this.transactiondate = transactiondate;
 		this.account_id = account_id;
 		this.transactionamount = transactionamount;
 		this.transactiontype = transactiontype;
-		this.totalbalance = totalbalance;
+		this.transferstatus = transferstatus;
 	}
 
 
@@ -74,24 +74,19 @@ public class Transaction {
 		this.transactiontype = transactiontype;
 	}
 
-
-	public int getTotalbalance() {
-		return totalbalance;
+	public String getTransferstatus() {
+		return transferstatus;
 	}
-
-
-	public void setTotalbalance(int totalbalance) {
-		this.totalbalance = totalbalance;
+	
+	public void setTransferstatus(String transferstatus) {
+		this.transferstatus = transferstatus;
 	}
-
 
 	@Override
 	public String toString() {
-		return "Transaction [transaction_id=" + transaction_id + ", transactiondate=" + transactiondate + ", account_id="
-				+ account_id + ", transactionamount=" + transactionamount + ", transactiontype=" + transactiontype
-				+ ", "+ ", totalbalance=" + totalbalance + "]";
+		return "Transaction [transaction_id=" + transaction_id + ", transactiondate=" + transactiondate
+				+ ", account_id=" + account_id + ", transactionamount=" + transactionamount + ", transactiontype="
+				+ transactiontype + ", transferstatus=" + transferstatus + "]";
 	}
-	
-	
 	
 }

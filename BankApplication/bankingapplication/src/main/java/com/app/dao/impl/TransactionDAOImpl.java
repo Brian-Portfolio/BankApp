@@ -18,91 +18,13 @@ import com.app.model.Transaction;
 public class TransactionDAOImpl implements TransactionDAO{
 
 	Logger log = Logger.getLogger(BankAppMain.class);
-
-//	@Override
-//	public int createTransaction(Transaction transaction) {
-//		int z =0;
-//		try (Connection connection = PostgresqlConnection.getConnection()){
-//			String sql = "insert into bankingapplication.transaction(transactionid, transactiondate, accountid, transactionamount, transactiontype) values (?,?,?,?,?)";
-//			PreparedStatement preparedStatement=connection.prepareStatement(sql);
-//			
-//			preparedStatement.setInt(1, transaction.getTransaction_id());
-//			preparedStatement.setString(2, transaction.getTransactiondate());
-//			preparedStatement.setInt(3, transaction.getAccount_Id());
-//			preparedStatement.setInt(4, transaction.getTransactionamount());
-//			preparedStatement.setString(5, transaction.getTransactiontype());
-//			preparedStatement.setInt(6, transaction.getTotalbalance());
-//			z = preparedStatement.executeUpdate();	
-//			
-//		}catch (ClassNotFoundException | SQLException e) {
-//			System.out.println(e);
-//		}
-//		return z;
-//	}
-//	
-	@Override
-	public Transaction createTransactionAmount(int transactionamount, int transaction_id) {
-		Transaction transaction = null;
-		
-		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "update bankingapplication.transaction set transactionamount = ? where  transaction_id = ?";
-			PreparedStatement preparedStatement=connection.prepareStatement(sql);
-			
-			preparedStatement.setInt(1, transactionamount);
-			preparedStatement.setInt(2, transaction_id);
-			preparedStatement.executeUpdate();
-			
-		} catch (ClassNotFoundException | SQLException e) {
-			log.info(e);
-		}
-		
-		return transaction;
-	}
-
-
-	@Override
-	public Transaction createTransactionType(String transactiontype, int transaction_id) {
-		Transaction transaction = null;
-		
-		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "update bankingapplication.transaction set transactiontype = ? where  transaction_id = ?";
-			PreparedStatement preparedStatement=connection.prepareStatement(sql);
-			
-			preparedStatement.setString(1, transactiontype);
-			preparedStatement.setInt(2, transaction_id);
-			preparedStatement.executeUpdate();
-			
-		} catch (ClassNotFoundException | SQLException e) {
-			log.info(e);
-		}
-		return transaction;
-	}
-
-
-
-	@Override
-	public Transaction createTransactionDate(String transactiondate, int transaction_id) {
-		Transaction transaction = null;
-		
-		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "update bankingapplication.transaction set transactiondate = ?::date where  transaction_id = ?";
-			PreparedStatement preparedStatement=connection.prepareStatement(sql);
-			
-			preparedStatement.setString(1, transactiondate);
-			preparedStatement.setInt(2, transaction_id);
-			preparedStatement.executeUpdate();
-			
-		} catch (ClassNotFoundException | SQLException e) {
-			log.info(e);
-		}
-		return transaction;
-	}
 	
 	@Override
 	public int createWithdraw(Transaction transaction) throws BusinessException{
 		int z = 0;
+		
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "insert into bankingapplication.transaction(account_id, transactionamount, transactiontype, transaction_id, transactiondate) values(?,?,?,?,?::date)";
+			String sql = "insert into bankingapplication.transaction(account_id, transactionamount, transactiontype, transaction_id, transactiondate, transferstatus) values(?,?,?,?,?::date,?)";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setInt(1, transaction.getAccount_Id());
@@ -110,6 +32,7 @@ public class TransactionDAOImpl implements TransactionDAO{
 			preparedStatement.setString(3, transaction.getTransactiontype());
 			preparedStatement.setInt(4, transaction.getTransaction_id());
 			preparedStatement.setString(5, transaction.getTransactiondate());
+			preparedStatement.setString(6, transaction.getTransferstatus());
 			
 			z = preparedStatement.executeUpdate();
 			
@@ -120,11 +43,11 @@ public class TransactionDAOImpl implements TransactionDAO{
 	}
 		
 	@Override
-	public int createDeposit(Transaction transaction) throws BusinessException {
-		int z =0;
+	public int createDeposit(Transaction transaction) throws BusinessException{
+		int z = 0;
 		
 		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "insert into bankingapplication.transaction(account_id, transactionamount, transactiontype, transaction_id, transactiondate) values(?,?,?,?,?::date)";
+			String sql = "insert into bankingapplication.transaction(account_id, transactionamount, transactiontype, transaction_id, transactiondate, transferstatus) values(?,?,?,?,?::date,?)";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setInt(1, transaction.getAccount_Id());
@@ -132,6 +55,8 @@ public class TransactionDAOImpl implements TransactionDAO{
 			preparedStatement.setString(3, transaction.getTransactiontype());
 			preparedStatement.setInt(4, transaction.getTransaction_id());
 			preparedStatement.setString(5, transaction.getTransactiondate());
+			preparedStatement.setString(6, transaction.getTransferstatus());
+			
 			z = preparedStatement.executeUpdate();
 			
 		} catch (ClassNotFoundException | SQLException e) {
@@ -139,26 +64,6 @@ public class TransactionDAOImpl implements TransactionDAO{
 		}
 		return z;
 	}
-
-
-	@Override
-	public Transaction getTransactionID(int transaction_id, int account_id) throws BusinessException {
-		Transaction transaction = null;
-		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "insert into bankingapplication.transaction(transaction_id, account_id) values (?,?)";
-			PreparedStatement preparedStatement=connection.prepareStatement(sql);
-			
-			preparedStatement.setInt(1, transaction_id);
-			preparedStatement.setInt(2, account_id);
-			preparedStatement.executeUpdate();
-			
-		} catch (ClassNotFoundException | SQLException e) {
-			log.info(e);
-			throw new BusinessException("Internal error occurred contact SYSADMIN");
-		} 
-		return transaction;
-	}
-
 
 	@Override
 	public int createTransaction(Transaction transaction) throws BusinessException {
@@ -206,8 +111,127 @@ public class TransactionDAOImpl implements TransactionDAO{
 		}catch(ClassNotFoundException | SQLException e) {
 			throw new BusinessException("Internal error occured contact SYSADMIN");
 		}
+		return transactionlist;
+	}
+
+	@Override
+	public int setDelete(int account_id) throws BusinessException {
+		int z = 0;
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "delete from bankingapplication.transaction where account_id = ?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			
+			preparedStatement.setInt(1, account_id);
+			
+			z = preparedStatement.executeUpdate();
+		}catch (ClassNotFoundException | SQLException e) {
+			
+			throw new BusinessException("Internal error occurred contact SYSADMIN");
+		}
+		return z;
+	}
+
+	@Override
+	public int acceptRejectTransaction(String transferstatus, int transaction_id) throws BusinessException{
+		int z = 0;
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "update bankingapplication.transaction set transferstatus = ? where transaction_id = ?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			
+			preparedStatement.setString(1, transferstatus);
+			preparedStatement.setInt(2, transaction_id);
+			
+			z = preparedStatement.executeUpdate();
 		
+		}catch (ClassNotFoundException | SQLException e) {
+			
+			throw new BusinessException("Internal error occurred contact SYSADMIN");
+		}
+		return z;
+	}
+
+
+	@Override
+	public List<Transaction> viewPendingPostTransactionLog(String transferstatus, int account_id) throws BusinessException {
+		List<Transaction> transactionlist = new ArrayList<>();
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "select transactionamount, transactiontype, transactiondate, transaction_id from bankingapplication.transaction where transferstatus = ? and account_id = ?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, transferstatus);
+			preparedStatement.setInt(2, account_id);
+			ResultSet resultset=preparedStatement.executeQuery();
+			while(resultset.next()) {
+				Transaction transaction = new Transaction();
+				transaction.setTransactionamount(resultset.getInt("transactionamount"));
+				transaction.setTransactiontype(resultset.getString("transactiontype"));
+				transaction.setTransactiondate(resultset.getString("transactiondate"));
+				transaction.setTransaction_id(resultset.getInt("transaction_id"));
+				transaction.setTransferstatus(transferstatus);
+				transaction.setAccount_Id(account_id);
+				transactionlist.add(transaction);
+			}
+		}catch(ClassNotFoundException | SQLException e) {
+			throw new BusinessException("Internal error occured contact SYSADMIN");
+		}
+		return transactionlist;
+	}
+
+
+	@Override
+	public int setDeleteTransaction(int transaction_id) throws BusinessException {
+		int z = 0;
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "delete from bankingapplication.transaction where transaction_id = ?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			
+			preparedStatement.setInt(1, transaction_id);
+			
+			z = preparedStatement.executeUpdate();
+		}catch (ClassNotFoundException | SQLException e) {
+			
+			throw new BusinessException("Internal error occurred contact SYSADMIN");
+		}
+		return z;
+	}
+
+
+	@Override
+	public int getTransactionAmount(int transaction_id) throws BusinessException {
+		int newamount = 0; 
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "select transactionamount from bankingapplication.transaction where transaction_id = ?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, transaction_id);
+
+		}catch (ClassNotFoundException | SQLException e) {
+			throw new BusinessException("Internal error occurred contact SYSADMIN");
+		}	
+		return newamount;
+	}
+
+	@Override
+	public List<Transaction> checkRejectTransaction(String transferstatus) throws BusinessException {
+		List<Transaction> transactionlist = new ArrayList<>();
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "select transferstatus, account_id from bankingapplication.transaction where transferstatus = ?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setString(1, transferstatus);
+			ResultSet resultset = preparedStatement.executeQuery();
+			if(resultset.next()) {
+				Transaction transactionlist1 = new Transaction();
+				transactionlist1.setTransferstatus(transferstatus);
+				transactionlist1.setAccount_Id(resultset.getInt("account_id"));
+				transactionlist.add(transactionlist1);
+			}
+			if(transactionlist.size()==0)
+			{
+				throw new BusinessException("No transfer status is "+transferstatus);
+			}
 		
+		}catch (ClassNotFoundException | SQLException e) {
+			log.info(e);
+			throw new BusinessException("Internal error occurred contact SYSADMIN");
+		}
 		return transactionlist;
 	}
 }

@@ -4,26 +4,36 @@ public class Account {
 
 	private int account_id;
 	private int accountbalance;
-	private int accountinterests;
 	private int id;
 	private String accounttype;
 	private String opendate;
 	private String accounttodate;
+	private String status;
 	
 	public Account() {
 		
 	}
 
 	public Account(int account_id, int accountbalance, int id, String accounttype,
-			String opendate, String accounttodate) {
+			String opendate, String accounttodate, String status) {
 		super();
 		this.account_id = account_id;
 		this.accountbalance = accountbalance;
-		this.accountinterests = accountinterests;
 		this.id = id;
 		this.accounttype = accounttype;
 		this.opendate = opendate;
 		this.accounttodate = accounttodate;
+		this.status = status;
+	}
+
+
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
 	}
 
 	public int getAccountid() {
@@ -47,19 +57,6 @@ public class Account {
 	public void setAccountbalance(int accountbalance) {
 		this.accountbalance = accountbalance;
 	}
-
-
-
-	public int getAccountinterests() {
-		return accountinterests;
-	}
-
-
-
-	public void setAccountinterests(int accountinterests) {
-		this.accountinterests = accountinterests;
-	}
-
 
 
 	public int getId() {
@@ -108,13 +105,13 @@ public class Account {
 		this.accounttodate = accounttodate;
 	}
 
-
-
 	@Override
 	public String toString() {
-		return "Account [account_id=" + account_id + ", accountbalance=" + accountbalance + ", accountinterests="
-				+ accountinterests + ", id=" + id + ", accounttype=" + accounttype + ", opendate="
-				+ opendate + ", accounttodate=" + accounttodate + "]";
+		return "Account [account_id=" + account_id + ", accountbalance=" + accountbalance + ", id=" + id + ", accounttype=" + accounttype + ", opendate=" + opendate
+				+ ", accounttodate=" + accounttodate + ", status=" + status + "]";
 	}
+
+
+	
 	
 }

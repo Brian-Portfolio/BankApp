@@ -38,58 +38,6 @@ public class CustomerLoginDAOImpl implements CustomerLoginDAO{
 	}
 
 	@Override
-	public CustomerLogin CreateUsername(String username, int loginid) {
-		CustomerLogin customerlogin = null;
-		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql ="update bankingapplication.customerlogin set username = ? where  loginid = ?";
-			PreparedStatement preparedStatement=connection.prepareStatement(sql);
-			
-			preparedStatement.setString(1, username);
-			preparedStatement.setInt(2, loginid);
-			preparedStatement.executeUpdate();
-			
-		} catch (ClassNotFoundException | SQLException e) {
-			log.info(e);
-		}
-		return customerlogin;
-	}
-
-	@Override
-	public CustomerLogin CreatePassword(String password, int loginid) {
-		CustomerLogin customerlogin = null;
-		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql ="update bankingapplication.customerlogin set password = ? where  loginid = ?";
-			PreparedStatement preparedStatement=connection.prepareStatement(sql);
-			
-			preparedStatement.setString(1, password);
-			preparedStatement.setInt(2, loginid);
-			preparedStatement.executeUpdate();
-			
-		} catch (ClassNotFoundException | SQLException e) {
-			log.info(e);
-		}
-		return customerlogin;
-	}
-
-	@Override
-	public CustomerLogin CustomerloginID(int loginid, int account_id) throws BusinessException {
-		CustomerLogin customerlogin = null;
-		try(Connection connection = PostgresqlConnection.getConnection()){
-			String sql = "insert into bankingapplication.customerlogin(loginid, account_id) values (?, ?)";
-			PreparedStatement preparedStatement=connection.prepareStatement(sql);
-			
-			preparedStatement.setInt(1, loginid);
-			preparedStatement.setInt(2, account_id);
-			preparedStatement.executeUpdate();
-		
-		} catch (ClassNotFoundException | SQLException e) {
-			log.info(e);
-			throw new BusinessException("Internal error occurred contact SYSADMIN");
-		}	
-		return customerlogin;
-	}
-
-	@Override
 	public CustomerLogin verifyCustomerLogin(String username, String password) throws BusinessException {
 		CustomerLogin customerlogin = null;
 		
@@ -113,6 +61,22 @@ public class CustomerLoginDAOImpl implements CustomerLoginDAO{
 			throw new BusinessException("Internal error occurred contact SYSADMIN");
 		}
 		return customerlogin;
+	}
+
+	@Override
+	public int setDelete(int account_id) throws BusinessException {
+		int z = 0;
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "delete from bankingapplication.customerlogin where account_id = ?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			
+			preparedStatement.setInt(1, account_id);
+			
+			z = preparedStatement.executeUpdate();
+		}catch (ClassNotFoundException | SQLException e) {
+			throw new BusinessException("Internal error occurred contact SYSADMIN");
+		}
+		return z;
 	}
 	
 	
